@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HQI Project Scores</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="embedBody">
+    <main class="embedMain">
+      <section class="panel embedPanel">
+        <div class="panelHead">
+          <div>
+            <h2>프로젝트별 품질 점수</h2>
+            <p id="generatedAt">저장된 계산 결과 기준</p>
+          </div>
+          <input id="search" type="search" placeholder="프로젝트 검색" />
+        </div>
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th>프로젝트</th>
+                <th>HQI</th>
+                <th>TPR</th>
+                <th>DQS</th>
+                <th>BOR</th>
+                <th>BFR</th>
+                <th>TC</th>
+                <th>결함</th>
+                <th>상태</th>
+              </tr>
+            </thead>
+            <tbody id="projectRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" role="status"></div>
+    <script src="/embed.js"></script>
+  </body>
+</html>

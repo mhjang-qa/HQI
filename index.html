@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HQI Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Hanpass Quality Index</p>
+        <h1>테스트 프로젝트 HQI 자동 계산</h1>
+      </div>
+      <div class="controls">
+        <label>
+          테스트 결과서 프로젝트
+          <select id="projectSelect">
+            <option value="">프로젝트 로딩 중</option>
+          </select>
+        </label>
+        <button id="calculate" type="button">계산</button>
+        <button id="calculateAll" type="button" class="secondaryButton">전체 프로젝트 추이 계산</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="요약">
+        <article>
+          <span>평균 HQI</span>
+          <strong id="avgScore">-</strong>
+        </article>
+        <article>
+          <span>프로젝트</span>
+          <strong id="projectCount">-</strong>
+        </article>
+        <article>
+          <span>결함</span>
+          <strong id="issueCount">-</strong>
+        </article>
+        <article>
+          <span>TC 수</span>
+          <strong id="testCaseCount">-</strong>
+        </article>
+        <article>
+          <span>최저 점수</span>
+          <strong id="lowestScore">-</strong>
+        </article>
+      </section>
+
+      <section class="charts">
+        <div class="panel">
+          <div class="panelHead">
+            <div>
+              <h2>프로젝트 품질 좌표</h2>
+              <p>X축 TPR, Y축 DQS</p>
+            </div>
+          </div>
+          <div id="scatterChart" class="scatterChart" aria-label="프로젝트별 2차원 품질 그래프"></div>
+        </div>
+        <div class="panel">
+          <div class="panelHead">
+            <div>
+              <h2>전체 프로젝트 퍼널</h2>
+              <p>저장된 HQI 등급별 프로젝트 분포</p>
+            </div>
+          </div>
+          <div id="funnelChart" class="funnelChart" aria-label="전체 프로젝트 퍼널 그래프"></div>
+        </div>
+      </section>
+
+      <section class="panel trendPanel">
+        <div class="panelHead">
+          <div>
+            <h2>정기 업데이트 품질 추이</h2>
+            <p>5.18 이후 버전형 정기 업데이트 기준</p>
+          </div>
+        </div>
+        <div id="regularTrend" class="trendChart" aria-label="정기 업데이트 품질 추이 그래프"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panelHead">
+          <div>
+            <h2>프로젝트별 품질 점수</h2>
+            <p id="generatedAt">저장된 계산 결과 기준</p>
+          </div>
+          <input id="search" type="search" placeholder="프로젝트 검색" />
+        </div>
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th>프로젝트</th>
+                <th>HQI</th>
+                <th>TPR</th>
+                <th>DQS</th>
+                <th>BOR</th>
+                <th>BFR</th>
+                <th>TC</th>
+                <th>결함</th>
+                <th>상태</th>
+              </tr>
+            </thead>
+            <tbody id="projectRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="details">
+        <div class="panel">
+          <h2>선택 프로젝트</h2>
+          <div id="projectDetail" class="empty">프로젝트 행을 선택하세요.</div>
+        </div>
+        <div class="panel formula">
+          <h2>적용 산식</h2>
+          <dl>
+            <div><dt>TPR</dt><dd>테스트 프로젝트 진행율</dd></div>
+            <div><dt>BOR</dt><dd>1 - 결함 수 / 수행 TC 수</dd></div>
+            <div><dt>BFR</dt><dd>수정 완료 결함 수 / 전체 결함 수</dd></div>
+            <div><dt>DQS</dt><dd>(BOR + BFR) / 2</dd></div>
+            <div><dt>HQI</dt><dd>목표점 (1,1)과의 정규화 거리 점수</dd></div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" role="status"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

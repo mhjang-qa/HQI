@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+hqi_results.sqlite3
+hqi_results.sqlite3-*
