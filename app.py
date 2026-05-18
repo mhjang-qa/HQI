@@ -720,6 +720,6 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", "8000"))
-    server = ThreadingHTTPServer(("127.0.0.1", port), Handler)
-    print(f"HQI app running at http://127.0.0.1:{port}")
+    server = ThreadingHTTPServer(("0.0.0.0", port), Handler)
+    print(f"HQI app running at http://0.0.0.0:{port}")
     server.serve_forever()
