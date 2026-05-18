@@ -77,6 +77,16 @@ main {
   border-radius: 8px;
 }
 
+.embedControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.embedControls input {
+  min-width: 220px;
+}
+
 .controls {
   display: flex;
   align-items: end;

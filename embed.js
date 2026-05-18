@@ -43,6 +43,10 @@ async function readApiJson(response, fallbackMessage) {
 }
 
 async function loadDashboard({ silent = false } = {}) {
+  if (!silent) {
+    $("refreshButton").disabled = true;
+    $("refreshButton").textContent = "갱신 중";
+  }
   try {
     const response = await fetch("/api/hqi");
     const data = await readApiJson(response, "저장 결과 조회 실패");
@@ -53,6 +57,11 @@ async function loadDashboard({ silent = false } = {}) {
     $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.generatedAt).toLocaleString()}`;
   } catch (error) {
     if (!silent) showToast(error.message);
+  } finally {
+    if (!silent) {
+      $("refreshButton").disabled = false;
+      $("refreshButton").textContent = "수동 갱신";
+    }
   }
 }
 
@@ -113,5 +122,5 @@ function escapeHtml(value) {
 }
 
 $("search").addEventListener("input", renderRows);
+$("refreshButton").addEventListener("click", () => loadDashboard());
 loadDashboard();
-window.setInterval(() => loadDashboard({ silent: true }), 300000);
