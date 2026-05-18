@@ -8,32 +8,44 @@
   </head>
   <body class="embedBody">
     <main class="embedMain">
-      <section class="panel embedPanel">
-        <div class="panelHead">
-          <div>
-            <h2>프로젝트별 품질 점수</h2>
-            <p id="generatedAt">저장된 계산 결과 기준</p>
+      <section class="embedShell">
+        <section class="panel embedPanel">
+          <div class="panelHead">
+            <div>
+              <h2>프로젝트별 품질 점수</h2>
+              <p id="generatedAt">저장된 계산 결과 기준</p>
+            </div>
+            <input id="search" type="search" placeholder="프로젝트 검색" />
           </div>
-          <input id="search" type="search" placeholder="프로젝트 검색" />
-        </div>
-        <div class="tableWrap">
-          <table>
-            <thead>
-              <tr>
-                <th>프로젝트</th>
-                <th>HQI</th>
-                <th>TPR</th>
-                <th>DQS</th>
-                <th>BOR</th>
-                <th>BFR</th>
-                <th>TC</th>
-                <th>결함</th>
-                <th>상태</th>
-              </tr>
-            </thead>
-            <tbody id="projectRows"></tbody>
-          </table>
-        </div>
+          <div class="tableWrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>프로젝트</th>
+                  <th>HQI</th>
+                  <th>TPR</th>
+                  <th>DQS</th>
+                  <th>BOR</th>
+                  <th>BFR</th>
+                  <th>TC</th>
+                  <th>결함</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody id="projectRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel embedPanel">
+          <div class="panelHead">
+            <div>
+              <h2>정기 업데이트 버전별 점수</h2>
+              <p>5.18 이후 버전 기준 HQI 추이</p>
+            </div>
+          </div>
+          <div id="trendChart" class="embedTrendChart" aria-label="정기 업데이트 버전별 점수 그래프"></div>
+        </section>
       </section>
     </main>
 

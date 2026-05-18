@@ -65,7 +65,12 @@ main {
 }
 
 .embedMain {
-  padding: 0;
+  padding: 14px 16px 18px;
+}
+
+.embedShell {
+  display: grid;
+  gap: 18px;
 }
 
 .embedPanel {
@@ -419,6 +424,54 @@ tbody tr.selected {
 }
 
 .trendScore {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.embedTrendChart {
+  display: grid;
+  gap: 10px;
+}
+
+.embedTrendRow {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr) 56px;
+  gap: 10px;
+  align-items: center;
+}
+
+.embedTrendVersion {
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.embedTrendTrack {
+  height: 22px;
+  background: #eef2f6;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.embedTrendFill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.embedTrendFill.good {
+  background: var(--good);
+}
+
+.embedTrendFill.warn {
+  background: var(--warn);
+}
+
+.embedTrendFill.bad {
+  background: var(--bad);
+}
+
+.embedTrendScore {
   text-align: right;
   font-variant-numeric: tabular-nums;
   font-weight: 800;

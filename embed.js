@@ -1,5 +1,6 @@
 const state = {
   projects: [],
+  trend: [],
 };
 
 const $ = (id) => document.getElementById(id);
@@ -46,7 +47,9 @@ async function loadDashboard({ silent = false } = {}) {
     const response = await fetch("/api/hqi");
     const data = await readApiJson(response, "저장 결과 조회 실패");
     state.projects = data.projects;
+    state.trend = data.regularTrend || [];
     renderRows();
+    renderTrend();
     $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.generatedAt).toLocaleString()}`;
   } catch (error) {
     if (!silent) showToast(error.message);
@@ -58,6 +61,27 @@ function renderRows() {
   $("projectRows").innerHTML = rows.length
     ? rows.map(renderProjectRow).join("")
     : '<tr><td colspan="9" class="empty">저장된 계산 결과가 없습니다.</td></tr>';
+}
+
+function renderTrend() {
+  const items = state.trend;
+  const maxScore = Math.max(1, ...items.map((item) => item.score || 0));
+  $("trendChart").innerHTML = items.length
+    ? items
+        .map((item) => {
+          const width = Math.max(2, Math.round(((item.score || 0) / maxScore) * 100));
+          return `
+            <div class="embedTrendRow">
+              <span class="embedTrendVersion">${escapeHtml(item.project)}</span>
+              <div class="embedTrendTrack">
+                <div class="embedTrendFill ${scoreClass(item.score)}" style="width: ${width}%"></div>
+              </div>
+              <span class="embedTrendScore">${item.score}</span>
+            </div>
+          `;
+        })
+        .join("")
+    : '<div class="empty">5.18 이후 정기 업데이트 계산 결과가 없습니다.</div>';
 }
 
 function renderProjectRow(project) {
