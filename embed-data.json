@@ -1,0 +1,1051 @@
+{
+  "generatedAt": "2026-05-18T05:08:32.888087+00:00",
+  "source": "embed-snapshot",
+  "projects": [
+    {
+      "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
+      "category": "정기 업데이트",
+      "name": "5.18.0 테스트 케이스",
+      "project": "5.18.0",
+      "key": "5180",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-01-20",
+      "url": "https://www.notion.so/5-18-0-2ee73fbd195180ea9ad8cfbd07f8fc01",
+      "lastEditedTime": "2026-02-05T01:10:00.000Z",
+      "testCaseBase": 9,
+      "executedCases": 9,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2ee73fbd-1951-8057-9e54-f59a1cadbc11",
+          "title": "TestCase-5.18.0",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
+        },
+        {
+          "id": "2ee73fbd-1951-80d1-8ca7-f104fd60a53a",
+          "title": "Check List",
+          "rows": 1,
+          "caseCount": 1,
+          "executedCases": 1
+        },
+        {
+          "id": "2ee73fbd-1951-80c2-8edd-eb407dba13ee",
+          "title": "Etc",
+          "rows": 4,
+          "caseCount": 4,
+          "executedCases": 4
+        },
+        {
+          "id": "2ee73fbd-1951-80dc-b3d8-e390ae68205b",
+          "title": "완료 [고속/시외버스] 통합 개발 - Sign off",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
+        }
+      ],
+      "bugCount": 36,
+      "fixedCount": 36,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 0.0,
+      "BFR": 1.0,
+      "DQS": 0.5,
+      "HQI": 0.6464,
+      "score": 64.6,
+      "severityCounts": {
+        "Minor": 23,
+        "Major": 7,
+        "개선 의견": 3,
+        "Critical": 3
+      },
+      "issues": [
+        {
+          "id": "2fb73fbd-1951-8051-bc14-c27fc206ebce",
+          "title": "[QR 송금/결제] [AOS] 송금신청내용 확인 페이지 - ”해외 송금 신청을 확인해주세요” 문구가 없음",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-2fb73fbd19518051bc14c27fc206ebce"
+        },
+        {
+          "id": "2f773fbd-1951-80ea-81d5-c9d7e3f23d01",
+          "title": "[QR 송금/결제] [AOS] 해외송금 공지 안내 바텀시트 1회성으로 노출됨",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-1-2f773fbd195180ea81d5c9d7e3f23d01"
+        },
+        {
+          "id": "2f773fbd-1951-80cb-b335-f711fac55a2a",
+          "title": "[QR 송금/결제] [AOS] PIN번호 입력페이지 - <  뒤로 가기 시 한패스 홈으로 이동하는 현상",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-PIN-2f773fbd195180cbb335f711fac55a2a"
+        },
+        {
+          "id": "2f773fbd-1951-80e0-aff0-da83468e9cba",
+          "title": "[QR 송금/결제] [AOS] 송금신청내용 확인 페이지 - 하단 유의사항 문구 iOS 와 상이함",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-iOS-2f773fbd195180e0aff0da83468e9cba"
+        },
+        {
+          "id": "2f773fbd-1951-8090-8c92-f5fac45808cb",
+          "title": "[QR 송금/결제] [AOS] 송금신청내용 확인 - 뒤로가기(<) 후 송금 목적/자금 원천 탭 선택 불가",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-2f773fbd195180908c92f5fac45808cb"
+        },
+        {
+          "id": "2f773fbd-1951-807e-9cc8-e35d1737144f",
+          "title": "[QR 송금/결제] [AOS] 송금신청내용 확인 - “송금받는 방법” 문구 iOS 와 상이함",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-iOS-2f773fbd1951807e9cc8e35d1737144f"
+        },
+        {
+          "id": "2f773fbd-1951-80ad-be0e-df06fb35453e",
+          "title": "[QR 송금/결제] [AOS]송금 목적/자금 원천 셀렉트 박스 연속 터치 시 바텀시트 중복 노출",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-2f773fbd195180adbe0edf06fb35453e"
+        },
+        {
+          "id": "2f773fbd-1951-806b-aff7-fbf74248d12b",
+          "title": "[QR 송금/결제] [공통] 송금신청내용 확인 - 실시간 환율 선택 시 이전 화면 이동하지 않는 현상",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-2f773fbd1951806baff7fbf74248d12b"
+        },
+        {
+          "id": "2f773fbd-1951-802b-a056-c8aba3e9598a",
+          "title": " [QR 송금/결제][공통]휴대전화번호 국가 선택 셀렉트 박스 화살표 영역 터치 시 반응 없음",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-2f773fbd1951802ba056c8aba3e9598a"
+        },
+        {
+          "id": "2f773fbd-1951-807d-a5c1-c8c7b79df665",
+          "title": "  [QR 송금/결제][공통] USD QR 스캔 시 송금신청 정보 입력페이지로 노출되는 현상",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-USD-QR-2f773fbd1951807da5c1c8c7b79df665"
+        },
+        {
+          "id": "2f773fbd-1951-8081-8c2f-d8515507ad83",
+          "title": "[QR 송금/결제][iOS] [iOS] 휴대전화번호 필드 특수문자 입력 시 벨리데이션 문구 변경 필요",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추후 수정 백로그 이관",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-iOS-2f773fbd195180818c2fd8515507ad83"
+        },
+        {
+          "id": "2f773fbd-1951-8061-a0a8-daf52ded649c",
+          "title": "[QR 송금/결제][iOS] 카메라 권한 설정에서 ON 후 앱 복귀 시 KHQR 스캔 화면으로 복귀하지 못하고 앱 재부팅됨",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-ON-KHQR-2f773fbd19518061a0a8daf52ded649c"
+        },
+        {
+          "id": "2f773fbd-1951-8012-9e01-f37d4d7fb048",
+          "title": "[QR 송금/결제] [AOS] 앱 설정 이동 후 권한 변경 없이 앱 재진입 - 수취인의 QR 스캔하기 페이지 노출 되며 카메라는 권한 없는 상태로 노출됨",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-QR-2f773fbd195180129e01f37d4d7fb048"
+        },
+        {
+          "id": "2f773fbd-1951-8071-b847-ccbeeb75c456",
+          "title": "[QR 송금/결제] [AOS] 해외송금 공지 안내 바텀시트 닫기 버튼 미노출 현상 ",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-2f773fbd19518071b847ccbeeb75c456"
+        },
+        {
+          "id": "2f773fbd-1951-8019-8897-d8c9b6d5f7d4",
+          "title": "[QR 송금/결제][iOS] 송금액을 최소 금액 미만으로 입력해도 ‘다음’ 버튼이 노출됨 (AOS는 미노출)",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-AOS-2f773fbd195180198897d8c9b6d5f7d4"
+        },
+        {
+          "id": "2f773fbd-1951-8092-a578-cb5a1c9fc709",
+          "title": "[QR 송금/결제][iOS] 송금신청정보입력 휴대전화번호 국가 셀렉트 박스 선택 시 반응 없음으로 진행 불가(Blocking)",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-Blocking-2f773fbd19518092a578cb5a1c9fc709"
+        },
+        {
+          "id": "2f773fbd-1951-805b-8f92-c750636a9e3d",
+          "title": "[QR 송금/결제][iOS] 월렛 잔액 초과 금액 송금 선택 시 잔액 벨리데이션 미동작",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-2f773fbd1951805b8f92c750636a9e3d"
+        },
+        {
+          "id": "2f673fbd-1951-8083-8df7-e8a406663fc4",
+          "title": "[QR 송금/결제][iOS] 송금신청정보입력 휴대전화번호 국가 셀렉트 박스 기획서와 상이하게 노출됨",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-iOS-2f673fbd195180838df7e8a406663fc4"
+        },
+        {
+          "id": "2f673fbd-1951-80db-87a7-f9c4adece5ac",
+          "title": "[QR 송금/결제][AOS] 가짜 QR 코드 카메라 스캔 시 유효하지 않은 QR 코드 안내 미노출",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-QR-QR-2f673fbd195180db87a7f9c4adece5ac"
+        },
+        {
+          "id": "2f673fbd-1951-8054-bf56-d9f8e12b1470",
+          "title": "[QR 송금/결제][AOS] 송금신청정보입력 - 휴대전화번호 필드 - 국가번호 가이드문구 짤리는 현상",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
+        }
+      ],
+      "calculatedAt": "2026-05-18T04:45:14.633659+00:00"
+    },
+    {
+      "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
+      "category": "정기 업데이트",
+      "name": "5.19.0 테스트 케이스",
+      "project": "5.19.0",
+      "key": "5190",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-02-23",
+      "url": "https://www.notion.so/5-19-0-30373fbd195180e78766c38fb4b0466f",
+      "lastEditedTime": "2026-04-20T02:09:00.000Z",
+      "testCaseBase": 234,
+      "executedCases": 212,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "30473fbd-1951-80b6-a61d-da13bd7b08b1",
+          "title": "5.19.0 TestCase ",
+          "rows": 6,
+          "caseCount": 106,
+          "executedCases": 106
+        },
+        {
+          "id": "30573fbd-1951-8061-82fc-d7f63dfb8cfd",
+          "title": "[고속/시외버스] 프론트 서비스 통합 운영 개발 - 운영테스트",
+          "rows": 1,
+          "caseCount": 11,
+          "executedCases": 0
+        },
+        {
+          "id": "34873fbd-1951-8098-bd54-ccfe833c47ea",
+          "title": "5.19.0 TestCase (1)",
+          "rows": 6,
+          "caseCount": 106,
+          "executedCases": 106
+        },
+        {
+          "id": "34873fbd-1951-809a-ab05-cdbae362c23b",
+          "title": "[고속/시외버스] 프론트 서비스 통합 운영 개발 - 운영테스트 (1)",
+          "rows": 1,
+          "caseCount": 11,
+          "executedCases": 0
+        }
+      ],
+      "bugCount": 24,
+      "fixedCount": 24,
+      "openBugCount": 0,
+      "TPR": 0.906,
+      "BOR": 0.8868,
+      "BFR": 1.0,
+      "DQS": 0.9434,
+      "HQI": 0.9224,
+      "score": 92.2,
+      "severityCounts": {
+        "Minor": 21,
+        "Major": 3
+      },
+      "issues": [
+        {
+          "id": "31373fbd-1951-8071-8a54-fbbb31ab26cb",
+          "title": "[해외송금][즐겨찾기][공통] 송금 대상자 등록 화면 국가 라벨 문구(AOS 영문 / iOS 한글) 불일치",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-31373fbd195180718a54fbbb31ab26cb"
+        },
+        {
+          "id": "31373fbd-1951-806d-890c-d6fad63d161c",
+          "title": "[해외송금][즐겨찾기][공통] 송금 대상자 등록 화면 뒤로가기 UI(AOS X / iOS <) 불일치",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/UI-AOS-X-iOS-31373fbd1951806d890cd6fad63d161c"
+        },
+        {
+          "id": "31373fbd-1951-80ff-8172-f2a41bddd07e",
+          "title": "[해외송금][즐겨찾기][AOS] 송금 대상자 등록 화면에 의미 없는 회색 라인(구분선) 표출",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-31373fbd195180ff8172f2a41bddd07e"
+        },
+        {
+          "id": "31273fbd-1951-80e8-ac93-e7dd82a53943",
+          "title": "[온보딩][화면수정요청] 일본어 설정 - 생활 금융 서비스 소개 화면/업데이트 된 혜택화면  다국어 일부 미적용",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/31273fbd195180e8ac93e7dd82a53943"
+        },
+        {
+          "id": "31273fbd-1951-805b-9496-fccb91bd7f2f",
+          "title": "[온보딩][화면수정요청] 파키스탄(Urdu) 설정 - ‘다음’ 선택 시 온보딩 화면이 업데이트 된 혜택 소개 페이지로 바로 이동하는 현상",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/Urdu-31273fbd1951805b9496fccb91bd7f2f"
+        },
+        {
+          "id": "31273fbd-1951-8053-adb4-f8b640ccaebe",
+          "title": "[온보딩][화면수정요청] AOS 파키스탄(Urdu) 우측정렬 되어있지 않음",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Urdu-31273fbd19518053adb4f8b640ccaebe"
+        },
+        {
+          "id": "31273fbd-1951-8022-b400-e97185272fee",
+          "title": "[온보딩][화면수정요청] AOS 파키스탄(Urdu) 설정 - ‘다음’ 버튼이 가운데 배치되어있음",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Urdu-31273fbd19518022b400e97185272fee"
+        },
+        {
+          "id": "31273fbd-1951-8082-b55b-f109e564dc4b",
+          "title": "[온보딩][화면수정요청] 캄보디아 언어 설정 시 ‘시작하기’가 영문으로 표출됨",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/31273fbd19518082b55bf109e564dc4b"
+        },
+        {
+          "id": "31173fbd-1951-8098-94a9-c6e4ee4091f5",
+          "title": "[온보딩][화면수정요청] 온보딩 화면 (송금서비스) 디자인 파일과 App 상이한 현상",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/App-31173fbd1951809894a9c6e4ee4091f5"
+        },
+        {
+          "id": "31073fbd-1951-807c-86ba-f718dbaf2706",
+          "title": "[ARS인증][자동계좌 등록 시, ARS 오류 개선 요청]iOS ARS 인증페이지 - 전화번호 입력이 아닌 선택으로 나오는 현상",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/ARS-ARS-iOS-ARS-31073fbd1951807c86baf718dbaf2706"
+        },
+        {
+          "id": "31073fbd-1951-8048-af20-de96ab41fca4",
+          "title": "[ARS인증][자동계좌 등록 시, ARS 오류 개선 요청] 아이콘 디자인, ‘ARS 인증 완료’ 버튼 문구 기획서와 상이",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/ARS-ARS-ARS-31073fbd19518048af20de96ab41fca4"
+        },
+        {
+          "id": "31073fbd-1951-807b-aa48-fb57986711bc",
+          "title": "[공과금][공통] 즐겨찾기 10개 초과 등록 시 에러 문구가 영문으로 노출 (한국어 설정 상태)",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/10-31073fbd1951807baa48fb57986711bc"
+        },
+        {
+          "id": "31073fbd-1951-8011-81f5-c943fda5cde3",
+          "title": "[공과금][공통] 공과금 종류 선택 리스트 A~Z 알파벳 정렬 미적용 (개선 필요)",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/A-Z-31073fbd1951801181f5c943fda5cde3"
+        },
+        {
+          "id": "31073fbd-1951-80de-ab77-e1dbaff464b7",
+          "title": "[ARS인증] 자동계좌 등록 시, ARS 오류 개선 요청 -국가번호 바텀시트 순서가 기획서와 상이함",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/ARS-ARS-31073fbd195180deab77e1dbaff464b7"
+        },
+        {
+          "id": "31073fbd-1951-8004-bd9a-cafc0a5bfaeb",
+          "title": "[공과금][공통] 공과금 선택 안내 텍스트 플랫폼별 상이 (iOS/AOS 문구 불일치)",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-AOS-31073fbd19518004bd9acafc0a5bfaeb"
+        },
+        {
+          "id": "31073fbd-1951-8010-b16c-ecf4d4ee2bc9",
+          "title": "[공과금][공통] 납부기관 리스트 A~Z 알파벳 정렬 미적용 ",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/A-Z-31073fbd19518010b16cecf4d4ee2bc9"
+        },
+        {
+          "id": "31073fbd-1951-802a-a818-d6a544afbcaf",
+          "title": "[공과금][AOS] 납부 기관 검색 시 대소문자 구분으로 인한 검색 결과 미노출",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-31073fbd1951802aa818d6a544afbcaf"
+        },
+        {
+          "id": "31073fbd-1951-80dd-a10f-c87f4b031b6b",
+          "title": "[행정게시판] 언어 설정(대만) - 뉴스&커뮤니티 선택 시 무한 로딩되는 현상",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/31073fbd195180dda10fc87f4b031b6b"
+        },
+        {
+          "id": "31073fbd-1951-8048-abbe-c2fbe0f5f82d",
+          "title": "[행정게시판] 상단 타이틀 ‘행정서비스’로 노출되는 현상",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/31073fbd19518048abbec2fbe0f5f82d"
+        },
+        {
+          "id": "2f773fbd-1951-804b-860f-cbe69bd83838",
+          "title": "[해외송금][iOS] 송금 금액 입력 후 전체 삭제 시, 서비스 수수료 쿠폰 안내 노티가 비정상적으로 표출됨",
+          "target": "5.19.0",
+          "key": "5190",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
+        }
+      ],
+      "calculatedAt": "2026-05-18T04:45:03.072548+00:00"
+    },
+    {
+      "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
+      "category": "정기 업데이트",
+      "name": "5.20.0 테스트 케이스",
+      "project": "5.20.0",
+      "key": "5200",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-03-30",
+      "url": "https://www.notion.so/5-20-0-32c73fbd195180a0bc84cd803d395f31",
+      "lastEditedTime": "2026-04-20T02:34:00.000Z",
+      "testCaseBase": 372,
+      "executedCases": 279,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "32c73fbd-1951-8179-b072-d9716dd054ff",
+          "title": "5.20.0 Test Case ",
+          "rows": 4,
+          "caseCount": 372,
+          "executedCases": 279
+        }
+      ],
+      "bugCount": 82,
+      "fixedCount": 82,
+      "openBugCount": 0,
+      "TPR": 0.7509,
+      "BOR": 0.7061,
+      "BFR": 1.0,
+      "DQS": 0.853,
+      "HQI": 0.7955,
+      "score": 79.6,
+      "severityCounts": {
+        "Minor": 63,
+        "Critical": 7,
+        "Major": 12
+      },
+      "issues": [
+        {
+          "id": "33773fbd-1951-8070-a244-c815ec149e20",
+          "title": "[회원가입][충전하기][공통] '연동계좌 충전하기' 화면 내 문구 기획서와 불일치 결함 ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd19518070a244c815ec149e20"
+        },
+        {
+          "id": "33773fbd-1951-8063-9bf3-ec462e9e9538",
+          "title": "[BO] '회원 조회' 화면 내 '방한 외국인 여부(Y/N)' 항목 UI 컴포넌트 오적용 결함 (토글 대신 텍스트 노출) ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-Y-N-UI-33773fbd195180639bf3ec462e9e9538"
+        },
+        {
+          "id": "33773fbd-1951-801a-b30c-d352fac6a650",
+          "title": "[회원가입][기명회원 전환][공통] '주소 직접 입력(카카오)' 화면 내 주소 검색 시 결과 리스트 최대 10건 제한 노출 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/10-33773fbd1951801ab30cd352fac6a650"
+        },
+        {
+          "id": "33773fbd-1951-8051-83e9-d6d9c6ab3765",
+          "title": "[회원가입][충전하기][AOS] '충전 수단 안내' 화면 내 리스트 노출 항목 기획서와 불일치 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33773fbd1951805183e9d6d9c6ab3765"
+        },
+        {
+          "id": "33773fbd-1951-80ed-950f-e58b91201d3a",
+          "title": "[회원가입][충전하기][AOS] ‘연동계좌’, ‘편의점’, ‘ATM’, ‘휴대폰 결제’ 화면 내 키패드 활성화 시 하단 ‘충전하기’ 버튼 가림 결함(iOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-ATM-iOS-33773fbd195180ed950fe58b91201d3a"
+        },
+        {
+          "id": "33773fbd-1951-80a8-b416-cc6318824dfc",
+          "title": "[추가인증][기명회원전환] '방한 홈' 가입 계정으로 '한패스 앱' 내 추가 인증 시 휴대폰 번호 입력 후 무반응 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd195180a8b416cc6318824dfc"
+        },
+        {
+          "id": "33773fbd-1951-808e-a1cb-f5fd8990cafb",
+          "title": "[추가인증][기명회원전환] '방한 홈' 가입자가 ‘방한 홈’ 전화번호로 ‘한패스 앱’ 추가 인증 시 '이미 가입된 번호' 팝업(Popup) 오노출 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/Popup-33773fbd1951808ea1cbf5fd8990cafb"
+        },
+        {
+          "id": "33773fbd-1951-80b4-81e8-e156497cb1ad",
+          "title": "[회원가입][충전하기][iOS] ‘QR 송금받기’ 화면 내 안내 문구 기획서와 상이하게 노출(AOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-QR-AOS-33773fbd195180b481e8e156497cb1ad"
+        },
+        {
+          "id": "33773fbd-1951-80ac-96bf-df79377e9fcb",
+          "title": "[회원가입][충전하기][iOS] '가상계좌' , '휴대폰 결제' 화면 내 문구 기획서와 불일치 결함 (AOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-AOS-33773fbd195180ac96bfdf79377e9fcb"
+        },
+        {
+          "id": "33773fbd-1951-8013-bf57-fb0459945955",
+          "title": "[회원가입][충전하기][iOS] '휴대폰 결제' 화면 진입 시 금액 추가 버튼(‘+10,000 / +50,000 / +100,000 / +500,000’) 미노출 결함 (AOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-10-000-50-000-100-000-500-000-AOS-33773fbd19518013bf57fb0459945955"
+        },
+        {
+          "id": "33773fbd-1951-80af-ac9f-fcf5353f3c22",
+          "title": "[회원가입][충전하기][iOS] '편의점, ATM 충전하기' 화면 내 수수료 표기 기획서와 불일치 결함(AOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-ATM-AOS-33773fbd195180afac9ffcf5353f3c22"
+        },
+        {
+          "id": "33773fbd-1951-8010-8184-dde637f13979",
+          "title": "[회원가입][충전하기][공통] '가상 계좌 입력하기' 화면 내 하단 안내 문구 기획서와 불일치 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd195180108184dde637f13979"
+        },
+        {
+          "id": "33673fbd-1951-8070-9bf2-c554cd72140f",
+          "title": "[회원가입][기명회원전환][AOS] '주소 사진 확인' 화면 내 버튼 문구 기획서와 불일치 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33673fbd195180709bf2c554cd72140f"
+        },
+        {
+          "id": "33673fbd-1951-802f-a903-e5c12ec14ad1",
+          "title": "[택시] 메인페이지 - 한패스 월렛 충전 하기 선택 시 - ‘< 충전 수단’ 으로 노출됨",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd1951802fa903e5c12ec14ad1"
+        },
+        {
+          "id": "33673fbd-1951-8067-b517-d38bd302faaa",
+          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 안내 문구 기획서와 상이하게 노출 ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-33673fbd19518067b517d38bd302faaa"
+        },
+        {
+          "id": "33673fbd-1951-80bc-b0f4-ff0bc86abc21",
+          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 상세주소 입력 후 '단독 주택' 체크박스 (Check)>(Uncheck) 시 기입력 데이터 미초기화 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Check-Uncheck-iOS-33673fbd195180bcb0f4ff0bc86abc21"
+        },
+        {
+          "id": "33673fbd-1951-80f2-922c-da2eb2ef1a2e",
+          "title": "[회원가입][기명회원전환][공통] '직접 입력하기' 화면 내 문구 기획서와 상이하게 노출",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd195180f2922cda2eb2ef1a2e"
+        },
+        {
+          "id": "33673fbd-1951-8061-9eda-e1c08ba86438",
+          "title": "[회원가입][기명회원전환][AOS] '주소 등록' 화면 내 '직접 입력하기' 선택 시 '직접 입력(카카오)' 화면 오진입 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33673fbd195180619edae1c08ba86438"
+        },
+        {
+          "id": "33673fbd-1951-80ad-8ed9-f6fe7abe30bf",
+          "title": "[회원가입][기명회원전환][공통] ‘주소등록’ 화면 내 버튼 문구 기획서와 상이하게 노출",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd195180ad8ed9f6fe7abe30bf"
+        },
+        {
+          "id": "33673fbd-1951-80d8-982f-c6c3dcf864d6",
+          "title": "[회원가입][기명회원전환][AOS] '고객확인정보 등록' 화면 내 플레이스홀더(Placeholder) 문구 기획서와 불일치 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
+        }
+      ],
+      "calculatedAt": "2026-05-18T04:44:35.031795+00:00"
+    },
+    {
+      "id": "33673fbd-1951-804e-9ae7-fc659890082c",
+      "category": "정기 업데이트",
+      "name": "5.21.0 테스트 케이스",
+      "project": "5.21.0",
+      "key": "5210",
+      "progress": 1.0,
+      "status": "진행 중",
+      "date": "2026-04-28",
+      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
+      "lastEditedTime": "2026-05-18T02:24:00.000Z",
+      "testCaseBase": 1300,
+      "executedCases": 1300,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "34873fbd-1951-8049-955d-d9fd48fda28f",
+          "title": "5.21.0 Test Case ",
+          "rows": 11,
+          "caseCount": 1300,
+          "executedCases": 1300
+        }
+      ],
+      "bugCount": 108,
+      "fixedCount": 32,
+      "openBugCount": 76,
+      "TPR": 1.0,
+      "BOR": 0.9169,
+      "BFR": 0.2963,
+      "DQS": 0.6066,
+      "HQI": 0.7218,
+      "score": 72.2,
+      "severityCounts": {
+        "Minor": 67,
+        "Major": 30,
+        "개선 의견": 2,
+        "Critical": 9
+      },
+      "issues": [
+        {
+          "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
+          "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
+        },
+        {
+          "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
+          "title": "[게이미피케이션] ‘포인트 획득 팝업’ 배경(딤 처리) 영역 클릭 시 시트 안 닫히는 현상 ",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
+        },
+        {
+          "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
+          "title": "[게이미피케이션] [AOS] 만보기 최초 진입 헬스커넥트 미허용 시 노출되는 팝업 기획서와 상이한 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
+        },
+        {
+          "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
+          "title": "[게이미피케이션] [iOS] 본인인증’ 화면 내 추가 인증 CTA 버튼 클릭 시 추가 인증 Flow 시작 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
+        },
+        {
+          "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
+          "title": "[게이미피케이션] 특정단말에서 만보기 현재 걸음 수 실시간으로 업데이트 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
+        },
+        {
+          "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
+          "title": "[게이미피케이션] [공통] 앱 흔들고 - 앱 흔들기 안내 선택 시 ‘혜택’ 메인 페이지로 이동하는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
+        },
+        {
+          "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
+          "title": "[게이미피케이션][공통] ‘회원가입/본인인증’ 화면 내 아이콘 이미지가 저화질로 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
+        },
+        {
+          "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
+          "title": "[게이미피케이션][공통] 앱 흔들기 완료 페이지에서 툴팁 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "기획서 수정",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
+        },
+        {
+          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
+          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
+        },
+        {
+          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
+          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ba8952cd8be8c0a3a5"
+        },
+        {
+          "id": "35a73fbd-1951-8082-a4cb-fc5dd9c0e912",
+          "title": "[게이미피케이션][공통] 앱 흔들기 최초 진행 시 완료 화면 내 획득 포인트가 ‘0P’로 잘못 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/0P-35a73fbd19518082a4cbfc5dd9c0e912"
+        },
+        {
+          "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
+          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상\n",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/00-00-35a73fbd195180289930dc9fc600370f"
+        },
+        {
+          "id": "35a73fbd-1951-804c-92f5-d5833072f7b4",
+          "title": " [게이미피케이션][공통] 만보기 페이지 > ‘해외 송금하고’, ‘카드 첫 결제하고’ 메뉴 진입 시 다국어 미적용 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd1951804c92f5d5833072f7b4"
+        },
+        {
+          "id": "35a73fbd-1951-80e8-88f9-f9e0ec2e4479",
+          "title": "[게이미피케이션][공통] 로그인 상태에서 만보기 페이지 내 타 게임 진입 시 로그인 유도 팝업 노출 및 진입 불가 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180e888f9f9e0ec2e4479"
+        },
+        {
+          "id": "35a73fbd-1951-805f-a81a-d55ea95d0495",
+          "title": "[게이미피케이션][공통] 만보기 안내 바텀시트(BS) 내 ‘포인트 지급’ 문구 기획서와 불일치 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
+        },
+        {
+          "id": "35a73fbd-1951-804e-a3cd-df361cf3589d",
+          "title": "[게이미피케이션][럭키볼][공통] 특정 해상도 단말에서 ‘럭키볼 뽑기’ 화면 하단 CTA 버튼 잘림(UI 깨짐) 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/CTA-UI-35a73fbd1951804ea3cddf361cf3589d"
+        },
+        {
+          "id": "35a73fbd-1951-804c-880d-cfc39f0c8c11",
+          "title": "[게이미피케이션][공통] ‘앱 흔들기’ 최초 진입 시 최초 안내 및 권한 요청 팝업 미노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "처리중 (In Progress)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd1951804c880dcfc39f0c8c11"
+        },
+        {
+          "id": "35a73fbd-1951-80f5-9a2f-e1b36c84ace4",
+          "title": "[게이미피케이션][공통] ‘룰렛 돌리기 안내’ 바텀시트(BS) 내 ‘일일 제한’ 문구 기획서와 불일치 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BS-35a73fbd195180f59a2fe1b36c84ace4"
+        },
+        {
+          "id": "35a73fbd-1951-80c4-a0d6-f251ca6ea2b8",
+          "title": "[게이미피케이션][공통] 포인트 획득 팝업에서 푸시 ON 전환 후 타 게임 진행 시 알림 유도 팝업 중복 노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/ON-35a73fbd195180c4a0d6f251ca6ea2b8"
+        },
+        {
+          "id": "35a73fbd-1951-807a-be60-f791c43b2bd1",
+          "title": "[게이미피케이션][공통] 앱 푸시 수신 ON 상태에서 포인트 획득 시 알림 유도 팝업이 비정상 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/ON-35a73fbd1951807abe60f791c43b2bd1"
+        }
+      ],
+      "calculatedAt": "2026-05-18T04:44:28.493566+00:00"
+    }
+  ],
+  "regularTrend": [
+    {
+      "project": "5.18.0",
+      "score": 64.6,
+      "TPR": 1.0,
+      "DQS": 0.5,
+      "bugCount": 36,
+      "testCaseBase": 9,
+      "executedCases": 9
+    },
+    {
+      "project": "5.19.0",
+      "score": 92.2,
+      "TPR": 0.906,
+      "DQS": 0.9434,
+      "bugCount": 24,
+      "testCaseBase": 234,
+      "executedCases": 212
+    },
+    {
+      "project": "5.20.0",
+      "score": 79.6,
+      "TPR": 0.7509,
+      "DQS": 0.853,
+      "bugCount": 82,
+      "testCaseBase": 372,
+      "executedCases": 279
+    },
+    {
+      "project": "5.21.0",
+      "score": 72.2,
+      "TPR": 1.0,
+      "DQS": 0.6066,
+      "bugCount": 108,
+      "testCaseBase": 1300,
+      "executedCases": 1300
+    }
+  ]
+}

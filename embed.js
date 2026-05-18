@@ -48,7 +48,7 @@ async function loadDashboard({ silent = false } = {}) {
     $("refreshButton").textContent = "갱신 중";
   }
   try {
-    const response = await fetch("/api/hqi");
+    const response = await fetch("./embed-data.json", { cache: "no-store" });
     const data = await readApiJson(response, "저장 결과 조회 실패");
     state.projects = data.projects;
     state.trend = data.regularTrend || [];

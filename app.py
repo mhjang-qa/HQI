@@ -667,6 +667,9 @@ class Handler(BaseHTTPRequestHandler):
             if parsed.path == "/embed.js":
                 self.send_file("embed.js", "application/javascript; charset=utf-8")
                 return
+            if parsed.path == "/embed-data.json":
+                self.send_file("embed-data.json", "application/json; charset=utf-8")
+                return
             self.send_json({"message": "Not found"}, 404)
         except Exception as exc:
             self.send_exception(exc)
