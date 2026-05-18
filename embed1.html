@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HQI Project Scores - Embed 1</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7f8;
+        --surface: #ffffff;
+        --ink: #17202a;
+        --muted: #667085;
+        --line: #d7dde3;
+        --good: #047857;
+        --warn: #b45309;
+        --bad: #b91c1c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 16px;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        display: grid;
+        gap: 18px;
+      }
+
+      .panel {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .head {
+        margin-bottom: 14px;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 26px;
+        line-height: 1.2;
+      }
+
+      h2 {
+        font-size: 18px;
+        line-height: 1.2;
+      }
+
+      .subtle {
+        margin-top: 6px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .tableWrap {
+        overflow: auto;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+      }
+
+      table {
+        width: 100%;
+        min-width: 980px;
+        border-collapse: collapse;
+        background: #fff;
+      }
+
+      th,
+      td {
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      th {
+        background: #f0f3f5;
+        color: #4b5563;
+        font-size: 12px;
+      }
+
+      tbody tr:hover {
+        background: #ecfdf5;
+      }
+
+      .score {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 58px;
+        height: 28px;
+        padding: 0 10px;
+        border-radius: 999px;
+        color: #fff;
+        font-weight: 800;
+      }
+
+      .score.good {
+        background: var(--good);
+      }
+
+      .score.warn {
+        background: var(--warn);
+      }
+
+      .score.bad {
+        background: var(--bad);
+      }
+
+      .metric {
+        font-variant-numeric: tabular-nums;
+      }
+
+      .chartWrap {
+        padding-top: 4px;
+      }
+
+      .chart {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .axisText,
+      .label {
+        fill: var(--muted);
+        font-size: 12px;
+      }
+
+      .axis {
+        stroke: #667085;
+        stroke-width: 1.4;
+      }
+
+      .grid {
+        stroke: #e4e8ed;
+        stroke-width: 1;
+      }
+
+      .line {
+        fill: none;
+        stroke: var(--good);
+        stroke-width: 3;
+      }
+
+      .point {
+        fill: var(--good);
+        stroke: #fff;
+        stroke-width: 3;
+      }
+
+      .pointText {
+        fill: var(--ink);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .legend {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--good);
+        display: inline-block;
+        margin-right: 6px;
+        vertical-align: -1px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <div class="head">
+          <h1>프로젝트별 품질 점수</h1>
+          <p class="subtle">5.18~5.21 정기 업데이트만 표시</p>
+        </div>
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th>프로젝트</th>
+                <th>HQI</th>
+                <th>TPR</th>
+                <th>DQS</th>
+                <th>BOR</th>
+                <th>BFR</th>
+                <th>TC</th>
+                <th>결함</th>
+                <th>상태</th>
+              </tr>
+            </thead>
+            <tbody id="projectRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="head">
+          <h2>정기 업데이트 버전별 점수 그래프</h2>
+          <p class="subtle">5.18~5.21 HQI 추이</p>
+        </div>
+        <div class="chartWrap">
+          <svg id="trendChart" class="chart" viewBox="0 0 860 320" role="img" aria-label="정기 업데이트 버전별 점수 그래프"></svg>
+          <div class="legend"><span class="dot"></span>HQI 점수</div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const rows = [
+        {
+          project: "5.18.0",
+          score: 64.6,
+          TPR: 1.0,
+          DQS: 0.5,
+          BOR: 0.0,
+          BFR: 1.0,
+          testCaseBase: 9,
+          executedCases: 9,
+          bugCount: 36,
+          openBugCount: 0,
+          status: "완료",
+          date: "2026-01-20",
+          category: "정기 업데이트",
+        },
+        {
+          project: "5.19.0",
+          score: 92.2,
+          TPR: 0.906,
+          DQS: 0.9434,
+          BOR: 0.8868,
+          BFR: 1.0,
+          testCaseBase: 234,
+          executedCases: 212,
+          bugCount: 24,
+          openBugCount: 0,
+          status: "완료",
+          date: "2026-02-23",
+          category: "정기 업데이트",
+        },
+        {
+          project: "5.20.0",
+          score: 79.6,
+          TPR: 0.7509,
+          DQS: 0.853,
+          BOR: 0.7061,
+          BFR: 1.0,
+          testCaseBase: 372,
+          executedCases: 279,
+          bugCount: 82,
+          openBugCount: 0,
+          status: "완료",
+          date: "2026-03-30",
+          category: "정기 업데이트",
+        },
+        {
+          project: "5.21.0",
+          score: 72.2,
+          TPR: 1.0,
+          DQS: 0.6066,
+          BOR: 0.9169,
+          BFR: 0.2963,
+          testCaseBase: 1300,
+          executedCases: 1300,
+          bugCount: 108,
+          openBugCount: 76,
+          status: "진행 중",
+          date: "2026-04-28",
+          category: "정기 업데이트",
+        },
+      ];
+
+      const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
+      const fmtCases = (row) => (row.testCaseBase > 0 ? `${row.executedCases}/${row.testCaseBase}` : "미집계");
+      const scoreClass = (score) => (score >= 85 ? "good" : score >= 70 ? "warn" : "bad");
+      const escapeHtml = (value) =>
+        String(value ?? "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+
+      document.getElementById("projectRows").innerHTML = rows
+        .map(
+          (row) => `
+            <tr>
+              <td>
+                <strong>${escapeHtml(row.project)}</strong><br />
+                <small>${escapeHtml(row.category)} · ${escapeHtml(row.date)}</small>
+              </td>
+              <td><span class="score ${scoreClass(row.score)}">${row.score}</span></td>
+              <td class="metric">${fmtPct(row.TPR)}</td>
+              <td class="metric">${fmtPct(row.DQS)}</td>
+              <td class="metric">${fmtPct(row.BOR)}</td>
+              <td class="metric">${fmtPct(row.BFR)}</td>
+              <td class="metric">${fmtCases(row)}</td>
+              <td class="metric">${row.bugCount} / 미해결 ${row.openBugCount}</td>
+              <td>${escapeHtml(row.status)}</td>
+            </tr>
+          `
+        )
+        .join("");
+
+      const svg = document.getElementById("trendChart");
+      const width = 860;
+      const height = 320;
+      const pad = 42;
+      const plotWidth = width - pad * 2;
+      const plotHeight = height - pad * 2;
+      const minScore = 0;
+      const maxScore = 100;
+      const toX = (index) => pad + (index * plotWidth) / Math.max(1, rows.length - 1);
+      const toY = (score) => height - pad - ((score - minScore) / (maxScore - minScore)) * plotHeight;
+      const points = rows.map((row, index) => [toX(index), toY(row.score)]);
+
+      const path = points
+        .map(([x, y], index) => `${index === 0 ? "M" : "L"} ${x.toFixed(1)} ${y.toFixed(1)}`)
+        .join(" ");
+
+      const gridLines = [0, 20, 40, 60, 80, 100]
+        .map((tick) => {
+          const y = toY(tick);
+          return `
+            <line x1="${pad}" y1="${y}" x2="${width - pad}" y2="${y}" class="grid" />
+            <text x="18" y="${y + 4}" class="axisText">${tick}</text>
+          `;
+        })
+        .join("");
+
+      const xLabels = rows
+        .map((row, index) => {
+          const x = toX(index);
+          return `
+            <text x="${x}" y="${height - 12}" text-anchor="middle" class="axisText">${escapeHtml(row.project)}</text>
+            <circle cx="${x}" cy="${toY(row.score)}" r="6" class="point"></circle>
+            <text x="${x}" y="${toY(row.score) - 14}" text-anchor="middle" class="pointText">${row.score}</text>
+          `;
+        })
+        .join("");
+
+      svg.innerHTML = `
+        <rect x="${pad}" y="${pad}" width="${plotWidth}" height="${plotHeight}" fill="#f8fafc"></rect>
+        ${gridLines}
+        <line x1="${pad}" y1="${pad}" x2="${pad}" y2="${height - pad}" class="axis"></line>
+        <line x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}" class="axis"></line>
+        <path d="${path}" class="line"></path>
+        ${xLabels}
+      `;
+    </script>
+  </body>
+</html>
