@@ -23,15 +23,16 @@
 
       body {
         margin: 0;
-        padding: 16px;
+        padding: 8px;
         background: var(--bg);
         color: var(--ink);
         font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
       }
 
       main {
         display: grid;
-        gap: 18px;
+        gap: 12px;
       }
 
       .panel {
@@ -42,7 +43,7 @@
       }
 
       .head {
-        margin-bottom: 14px;
+        margin-bottom: 10px;
       }
 
       h1,
@@ -52,19 +53,19 @@
       }
 
       h1 {
-        font-size: 26px;
+        font-size: 25px;
         line-height: 1.2;
       }
 
       h2 {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 1.2;
       }
 
       .subtle {
-        margin-top: 6px;
+        margin-top: 4px;
         color: var(--muted);
-        font-size: 14px;
+        font-size: 13px;
       }
 
       .tableWrap {
@@ -82,7 +83,7 @@
 
       th,
       td {
-        padding: 12px 14px;
+        padding: 8px 10px;
         border-bottom: 1px solid var(--line);
         text-align: left;
         white-space: nowrap;
@@ -91,7 +92,7 @@
       th {
         background: #f0f3f5;
         color: #4b5563;
-        font-size: 12px;
+        font-size: 11px;
       }
 
       tbody tr:hover {
@@ -102,8 +103,8 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 58px;
-        height: 28px;
+        min-width: 52px;
+        height: 24px;
         padding: 0 10px;
         border-radius: 999px;
         color: #fff;
@@ -127,7 +128,7 @@
       }
 
       .chartWrap {
-        padding-top: 4px;
+        padding-top: 0;
       }
 
       .chart {
@@ -139,7 +140,7 @@
       .axisText,
       .label {
         fill: var(--muted);
-        font-size: 12px;
+        font-size: 11px;
       }
 
       .axis {
@@ -166,7 +167,7 @@
 
       .pointText {
         fill: var(--ink);
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 800;
       }
 
@@ -174,19 +175,36 @@
         display: flex;
         gap: 14px;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 8px;
         color: var(--muted);
-        font-size: 13px;
+        font-size: 12px;
       }
 
       .dot {
-        width: 10px;
-        height: 10px;
+        width: 8px;
+        height: 8px;
         border-radius: 999px;
         background: var(--good);
         display: inline-block;
         margin-right: 6px;
         vertical-align: -1px;
+      }
+
+      @media (min-width: 1100px) {
+        main {
+          grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+          align-items: start;
+        }
+
+        main > section:first-child {
+          grid-column: 1;
+        }
+
+        main > section:last-child {
+          grid-column: 2;
+          position: sticky;
+          top: 8px;
+        }
       }
     </style>
   </head>
@@ -223,7 +241,7 @@
           <p class="subtle">5.18~5.21 HQI 추이</p>
         </div>
         <div class="chartWrap">
-          <svg id="trendChart" class="chart" viewBox="0 0 860 320" role="img" aria-label="정기 업데이트 버전별 점수 그래프"></svg>
+          <svg id="trendChart" class="chart" viewBox="0 0 860 240" role="img" aria-label="정기 업데이트 버전별 점수 그래프"></svg>
           <div class="legend"><span class="dot"></span>HQI 점수</div>
         </div>
       </section>
@@ -327,8 +345,8 @@
 
       const svg = document.getElementById("trendChart");
       const width = 860;
-      const height = 320;
-      const pad = 42;
+      const height = 240;
+      const pad = 28;
       const plotWidth = width - pad * 2;
       const plotHeight = height - pad * 2;
       const minScore = 0;
@@ -355,7 +373,7 @@
         .map((row, index) => {
           const x = toX(index);
           return `
-            <text x="${x}" y="${height - 12}" text-anchor="middle" class="axisText">${escapeHtml(row.project)}</text>
+            <text x="${x}" y="${height - 10}" text-anchor="middle" class="axisText">${escapeHtml(row.project)}</text>
             <circle cx="${x}" cy="${toY(row.score)}" r="6" class="point"></circle>
             <text x="${x}" y="${toY(row.score) - 14}" text-anchor="middle" class="pointText">${row.score}</text>
           `;
