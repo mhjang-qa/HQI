@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T07:35:14.143924+00:00",
+  "generatedAt": "2026-05-19T07:44:46.431141+00:00",
   "source": "stored",
   "projects": [
     {
@@ -37,7 +37,7 @@
           "rows": 0,
           "caseCount": 0,
           "executedCases": 0,
-          "error": "HTTP Error 502: Bad Gateway"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "bugCount": 33,
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-19T05:18:56.244716+00:00"
+      "calculatedAt": "2026-05-19T07:44:17.294112+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-19T05:15:48.744431+00:00"
+      "calculatedAt": "2026-05-19T07:42:23.158609+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -769,7 +769,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-19T05:15:39.246334+00:00"
+      "calculatedAt": "2026-05-19T07:42:04.625359+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -812,7 +812,7 @@
       "issues": [
         {
           "id": "36573fbd-1951-80aa-bcd1-d6bfbd256030",
-          "title": "[게이미피케이션][만보기]→미션 리스트 진입 시 뒤로 가기 두번 선택해야 이전페이지로 이동하는 현상",
+          "title": "[게이미피케이션][만보기]→미션 리스트 진입 시 뒤로 가기 두번 선택해야 이전 페이지(혜택 홈)로 이동하는 현상",
           "target": "5.21.0",
           "key": "5210",
           "status": "등록 (Registered)",
@@ -1011,7 +1011,7 @@
           "url": "https://www.notion.so/BS-35a73fbd195180f59a2fe1b36c84ace4"
         }
       ],
-      "calculatedAt": "2026-05-19T05:15:10.413426+00:00"
+      "calculatedAt": "2026-05-19T07:41:29.222712+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1252,7 +1252,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-19T05:15:15.154452+00:00"
+      "calculatedAt": "2026-05-19T07:41:37.992118+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1513,7 +1513,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-19T05:15:35.981663+00:00"
+      "calculatedAt": "2026-05-19T07:42:00.747448+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -1541,7 +1541,7 @@
       "score": 92.9,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T05:15:27.968550+00:00"
+      "calculatedAt": "2026-05-19T07:41:52.457969+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1577,7 +1577,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T05:19:20.441241+00:00"
+      "calculatedAt": "2026-05-19T07:44:46.423186+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2261,7 +2261,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-19T05:17:51.220181+00:00"
+      "calculatedAt": "2026-05-19T07:44:13.619629+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2458,7 +2458,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T05:19:16.690078+00:00"
+      "calculatedAt": "2026-05-19T07:44:42.263346+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2501,7 +2501,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T05:15:42.578970+00:00"
+      "calculatedAt": "2026-05-19T07:42:08.857084+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2579,7 +2579,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T05:15:19.208492+00:00"
+      "calculatedAt": "2026-05-19T07:41:42.696525+00:00"
     }
   ],
   "regularTrend": [
