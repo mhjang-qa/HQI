@@ -454,6 +454,7 @@ tbody tr.selected {
 .embedTrendVersion {
   font-weight: 800;
   font-variant-numeric: tabular-nums;
+  font-size: 12px;
 }
 
 .embedTrendTrack {
@@ -485,6 +486,7 @@ tbody tr.selected {
   text-align: right;
   font-variant-numeric: tabular-nums;
   font-weight: 800;
+  font-size: 12px;
 }
 
 .details {
