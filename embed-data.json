@@ -1,7 +1,264 @@
 {
-  "generatedAt": "2026-05-18T05:08:32.888087+00:00",
-  "source": "embed-snapshot",
+  "generatedAt": "2026-05-19T05:23:04.874562+00:00",
+  "source": "stored",
   "projects": [
+    {
+      "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
+      "category": "정기 업데이트",
+      "name": "5.16.0 테스트 케이스",
+      "project": "5.16.0",
+      "key": "5160",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/5-16-0-2a973fbd19518058b6f1fcfacaf0cad9",
+      "lastEditedTime": "2026-02-25T01:35:00.000Z",
+      "testCaseBase": 17,
+      "executedCases": 17,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2ab73fbd-1951-8014-bbc9-c6b4e4eda586",
+          "title": "요약용",
+          "rows": 1,
+          "caseCount": 1,
+          "executedCases": 1
+        },
+        {
+          "id": "2aa73fbd-1951-805b-9c76-e27b3067ce9d",
+          "title": "5.16.0 TC",
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
+        },
+        {
+          "id": "2b173fbd-1951-8054-bda6-c3d153cf0d6f",
+          "title": "[APP] 앱 마켓 스크린샷 변경 TC (1) and New data source",
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
+      "bugCount": 33,
+      "fixedCount": 32,
+      "openBugCount": 1,
+      "TPR": 0.9882,
+      "BOR": 0.0,
+      "BFR": 0.9697,
+      "DQS": 0.4848,
+      "HQI": 0.6356,
+      "score": 63.6,
+      "severityCounts": {
+        "Minor": 16,
+        "Major": 9,
+        "개선 의견": 7,
+        "Critical": 1
+      },
+      "issues": [
+        {
+          "id": "2bd73fbd-1951-8044-bbd9-d803c3a83290",
+          "title": "[BO][모빌리티 관리자] 내용 출력필드 한줄 초과 시 전체내용 노출",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2bd73fbd19518044bbd9d803c3a83290"
+        },
+        {
+          "id": "2b973fbd-1951-80c2-8883-e2aa9a6710e2",
+          "title": "[BO][모빌리티 관리자] 문의 분류 대분류 메뉴 선택 항목이 기획서 정의와 불일치하게 노출됨",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2b973fbd195180c28883e2aa9a6710e2"
+        },
+        {
+          "id": "2b873fbd-1951-80a2-9c46-c948de4d5107",
+          "title": "[iOS] 송금 한도 안내 선택  > 바닥화면 외 영역 선택 시 앱 종료 되는 현상",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "높음",
+          "url": "https://www.notion.so/iOS-2b873fbd195180a29c46c948de4d5107"
+        },
+        {
+          "id": "2b873fbd-1951-80ad-91f4-deaf3c20ba65",
+          "title": "[iOS/AOS][송금내역]내역이 없는 경우 메시지가 기획서와 상이함",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-AOS-2b873fbd195180ad91f4deaf3c20ba65"
+        },
+        {
+          "id": "2b873fbd-1951-80ba-ba29-ff25f10aaad0",
+          "title": "[iOS][송금내역]송금내역 문구가 iOS/AOS 상이함",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "추후 수정 백로그 이관",
+          "severity": "개선 의견",
+          "priority": "낮음",
+          "url": "https://www.notion.so/iOS-iOS-AOS-2b873fbd195180baba29ff25f10aaad0"
+        },
+        {
+          "id": "2b873fbd-1951-800b-bf94-d053168d390d",
+          "title": "[AOS][내정보] 진입 시 앱 종료되는 현상",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-2b873fbd1951800bbf94d053168d390d"
+        },
+        {
+          "id": "2b773fbd-1951-8020-b3b3-d378708bd27e",
+          "title": "[BO][모빌리티 관리자] 고객문의(1:1) 목록 문의분류 긴급문의, 서비스 문의 내 중분류 노출 되는 현상 ",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-1-1-2b773fbd19518020b3b3d378708bd27e"
+        },
+        {
+          "id": "2b773fbd-1951-8016-b855-fad1d609084d",
+          "title": "[BO][모빌리티 관리자] 답변 등록 팝업에 문의 분류가 없는 현상 ",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2b773fbd19518016b855fad1d609084d"
+        },
+        {
+          "id": "2b773fbd-1951-80fb-b516-f69ca0393be3",
+          "title": "[BO][모빌리티 관리자][개선 의견]결제 정보 할인 란,\n금액 표시 필드에 천단위 구분자(“, ”) 미적용",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2b773fbd195180fbb516f69ca0393be3"
+        },
+        {
+          "id": "2b773fbd-1951-808e-ba20-d1bbb1d0e0b5",
+          "title": "[공통][택시-고객문의] ‘결제/수수료/분실물’ 외 문의 분류에서도 ‘이용내역 선택’ 항목 노출",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2b773fbd1951808eba20d1bbb1d0e0b5"
+        },
+        {
+          "id": "2b773fbd-1951-8021-8634-dc1cf8db6e0f",
+          "title": "[iOS][택시-고객문의] 문의내역확인  답변 첨부 파일이 보이지 않는 현상",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-2b773fbd195180218634dc1cf8db6e0f"
+        },
+        {
+          "id": "2b773fbd-1951-8063-b389-c2e4b0deceed",
+          "title": "[iOS][구인구직][증명서 발급]내 폰에 저장, 미리보기 화면‘ 완료’ 클릭 시 저장 토스트 표출되나 실제 저장되지 않음\n",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-2b773fbd19518063b389c2e4b0deceed"
+        },
+        {
+          "id": "2b773fbd-1951-8016-9ab2-ecb9ab3cee6b",
+          "title": "[BO][모빌리티 관리자] 문의답변등록 시 답변 미작성 상태에서 등록 시 발송완료 처리 되는  현상",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2b773fbd195180169ab2ecb9ab3cee6b"
+        },
+        {
+          "id": "2b773fbd-1951-804c-b131-c02a36b3e206",
+          "title": "[공통][구인구직][증명서 발급](외국인) 일부 증명서 발급 항목에서 발급 불가 오류 ",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "추척 관찰-백로그",
+          "severity": "Major",
+          "priority": "높음",
+          "url": "https://www.notion.so/2b773fbd1951804cb131c02a36b3e206"
+        },
+        {
+          "id": "2b773fbd-1951-80f1-8416-d6079df55f12",
+          "title": "[BO][모빌리티 관리자] 고객문의(1:1) 답변 등록 되지 않는 현상",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-1-1-2b773fbd195180f18416d6079df55f12"
+        },
+        {
+          "id": "2b773fbd-1951-80cc-98f9-fc87a63f202f",
+          "title": "[BO][모빌리티 관리자] 문의 답변 등록/수정 팝업 이미지 첨부 가이드 문구가 기획서와 상이함",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-2b773fbd195180cc98f9fc87a63f202f"
+        },
+        {
+          "id": "2b773fbd-1951-80b5-9b53-e8d2d05a81b4",
+          "title": "[공통][택시-고객문의][문의하기]문의 분류 “결제/수수료/분실물” 유형 선택 , 노출되면 안 되는 툴팁이 노출됨 (툴팁 정책 위반)",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2b773fbd195180b59b53e8d2d05a81b4"
+        },
+        {
+          "id": "2b673fbd-1951-80ed-bf58-c95bef286efb",
+          "title": "[공통][서비스이용확인증]이름 길이 과다 시 PDF/화면 출력 영역에서 텍스트가 비정상적으로 잘려서 표출",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/PDF-2b673fbd195180edbf58c95bef286efb"
+        },
+        {
+          "id": "2b673fbd-1951-8043-977f-d0ca2a41a7c2",
+          "title": "[AOS][서비스 이용확인증] SM-F926N 단말에서 ‘직접입력’ 버튼 UI 깨짐(찌그러짐) 발생",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-SM-F926N-UI-2b673fbd19518043977fd0ca2a41a7c2"
+        },
+        {
+          "id": "2b673fbd-1951-8045-aeb4-f2362b027726",
+          "title": "[AOS] 서비스 이용 확인증 발급하기 시도 시 에러 발생",
+          "target": "5.16.0",
+          "key": "5160",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
+        }
+      ],
+      "calculatedAt": "2026-05-19T05:18:56.244716+00:00"
+    },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
       "category": "정기 업데이트",
@@ -263,7 +520,739 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-18T04:45:14.633659+00:00"
+      "calculatedAt": "2026-05-19T05:15:48.744431+00:00"
+    },
+    {
+      "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
+      "category": "정기 업데이트",
+      "name": "대출 비교 테스트 케이스",
+      "project": "대출 비교",
+      "key": "대출비교",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-02-06",
+      "url": "https://www.notion.so/2fc73fbd1951800797fec5174b72d1c6",
+      "lastEditedTime": "2026-03-04T02:15:00.000Z",
+      "testCaseBase": 810,
+      "executedCases": 744,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2f473fbd-1951-80e5-923f-f027ca4fd02f",
+          "title": "대출 비교 테스트 TestCase",
+          "rows": 6,
+          "caseCount": 810,
+          "executedCases": 744
+        },
+        {
+          "id": "2fc73fbd-1951-809e-812f-fe5ba624e25c",
+          "title": "Untitled",
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "HTTP Error 400: Bad Request"
+        }
+      ],
+      "bugCount": 47,
+      "fixedCount": 11,
+      "openBugCount": 36,
+      "TPR": 0.919,
+      "BOR": 0.9368,
+      "BFR": 0.234,
+      "DQS": 0.5854,
+      "HQI": 0.7013,
+      "score": 70.1,
+      "severityCounts": {
+        "Major": 11,
+        "Minor": 34,
+        "개선 의견": 2
+      },
+      "issues": [
+        {
+          "id": "30d73fbd-1951-8089-b16d-fd6ba6f68423",
+          "title": "[대출비교] 1원 인증 인증번호 오입력  - 단말기 시스템 뒤로가기 및 좌측상단  < 뒤로가기 선택 시 이전화면으로 돌아가지 않고 머물러 있는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-30d73fbd19518089b16dfd6ba6f68423"
+        },
+        {
+          "id": "30273fbd-1951-8013-ae61-e1fe8911d474",
+          "title": "[대출비교] 정보입력 화면의 이름, 국적이 출력되지 않는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/30273fbd19518013ae61e1fe8911d474"
+        },
+        {
+          "id": "2ff73fbd-1951-8030-be1f-e51b51f5a8ec",
+          "title": "[대출비교] 대출비교 안내화면 - AOS 시스템 뒤로가기 < 2번 선택해야 한패스 홈으로 이동하는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-2-2ff73fbd19518030be1fe51b51f5a8ec"
+        },
+        {
+          "id": "2ff73fbd-1951-8092-b235-f51b9b0a51ca",
+          "title": "[대출비교] 비자 타입 목록 일부만 싱할라어로 표출되는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2ff73fbd19518092b235f51b9b0a51ca"
+        },
+        {
+          "id": "2ff73fbd-1951-80cf-89a1-f3fb2d486e8a",
+          "title": "[대출비교] 대출신청 내역 없음 화면 안내 문구 미표출",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2ff73fbd195180cf89a1f3fb2d486e8a"
+        },
+        {
+          "id": "2ff73fbd-1951-80c3-b068-d05cb71af344",
+          "title": "[대출비교] 대출신청 내역 - 심사 중인 내역 상태값 표시가 안되는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/2ff73fbd195180c3b068d05cb71af344"
+        },
+        {
+          "id": "2ff73fbd-1951-802a-8541-e620f687e9fd",
+          "title": "[대출비교] 상환방법 안내 문구 띄어쓰기 오류",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2ff73fbd1951802a8541e620f687e9fd"
+        },
+        {
+          "id": "2ff73fbd-1951-8065-9d3f-e98dba7e4e76",
+          "title": "[대출비교] 1원인증-인증번호 숫자3자리 입력 시 키패드 내려가지 않는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-3-2ff73fbd195180659d3fe98dba7e4e76"
+        },
+        {
+          "id": "2fe73fbd-1951-808e-803c-d129b2a68952",
+          "title": "[대출비교] 인증번호 불일치 팝업 [확인] 선택 - 시스템 뒤로가기 “1원입금 완료“팝업 내 확인 버튼이 영어로 노출",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "추척 관찰-백로그",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-2fe73fbd1951808e803cd129b2a68952"
+        },
+        {
+          "id": "2fe73fbd-1951-80d6-bca4-eb1ccab85697",
+          "title": "[대출비교] 1원인증 시간 만료 후 계좌선택 화면에서 뒤로가기(<) 선택 시 404 에러 표출",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-404-2fe73fbd195180d6bca4eb1ccab85697"
+        },
+        {
+          "id": "2fe73fbd-1951-8093-85ff-e8040e6af1bb",
+          "title": "[대출비교] 인증번호 입력필드 선택(인증번호 미입력) - 키패드 [이동] 선택 시 로딩되는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd1951809385ffe8040e6af1bb"
+        },
+        {
+          "id": "2fe73fbd-1951-80f0-bac1-ead77fb8b96d",
+          "title": "[대출비교][공통] 1원인증 오입력 시 15분 역카운트 리셋 동작 OS별 상이(iOS 리셋 / AOS 미리셋) – 정책 확인 필요",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-15-OS-iOS-AOS-2fe73fbd195180f0bac1ead77fb8b96d"
+        },
+        {
+          "id": "2fe73fbd-1951-807b-aa13-e165ea9b1f52",
+          "title": "[대출비교] 베트남 언어 설정 시 1원 인증 화면에서 입력시간 초과 안내 한글 표출",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-2fe73fbd1951807baa13e165ea9b1f52"
+        },
+        {
+          "id": "2fe73fbd-1951-8009-b927-e57663276410",
+          "title": "[대출비교] 인증번호 입력화면 - 기획서와 문구 띄어쓰기 상이함",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd19518009b927e57663276410"
+        },
+        {
+          "id": "2fe73fbd-1951-80ee-8093-efab55380cc3",
+          "title": "[대출비교]전화번호 벨리데이션 오류 상태에서 다음 버튼 활성화 표출",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd195180ee8093efab55380cc3"
+        },
+        {
+          "id": "2fe73fbd-1951-804b-a063-f0af11a13f54",
+          "title": "[[대출비교] 승인 완료 / 승인 거절 시 앱푸시 미발송 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd1951804ba063f0af11a13f54"
+        },
+        {
+          "id": "2fe73fbd-1951-8075-b675-ec987306360c",
+          "title": "[대출비교] 정보입력화면(외국인등록번호 필드, 휴대전화번호 필드, 연간소득) 삭제 및 수정 시 커서가 뒤로 가는 현상\n\n",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd19518075b675ec987306360c"
+        },
+        {
+          "id": "2fe73fbd-1951-80ec-b348-d9be4f2bb280",
+          "title": "[대출비교]1원 인증번호 입력 시간 초과 후 계좌 재선택 화면에서 뒤로가기(<) 시 만료된 1원인증 입력 화면이 재표출됨",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/1-1-2fe73fbd195180ecb348d9be4f2bb280"
+        },
+        {
+          "id": "2fe73fbd-1951-80be-9856-f7b9757b4d93",
+          "title": "[대출비교] 대출상품 목록상품 없을 경우 - 시스템 뒤로가기 키 선택 시 화면 전환 되지 않으며 반응이 없는 현상",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd195180be9856f7b9757b4d93"
+        },
+        {
+          "id": "2fe73fbd-1951-80be-ac41-f68d2ba873de",
+          "title": "[대출비교] 소득정보 입력 화면에서 ‘입사일자’ 항목이 ‘입사일시’로 잘못 노출됨",
+          "target": "대출비교",
+          "key": "대출비교",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
+        }
+      ],
+      "calculatedAt": "2026-05-19T05:15:39.246334+00:00"
+    },
+    {
+      "id": "33673fbd-1951-804e-9ae7-fc659890082c",
+      "category": "정기 업데이트",
+      "name": "5.21.0 테스트 케이스",
+      "project": "5.21.0",
+      "key": "5210",
+      "progress": 1.0,
+      "status": "진행 중",
+      "date": "2026-04-28",
+      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
+      "lastEditedTime": "2026-05-18T02:24:00.000Z",
+      "testCaseBase": 1300,
+      "executedCases": 1300,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "34873fbd-1951-8049-955d-d9fd48fda28f",
+          "title": "5.21.0 Test Case ",
+          "rows": 11,
+          "caseCount": 1300,
+          "executedCases": 1300
+        }
+      ],
+      "bugCount": 110,
+      "fixedCount": 27,
+      "openBugCount": 83,
+      "TPR": 1.0,
+      "BOR": 0.9154,
+      "BFR": 0.2455,
+      "DQS": 0.5804,
+      "HQI": 0.7033,
+      "score": 70.3,
+      "severityCounts": {
+        "Major": 32,
+        "Minor": 67,
+        "개선 의견": 2,
+        "Critical": 9
+      },
+      "issues": [
+        {
+          "id": "36573fbd-1951-80aa-bcd1-d6bfbd256030",
+          "title": "[게이미피케이션][만보기]→미션 리스트 진입 시 뒤로 가기 두번 선택해야 이전페이지로 이동하는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/36573fbd195180aabcd1d6bfbd256030"
+        },
+        {
+          "id": "36473fbd-1951-80d6-aae4-c33f12f97ccd",
+          "title": "[게이미피케이션][AOS] 앱 흔들기 완료 후 ‘40001 에러’ 팝업 노출 되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-40001-36473fbd195180d6aae4c33f12f97ccd"
+        },
+        {
+          "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
+          "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "개발 완료 (Dev Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
+        },
+        {
+          "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
+          "title": "[게이미피케이션] ‘포인트 획득 팝업’ 배경(딤 처리) 영역 클릭 시 시트 안 닫히는 현상 ",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
+        },
+        {
+          "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
+          "title": "[게이미피케이션] [AOS] 만보기 최초 진입 헬스커넥트 미허용 시 노출되는 팝업 기획서와 상이한 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
+        },
+        {
+          "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
+          "title": "[게이미피케이션] [iOS] 본인인증’ 화면 내 추가 인증 CTA 버튼 클릭 시 추가 인증 Flow 시작 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
+        },
+        {
+          "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
+          "title": "[게이미피케이션] 특정단말에서 만보기 현재 걸음 수 실시간으로 업데이트 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
+        },
+        {
+          "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
+          "title": "[게이미피케이션] [공통] 앱 흔들고 - 앱 흔들기 안내 선택 시 ‘혜택’ 메인 페이지로 이동하는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
+        },
+        {
+          "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
+          "title": "[게이미피케이션][공통] ‘회원가입/본인인증’ 화면 내 아이콘 이미지가 저화질로 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
+        },
+        {
+          "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
+          "title": "[게이미피케이션][공통] 앱 흔들기 완료 페이지에서 툴팁 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "기획서 수정",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
+        },
+        {
+          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
+          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
+        },
+        {
+          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
+          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ba8952cd8be8c0a3a5"
+        },
+        {
+          "id": "35a73fbd-1951-8082-a4cb-fc5dd9c0e912",
+          "title": "[게이미피케이션][공통] 앱 흔들기 최초 진행 시 완료 화면 내 획득 포인트가 ‘0P’로 잘못 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/0P-35a73fbd19518082a4cbfc5dd9c0e912"
+        },
+        {
+          "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
+          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상\n",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/00-00-35a73fbd195180289930dc9fc600370f"
+        },
+        {
+          "id": "35a73fbd-1951-804c-92f5-d5833072f7b4",
+          "title": " [게이미피케이션][공통] 만보기 페이지 > ‘해외 송금하고’, ‘카드 첫 결제하고’ 메뉴 진입 시 다국어 미적용 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd1951804c92f5d5833072f7b4"
+        },
+        {
+          "id": "35a73fbd-1951-80e8-88f9-f9e0ec2e4479",
+          "title": "[게이미피케이션][공통] 로그인 상태에서 만보기 페이지 내 타 게임 진입 시 로그인 유도 팝업 노출 및 진입 불가 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180e888f9f9e0ec2e4479"
+        },
+        {
+          "id": "35a73fbd-1951-805f-a81a-d55ea95d0495",
+          "title": "[게이미피케이션][공통] 만보기 안내 바텀시트(BS) 내 ‘포인트 지급’ 문구 기획서와 불일치 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
+        },
+        {
+          "id": "35a73fbd-1951-804e-a3cd-df361cf3589d",
+          "title": "[게이미피케이션][럭키볼][공통] 특정 해상도 단말에서 ‘럭키볼 뽑기’ 화면 하단 CTA 버튼 잘림(UI 깨짐) 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/CTA-UI-35a73fbd1951804ea3cddf361cf3589d"
+        },
+        {
+          "id": "35a73fbd-1951-804c-880d-cfc39f0c8c11",
+          "title": "[게이미피케이션][공통] ‘앱 흔들기’ 최초 진입 시 최초 안내 및 권한 요청 팝업 미노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "처리중 (In Progress)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd1951804c880dcfc39f0c8c11"
+        },
+        {
+          "id": "35a73fbd-1951-80f5-9a2f-e1b36c84ace4",
+          "title": "[게이미피케이션][공통] ‘룰렛 돌리기 안내’ 바텀시트(BS) 내 ‘일일 제한’ 문구 기획서와 불일치 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BS-35a73fbd195180f59a2fe1b36c84ace4"
+        }
+      ],
+      "calculatedAt": "2026-05-19T05:15:10.413426+00:00"
+    },
+    {
+      "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
+      "category": "정기 업데이트",
+      "name": "5.20.0 테스트 케이스",
+      "project": "5.20.0",
+      "key": "5200",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-03-30",
+      "url": "https://www.notion.so/5-20-0-32c73fbd195180a0bc84cd803d395f31",
+      "lastEditedTime": "2026-04-20T02:34:00.000Z",
+      "testCaseBase": 372,
+      "executedCases": 279,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "32c73fbd-1951-8179-b072-d9716dd054ff",
+          "title": "5.20.0 Test Case ",
+          "rows": 4,
+          "caseCount": 372,
+          "executedCases": 279
+        }
+      ],
+      "bugCount": 82,
+      "fixedCount": 82,
+      "openBugCount": 0,
+      "TPR": 0.7509,
+      "BOR": 0.7061,
+      "BFR": 1.0,
+      "DQS": 0.853,
+      "HQI": 0.7955,
+      "score": 79.6,
+      "severityCounts": {
+        "Minor": 63,
+        "Critical": 7,
+        "Major": 12
+      },
+      "issues": [
+        {
+          "id": "33773fbd-1951-8070-a244-c815ec149e20",
+          "title": "[회원가입][충전하기][공통] '연동계좌 충전하기' 화면 내 문구 기획서와 불일치 결함 ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd19518070a244c815ec149e20"
+        },
+        {
+          "id": "33773fbd-1951-8063-9bf3-ec462e9e9538",
+          "title": "[BO] '회원 조회' 화면 내 '방한 외국인 여부(Y/N)' 항목 UI 컴포넌트 오적용 결함 (토글 대신 텍스트 노출) ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BO-Y-N-UI-33773fbd195180639bf3ec462e9e9538"
+        },
+        {
+          "id": "33773fbd-1951-801a-b30c-d352fac6a650",
+          "title": "[회원가입][기명회원 전환][공통] '주소 직접 입력(카카오)' 화면 내 주소 검색 시 결과 리스트 최대 10건 제한 노출 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/10-33773fbd1951801ab30cd352fac6a650"
+        },
+        {
+          "id": "33773fbd-1951-8051-83e9-d6d9c6ab3765",
+          "title": "[회원가입][충전하기][AOS] '충전 수단 안내' 화면 내 리스트 노출 항목 기획서와 불일치 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33773fbd1951805183e9d6d9c6ab3765"
+        },
+        {
+          "id": "33773fbd-1951-80ed-950f-e58b91201d3a",
+          "title": "[회원가입][충전하기][AOS] ‘연동계좌’, ‘편의점’, ‘ATM’, ‘휴대폰 결제’ 화면 내 키패드 활성화 시 하단 ‘충전하기’ 버튼 가림 결함(iOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-ATM-iOS-33773fbd195180ed950fe58b91201d3a"
+        },
+        {
+          "id": "33773fbd-1951-80a8-b416-cc6318824dfc",
+          "title": "[추가인증][기명회원전환] '방한 홈' 가입 계정으로 '한패스 앱' 내 추가 인증 시 휴대폰 번호 입력 후 무반응 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd195180a8b416cc6318824dfc"
+        },
+        {
+          "id": "33773fbd-1951-808e-a1cb-f5fd8990cafb",
+          "title": "[추가인증][기명회원전환] '방한 홈' 가입자가 ‘방한 홈’ 전화번호로 ‘한패스 앱’ 추가 인증 시 '이미 가입된 번호' 팝업(Popup) 오노출 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/Popup-33773fbd1951808ea1cbf5fd8990cafb"
+        },
+        {
+          "id": "33773fbd-1951-80b4-81e8-e156497cb1ad",
+          "title": "[회원가입][충전하기][iOS] ‘QR 송금받기’ 화면 내 안내 문구 기획서와 상이하게 노출(AOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-QR-AOS-33773fbd195180b481e8e156497cb1ad"
+        },
+        {
+          "id": "33773fbd-1951-80ac-96bf-df79377e9fcb",
+          "title": "[회원가입][충전하기][iOS] '가상계좌' , '휴대폰 결제' 화면 내 문구 기획서와 불일치 결함 (AOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-AOS-33773fbd195180ac96bfdf79377e9fcb"
+        },
+        {
+          "id": "33773fbd-1951-8013-bf57-fb0459945955",
+          "title": "[회원가입][충전하기][iOS] '휴대폰 결제' 화면 진입 시 금액 추가 버튼(‘+10,000 / +50,000 / +100,000 / +500,000’) 미노출 결함 (AOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-10-000-50-000-100-000-500-000-AOS-33773fbd19518013bf57fb0459945955"
+        },
+        {
+          "id": "33773fbd-1951-80af-ac9f-fcf5353f3c22",
+          "title": "[회원가입][충전하기][iOS] '편의점, ATM 충전하기' 화면 내 수수료 표기 기획서와 불일치 결함(AOS정상)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-ATM-AOS-33773fbd195180afac9ffcf5353f3c22"
+        },
+        {
+          "id": "33773fbd-1951-8010-8184-dde637f13979",
+          "title": "[회원가입][충전하기][공통] '가상 계좌 입력하기' 화면 내 하단 안내 문구 기획서와 불일치 결함",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33773fbd195180108184dde637f13979"
+        },
+        {
+          "id": "33673fbd-1951-8070-9bf2-c554cd72140f",
+          "title": "[회원가입][기명회원전환][AOS] '주소 사진 확인' 화면 내 버튼 문구 기획서와 불일치 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33673fbd195180709bf2c554cd72140f"
+        },
+        {
+          "id": "33673fbd-1951-802f-a903-e5c12ec14ad1",
+          "title": "[택시] 메인페이지 - 한패스 월렛 충전 하기 선택 시 - ‘< 충전 수단’ 으로 노출됨",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd1951802fa903e5c12ec14ad1"
+        },
+        {
+          "id": "33673fbd-1951-8067-b517-d38bd302faaa",
+          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 안내 문구 기획서와 상이하게 노출 ",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-33673fbd19518067b517d38bd302faaa"
+        },
+        {
+          "id": "33673fbd-1951-80bc-b0f4-ff0bc86abc21",
+          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 상세주소 입력 후 '단독 주택' 체크박스 (Check)>(Uncheck) 시 기입력 데이터 미초기화 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Check-Uncheck-iOS-33673fbd195180bcb0f4ff0bc86abc21"
+        },
+        {
+          "id": "33673fbd-1951-80f2-922c-da2eb2ef1a2e",
+          "title": "[회원가입][기명회원전환][공통] '직접 입력하기' 화면 내 문구 기획서와 상이하게 노출",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd195180f2922cda2eb2ef1a2e"
+        },
+        {
+          "id": "33673fbd-1951-8061-9eda-e1c08ba86438",
+          "title": "[회원가입][기명회원전환][AOS] '주소 등록' 화면 내 '직접 입력하기' 선택 시 '직접 입력(카카오)' 화면 오진입 결함 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-iOS-33673fbd195180619edae1c08ba86438"
+        },
+        {
+          "id": "33673fbd-1951-80ad-8ed9-f6fe7abe30bf",
+          "title": "[회원가입][기명회원전환][공통] ‘주소등록’ 화면 내 버튼 문구 기획서와 상이하게 노출",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/33673fbd195180ad8ed9f6fe7abe30bf"
+        },
+        {
+          "id": "33673fbd-1951-80d8-982f-c6c3dcf864d6",
+          "title": "[회원가입][기명회원전환][AOS] '고객확인정보 등록' 화면 내 플레이스홀더(Placeholder) 문구 기획서와 불일치 (iOS 미발생)",
+          "target": "5.20.0",
+          "key": "5200",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
+        }
+      ],
+      "calculatedAt": "2026-05-19T05:15:15.154452+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -524,490 +1513,1073 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-18T04:45:03.072548+00:00"
+      "calculatedAt": "2026-05-19T05:15:35.981663+00:00"
     },
     {
-      "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
+      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
       "category": "정기 업데이트",
-      "name": "5.20.0 테스트 케이스",
-      "project": "5.20.0",
-      "key": "5200",
+      "name": "Go.hanpass 통테 시나리오",
+      "project": "Go.hanpass 통테 시나리오",
+      "key": "gohanpass통테시나리오",
+      "progress": 0.9,
+      "status": "진행 중",
+      "date": "",
+      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
+      "lastEditedTime": "2026-03-09T12:56:00.000Z",
+      "testCaseBase": 0,
+      "executedCases": 0,
+      "tcCountSource": "none",
+      "tcDatabases": [],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 0.9,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 0.9293,
+      "score": 92.9,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-19T05:15:27.968550+00:00"
+    },
+    {
+      "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
+      "category": "비정기 업데이트",
+      "name": "5.20.4 테스트 케이스",
+      "project": "5.20.4",
+      "key": "5204",
       "progress": 1.0,
       "status": "완료",
-      "date": "2026-03-30",
-      "url": "https://www.notion.so/5-20-0-32c73fbd195180a0bc84cd803d395f31",
-      "lastEditedTime": "2026-04-20T02:34:00.000Z",
-      "testCaseBase": 372,
-      "executedCases": 279,
+      "date": "2026-04-17",
+      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
+      "lastEditedTime": "2026-04-24T00:33:00.000Z",
+      "testCaseBase": 65,
+      "executedCases": 63,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
-          "id": "32c73fbd-1951-8179-b072-d9716dd054ff",
-          "title": "5.20.0 Test Case ",
-          "rows": 4,
-          "caseCount": 372,
-          "executedCases": 279
+          "id": "34473fbd-1951-805b-8ee6-c7377f9de946",
+          "title": "5.20.4 Test Case",
+          "rows": 2,
+          "caseCount": 65,
+          "executedCases": 63
         }
       ],
-      "bugCount": 82,
-      "fixedCount": 82,
+      "bugCount": 0,
+      "fixedCount": 0,
       "openBugCount": 0,
-      "TPR": 0.7509,
-      "BOR": 0.7061,
+      "TPR": 0.9692,
+      "BOR": 1.0,
       "BFR": 1.0,
-      "DQS": 0.853,
-      "HQI": 0.7955,
-      "score": 79.6,
+      "DQS": 1.0,
+      "HQI": 0.9782,
+      "score": 97.8,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-19T05:19:20.441241+00:00"
+    },
+    {
+      "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
+      "category": "정기 업데이트",
+      "name": "5.17.0 테스트 케이스",
+      "project": "5.17.0",
+      "key": "5170",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/5-17-0-2ca73fbd195180d8bfa7c6355e8e7f2e",
+      "lastEditedTime": "2026-02-25T01:35:00.000Z",
+      "testCaseBase": 1409,
+      "executedCases": 1409,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2cc73fbd-1951-80c6-a8af-dd912bfc487a",
+          "title": "해외공과금 납부 정보 확인[utility_005]",
+          "rows": 9,
+          "caseCount": 9,
+          "executedCases": 9
+        },
+        {
+          "id": "2cc73fbd-1951-8023-9ce0-d2fda5241a95",
+          "title": "해외공과금 납부 정보 확인[utility_005]",
+          "rows": 9,
+          "caseCount": 9,
+          "executedCases": 9
+        },
+        {
+          "id": "2cc73fbd-1951-80a7-9263-f583f0b8558d",
+          "title": "해외공과금 납부 완료[utility_006]",
+          "rows": 13,
+          "caseCount": 13,
+          "executedCases": 13
+        },
+        {
+          "id": "2cc73fbd-1951-80eb-94df-d2c06751ace0",
+          "title": "해외공과금 납부 완료[utility_006]",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2cc73fbd-1951-80c5-bdc0-dfc64dd72583",
+          "title": "해외공과금 내역 상세[History_28]",
+          "rows": 13,
+          "caseCount": 13,
+          "executedCases": 13
+        },
+        {
+          "id": "2cc73fbd-1951-8060-a7e0-c3cfd2ecec26",
+          "title": "해외공과금 내역 상세[History_28]",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2cc73fbd-1951-8053-a752-c6c6bd788e61",
+          "title": "납부 상품 안내[utility_007]",
+          "rows": 13,
+          "caseCount": 13,
+          "executedCases": 13
+        },
+        {
+          "id": "2cc73fbd-1951-8061-8b8b-e3d2104712de",
+          "title": "납부 상품 안내[utility_007]",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2cc73fbd-1951-803d-a351-ecd679437d2c",
+          "title": "SideTC",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        },
+        {
+          "id": "2cc73fbd-1951-8035-a70a-f6289454fb6a",
+          "title": "SideTC",
+          "rows": 21,
+          "caseCount": 21,
+          "executedCases": 21
+        },
+        {
+          "id": "2d373fbd-1951-803c-bad1-ef29db653a0f",
+          "title": "알림 보관함 [noti_001]",
+          "rows": 37,
+          "caseCount": 37,
+          "executedCases": 37
+        },
+        {
+          "id": "2d373fbd-1951-80f0-ab0b-c9085b028701",
+          "title": "알림 보관함 [noti_001]",
+          "rows": 37,
+          "caseCount": 37,
+          "executedCases": 37
+        },
+        {
+          "id": "2d473fbd-1951-80c6-ae34-dfdc74d29627",
+          "title": "홈",
+          "rows": 11,
+          "caseCount": 11,
+          "executedCases": 11
+        },
+        {
+          "id": "2d473fbd-1951-80a1-998b-e3d581a8e787",
+          "title": "홈",
+          "rows": 11,
+          "caseCount": 11,
+          "executedCases": 11
+        },
+        {
+          "id": "2d473fbd-1951-8051-9468-d79db4f46a4d",
+          "title": "해외 송금계산기",
+          "rows": 32,
+          "caseCount": 32,
+          "executedCases": 32
+        },
+        {
+          "id": "2d473fbd-1951-8071-a102-d34b3c220930",
+          "title": "해외송금계산기",
+          "rows": 32,
+          "caseCount": 32,
+          "executedCases": 32
+        },
+        {
+          "id": "2d473fbd-1951-8012-b4c9-fb96ed6e72c6",
+          "title": "해외송금내역 상세",
+          "rows": 22,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "2d473fbd-1951-806c-a369-f88b6bc5d0d4",
+          "title": "해외 송금 내역 상세",
+          "rows": 22,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "2cc73fbd-1951-802e-8187-c4d90321ecbd",
+          "title": "AOS 백그라운드 상태 화면 블라인드/캡쳐 방지처리 ",
+          "rows": 14,
+          "caseCount": 14,
+          "executedCases": 14
+        },
+        {
+          "id": "2ca73fbd-1951-807e-b274-f7beaa10c46b",
+          "title": "지원내역관리_036(AOS)",
+          "rows": 37,
+          "caseCount": 37,
+          "executedCases": 37
+        },
+        {
+          "id": "2ca73fbd-1951-80c3-a633-dbc34ae9129e",
+          "title": "지원내역관리_036(iOS)",
+          "rows": 37,
+          "caseCount": 37,
+          "executedCases": 37
+        },
+        {
+          "id": "2ca73fbd-1951-8058-b890-e4afb42f6cda",
+          "title": "지원 Tab",
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
+        },
+        {
+          "id": "2ca73fbd-1951-807e-b91a-f9725028842d",
+          "title": "지원내역 상세",
+          "rows": 57,
+          "caseCount": 57,
+          "executedCases": 57
+        },
+        {
+          "id": "2ca73fbd-1951-80c2-aac4-fa676333be30",
+          "title": "지원내역 상세",
+          "rows": 57,
+          "caseCount": 57,
+          "executedCases": 57
+        },
+        {
+          "id": "2ca73fbd-1951-80cb-8442-ee2ede1f1f00",
+          "title": "지원 내역 - 불합격 ",
+          "rows": 6,
+          "caseCount": 6,
+          "executedCases": 6
+        },
+        {
+          "id": "2ca73fbd-1951-80c5-8cc7-d8ac8f8c2528",
+          "title": "지원 내역 - 불합격",
+          "rows": 6,
+          "caseCount": 6,
+          "executedCases": 6
+        },
+        {
+          "id": "2ca73fbd-1951-800c-b66d-e2710d70dd6b",
+          "title": "채용 공고 관리",
+          "rows": 52,
+          "caseCount": 52,
+          "executedCases": 52
+        },
+        {
+          "id": "2ca73fbd-1951-8028-bc2a-fc6cc5c5585b",
+          "title": "채용 공고 관리",
+          "rows": 52,
+          "caseCount": 52,
+          "executedCases": 52
+        },
+        {
+          "id": "2ca73fbd-1951-80b9-b67e-d40d857ae6c8",
+          "title": "채용공고 관리 열람 tab",
+          "rows": 26,
+          "caseCount": 26,
+          "executedCases": 26
+        },
+        {
+          "id": "2ca73fbd-1951-80eb-b04c-edc268f4143f",
+          "title": "채용공고 관리 열람 tab",
+          "rows": 26,
+          "caseCount": 26,
+          "executedCases": 26
+        },
+        {
+          "id": "2ca73fbd-1951-80c6-a307-f1644c8b1368",
+          "title": "채용공고 관리_지원자 상세 검색",
+          "rows": 32,
+          "caseCount": 32,
+          "executedCases": 32
+        },
+        {
+          "id": "2ca73fbd-1951-8082-a343-e5cb4e225697",
+          "title": "채용공과 관리_지원자 상세 검색",
+          "rows": 32,
+          "caseCount": 32,
+          "executedCases": 32
+        },
+        {
+          "id": "2cb73fbd-1951-80cc-95dc-f92496eaa214",
+          "title": "상세검색_바텀1",
+          "rows": 22,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "2cb73fbd-1951-80a2-bb85-ea8bf253ff8e",
+          "title": "상세검색_바텀2",
+          "rows": 21,
+          "caseCount": 21,
+          "executedCases": 21
+        },
+        {
+          "id": "2cb73fbd-1951-8016-b6e5-c42ca5575d2f",
+          "title": "상세 검색_바텀2",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2cb73fbd-1951-80c7-9ada-f0ce90cab6fb",
+          "title": "상세 검색_바텀2",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2cc73fbd-1951-803b-965c-cfa8a114c65f",
+          "title": "이력서 상세",
+          "rows": 30,
+          "caseCount": 30,
+          "executedCases": 30
+        },
+        {
+          "id": "2cc73fbd-1951-80d0-be00-f07ee327ff13",
+          "title": "이력서 상세",
+          "rows": 29,
+          "caseCount": 29,
+          "executedCases": 29
+        },
+        {
+          "id": "2cc73fbd-1951-8092-8d9f-f5968b6edcc6",
+          "title": "채용 결과 등록",
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
+        },
+        {
+          "id": "2cc73fbd-1951-804e-99be-fc5cd870424c",
+          "title": "채용 결과 등록",
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
+        },
+        {
+          "id": "2cc73fbd-1951-80ec-a4aa-ecd203d3aeeb",
+          "title": "계약서 안내 팝업",
+          "rows": 27,
+          "caseCount": 27,
+          "executedCases": 27
+        },
+        {
+          "id": "2cc73fbd-1951-8073-ace5-d39660602cb9",
+          "title": "계약서 안내 팝업",
+          "rows": 25,
+          "caseCount": 25,
+          "executedCases": 25
+        },
+        {
+          "id": "2ce73fbd-1951-8010-b896-f50dc228b8a4",
+          "title": "채용결과 – 전자계약서 발송(상태/계약기간/계약관리 이동)",
+          "rows": 15,
+          "caseCount": 15,
+          "executedCases": 15
+        },
+        {
+          "id": "2ce73fbd-1951-801a-bb0c-c9f5fcb9c928",
+          "title": "채용결과 – 전자계약서 발송(상태/계약기간/계약관리 이동)",
+          "rows": 15,
+          "caseCount": 15,
+          "executedCases": 15
+        },
+        {
+          "id": "2d173fbd-1951-802f-960b-ce42a25ecea2",
+          "title": "채용 결과 등록_직접 계약 진행",
+          "rows": 14,
+          "caseCount": 14,
+          "executedCases": 14
+        },
+        {
+          "id": "2d173fbd-1951-8067-b7da-dac804d95b10",
+          "title": "채용 결과 등록_직접 계약 진행",
+          "rows": 14,
+          "caseCount": 14,
+          "executedCases": 14
+        },
+        {
+          "id": "2d173fbd-1951-8000-aa55-d9f6149b5070",
+          "title": "계약 관리 전체 Tab",
+          "rows": 7,
+          "caseCount": 7,
+          "executedCases": 7
+        },
+        {
+          "id": "2d173fbd-1951-805f-b56e-d4662c85e7f7",
+          "title": "계약 관리 전체 Tab",
+          "rows": 7,
+          "caseCount": 7,
+          "executedCases": 7
+        },
+        {
+          "id": "2d173fbd-1951-8021-924f-cb0fbdabba01",
+          "title": "서명 대기 / 완료 / 종료 Tab",
+          "rows": 6,
+          "caseCount": 6,
+          "executedCases": 6
+        },
+        {
+          "id": "2d173fbd-1951-8032-8515-cbd1f09a1540",
+          "title": "서명 대기 / 완료 / 종료 Tab",
+          "rows": 6,
+          "caseCount": 6,
+          "executedCases": 6
+        },
+        {
+          "id": "2d173fbd-1951-806a-b5d9-dc8858686103",
+          "title": "계약관리 전체",
+          "rows": 5,
+          "caseCount": 5,
+          "executedCases": 5
+        },
+        {
+          "id": "2d173fbd-1951-8098-abdc-d29bf7fb5640",
+          "title": "계약관리 전체",
+          "rows": 5,
+          "caseCount": 5,
+          "executedCases": 5
+        },
+        {
+          "id": "2d173fbd-1951-8086-b84e-e7d8f4f30e7d",
+          "title": "계약관리 Tab 바텀시트",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "2d173fbd-1951-803f-bb44-db3f5cc38170",
+          "title": "계약관리 Tab 바텀시트",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "2d173fbd-1951-8042-9f5f-eecb835a5e3c",
+          "title": "계약 관리 상세",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d173fbd-1951-804c-bfc9-f6a4a9eb8f31",
+          "title": "계약 관리 상세",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d173fbd-1951-801e-854e-fb2563e95334",
+          "title": "메모 등록하기 바텀시트",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "2d173fbd-1951-8089-80ea-f1e618c17496",
+          "title": "메모 등록하기 바텀시트",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "2d373fbd-1951-803b-80be-c15179ee90f4",
+          "title": "계약 관리 상세_서명 거부 케이스",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d373fbd-1951-802f-ba01-ff102ca61917",
+          "title": "계약 관리 상세_서명 거부 케이스",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d373fbd-1951-8027-be26-d4eb24cbb0dc",
+          "title": "지원자 APP PUSH / SMS",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d373fbd-1951-80a3-bf8b-f12b8d8681f3",
+          "title": "지원자 APP PUSH / SMS",
+          "rows": 39,
+          "caseCount": 39,
+          "executedCases": 39
+        },
+        {
+          "id": "2d373fbd-1951-804b-953a-fd1564c8ee3a",
+          "title": "기업 SMS",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        },
+        {
+          "id": "2d373fbd-1951-8016-a9e8-cc90a917d6c6",
+          "title": "기업 SMS",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        }
+      ],
+      "bugCount": 67,
+      "fixedCount": 66,
+      "openBugCount": 1,
+      "TPR": 1.0,
+      "BOR": 0.9524,
+      "BFR": 0.9851,
+      "DQS": 0.9688,
+      "HQI": 0.9779,
+      "score": 97.8,
       "severityCounts": {
-        "Minor": 63,
-        "Critical": 7,
-        "Major": 12
+        "Major": 26,
+        "Minor": 27,
+        "개선 의견": 3,
+        "Critical": 9,
+        "기획 문의": 2
       },
       "issues": [
         {
-          "id": "33773fbd-1951-8070-a244-c815ec149e20",
-          "title": "[회원가입][충전하기][공통] '연동계좌 충전하기' 화면 내 문구 기획서와 불일치 결함 ",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2e273fbd-1951-80b3-add5-c073d815fc7d",
+          "title": "[환율차등적용] 홈 화면 - 상단 넛지 선택 시 해외송금 화면으로 이동하지 않는 현상 ",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
+          "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/33773fbd19518070a244c815ec149e20"
+          "url": "https://www.notion.so/2e273fbd195180b3add5c073d815fc7d"
         },
         {
-          "id": "33773fbd-1951-8063-9bf3-ec462e9e9538",
-          "title": "[BO] '회원 조회' 화면 내 '방한 외국인 여부(Y/N)' 항목 UI 컴포넌트 오적용 결함 (토글 대신 텍스트 노출) ",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/BO-Y-N-UI-33773fbd195180639bf3ec462e9e9538"
-        },
-        {
-          "id": "33773fbd-1951-801a-b30c-d352fac6a650",
-          "title": "[회원가입][기명회원 전환][공통] '주소 직접 입력(카카오)' 화면 내 주소 검색 시 결과 리스트 최대 10건 제한 노출 결함",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/10-33773fbd1951801ab30cd352fac6a650"
-        },
-        {
-          "id": "33773fbd-1951-8051-83e9-d6d9c6ab3765",
-          "title": "[회원가입][충전하기][AOS] '충전 수단 안내' 화면 내 리스트 노출 항목 기획서와 불일치 결함 (iOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33773fbd1951805183e9d6d9c6ab3765"
-        },
-        {
-          "id": "33773fbd-1951-80ed-950f-e58b91201d3a",
-          "title": "[회원가입][충전하기][AOS] ‘연동계좌’, ‘편의점’, ‘ATM’, ‘휴대폰 결제’ 화면 내 키패드 활성화 시 하단 ‘충전하기’ 버튼 가림 결함(iOS정상)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-ATM-iOS-33773fbd195180ed950fe58b91201d3a"
-        },
-        {
-          "id": "33773fbd-1951-80a8-b416-cc6318824dfc",
-          "title": "[추가인증][기명회원전환] '방한 홈' 가입 계정으로 '한패스 앱' 내 추가 인증 시 휴대폰 번호 입력 후 무반응 결함",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://www.notion.so/33773fbd195180a8b416cc6318824dfc"
-        },
-        {
-          "id": "33773fbd-1951-808e-a1cb-f5fd8990cafb",
-          "title": "[추가인증][기명회원전환] '방한 홈' 가입자가 ‘방한 홈’ 전화번호로 ‘한패스 앱’ 추가 인증 시 '이미 가입된 번호' 팝업(Popup) 오노출 결함",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://www.notion.so/Popup-33773fbd1951808ea1cbf5fd8990cafb"
-        },
-        {
-          "id": "33773fbd-1951-80b4-81e8-e156497cb1ad",
-          "title": "[회원가입][충전하기][iOS] ‘QR 송금받기’ 화면 내 안내 문구 기획서와 상이하게 노출(AOS정상)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-QR-AOS-33773fbd195180b481e8e156497cb1ad"
-        },
-        {
-          "id": "33773fbd-1951-80ac-96bf-df79377e9fcb",
-          "title": "[회원가입][충전하기][iOS] '가상계좌' , '휴대폰 결제' 화면 내 문구 기획서와 불일치 결함 (AOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-AOS-33773fbd195180ac96bfdf79377e9fcb"
-        },
-        {
-          "id": "33773fbd-1951-8013-bf57-fb0459945955",
-          "title": "[회원가입][충전하기][iOS] '휴대폰 결제' 화면 진입 시 금액 추가 버튼(‘+10,000 / +50,000 / +100,000 / +500,000’) 미노출 결함 (AOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-10-000-50-000-100-000-500-000-AOS-33773fbd19518013bf57fb0459945955"
-        },
-        {
-          "id": "33773fbd-1951-80af-ac9f-fcf5353f3c22",
-          "title": "[회원가입][충전하기][iOS] '편의점, ATM 충전하기' 화면 내 수수료 표기 기획서와 불일치 결함(AOS정상)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-ATM-AOS-33773fbd195180afac9ffcf5353f3c22"
-        },
-        {
-          "id": "33773fbd-1951-8010-8184-dde637f13979",
-          "title": "[회원가입][충전하기][공통] '가상 계좌 입력하기' 화면 내 하단 안내 문구 기획서와 불일치 결함",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2e173fbd-1951-80f6-af65-ddc3dfe95224",
+          "title": "[구인구직] 기업페이지 - 채용공고 상세 기타내용 리사이즈 핸들 노출되는 현상 ",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33773fbd195180108184dde637f13979"
+          "url": "https://www.notion.so/2e173fbd195180f6af65ddc3dfe95224"
         },
         {
-          "id": "33673fbd-1951-8070-9bf2-c554cd72140f",
-          "title": "[회원가입][기명회원전환][AOS] '주소 사진 확인' 화면 내 버튼 문구 기획서와 불일치 결함 (iOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33673fbd195180709bf2c554cd72140f"
+          "id": "2e173fbd-1951-806a-b4e3-fca9d206d6fa",
+          "title": "[구인구직] 기업페이지 Favicon 미노출 됨",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "추후 수정 백로그 이관",
+          "severity": "개선 의견",
+          "priority": "낮음",
+          "url": "https://www.notion.so/Favicon-2e173fbd1951806ab4e3fca9d206d6fa"
         },
         {
-          "id": "33673fbd-1951-802f-a903-e5c12ec14ad1",
-          "title": "[택시] 메인페이지 - 한패스 월렛 충전 하기 선택 시 - ‘< 충전 수단’ 으로 노출됨",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/33673fbd1951802fa903e5c12ec14ad1"
+          "id": "2df73fbd-1951-800c-8c31-f0bfa5e14eb5",
+          "title": "🎨[구인구직] [기업회원] 에이전시 회원인 경우 계약서 발송 불가 처리",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Critical",
+          "priority": "높음",
+          "url": "https://www.notion.so/2df73fbd1951800c8c31f0bfa5e14eb5"
         },
         {
-          "id": "33673fbd-1951-8067-b517-d38bd302faaa",
-          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 안내 문구 기획서와 상이하게 노출 ",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2df73fbd-1951-80dd-81bc-d1ed4c9b10c1",
+          "title": "[구인구직][BO] 전자계약서 발송 - 서명자 (기업, 지원자) 연락처가 동일한 현상",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-33673fbd19518067b517d38bd302faaa"
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/BO-2df73fbd195180dd81bcd1ed4c9b10c1"
         },
         {
-          "id": "33673fbd-1951-80bc-b0f4-ff0bc86abc21",
-          "title": "[회원가입][기명회원전환][AOS] '직접 입력하기' 화면 내 상세주소 입력 후 '단독 주택' 체크박스 (Check)>(Uncheck) 시 기입력 데이터 미초기화 결함 (iOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2dd73fbd-1951-8020-9447-e300d5d51be4",
+          "title": "[구인구직][기업회원] 지원자 검색 시 like 검색 적용 필요",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-Check-Uncheck-iOS-33673fbd195180bcb0f4ff0bc86abc21"
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/like-2dd73fbd195180209447e300d5d51be4"
         },
         {
-          "id": "33673fbd-1951-80f2-922c-da2eb2ef1a2e",
-          "title": "[회원가입][기명회원전환][공통] '직접 입력하기' 화면 내 문구 기획서와 상이하게 노출",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2dd73fbd-1951-8048-b26f-c3802225bf05",
+          "title": "🎨[구인구직][기업회원] 계약만료일 표시 UI 추가",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
+          "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/33673fbd195180f2922cda2eb2ef1a2e"
+          "url": "https://www.notion.so/UI-2dd73fbd19518048b26fc3802225bf05"
         },
         {
-          "id": "33673fbd-1951-8061-9eda-e1c08ba86438",
-          "title": "[회원가입][기명회원전환][AOS] '주소 등록' 화면 내 '직접 입력하기' 선택 시 '직접 입력(카카오)' 화면 오진입 결함 (iOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33673fbd195180619edae1c08ba86438"
+          "id": "2dd73fbd-1951-802c-95df-ff49b0ffd145",
+          "title": "🎨[구인구직][기업회원] 계약만기일 연장 시 누적 카운트 안되는 현상",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "높음",
+          "url": "https://www.notion.so/2dd73fbd1951802c95dfff49b0ffd145"
         },
         {
-          "id": "33673fbd-1951-80ad-8ed9-f6fe7abe30bf",
-          "title": "[회원가입][기명회원전환][공통] ‘주소등록’ 화면 내 버튼 문구 기획서와 상이하게 노출",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2dd73fbd-1951-805a-9995-f75d4c128891",
+          "title": "🎨[구인구직][기업회원] 계약관리상세 화면에서 [계약서보기] 버튼 미노출 현상 ",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/33673fbd195180ad8ed9f6fe7abe30bf"
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/2dd73fbd1951805a9995f75d4c128891"
         },
         {
-          "id": "33673fbd-1951-80d8-982f-c6c3dcf864d6",
-          "title": "[회원가입][기명회원전환][AOS] '고객확인정보 등록' 화면 내 플레이스홀더(Placeholder) 문구 기획서와 불일치 (iOS 미발생)",
-          "target": "5.20.0",
-          "key": "5200",
+          "id": "2dc73fbd-1951-8094-851e-e8360861748e",
+          "title": "🎨[구인구직] 지원내역 관리tab, 지원내역상세 번역 미적용 현상",
+          "target": "5.17.0",
+          "key": "5170",
           "status": "완료 (Done)",
-          "severity": "Minor",
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/tab-2dc73fbd19518094851ee8360861748e"
+        },
+        {
+          "id": "2dc73fbd-1951-802a-9246-f6a9fb475d91",
+          "title": "🎨[구인구직] [기업] 서명 요청 취소 시 불합격 처리 → 서류 합격",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "추후 수정 백로그 이관",
+          "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
+          "url": "https://www.notion.so/2dc73fbd1951802a9246f6a9fb475d91"
+        },
+        {
+          "id": "2dc73fbd-1951-80ff-8449-f39b1f135f80",
+          "title": "🎨[구인구직] 계약서 발송에 따른 push 미발송",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "완료",
+          "url": "https://www.notion.so/push-2dc73fbd195180ff8449f39b1f135f80"
+        },
+        {
+          "id": "2dc73fbd-1951-80c4-b77f-ff24bc9d4690",
+          "title": "🎨[구인구직] 수동 계약완료에 따른 push 미발송",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/push-2dc73fbd195180c4b77fff24bc9d4690"
+        },
+        {
+          "id": "2dc73fbd-1951-80e9-a6f8-c952d3db473e",
+          "title": "[구인구직][기업회원] 계약서 발송 시 지원자 연락처 정보 오표기 현상",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "긴급",
+          "url": "https://www.notion.so/2dc73fbd195180e9a6f8c952d3db473e"
+        },
+        {
+          "id": "2dc73fbd-1951-802f-9661-c5dcfb9e0efb",
+          "title": "[구인구직] 지원내역상세 화면 → 지원취소 버튼 미노출",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "긴급",
+          "url": "https://www.notion.so/2dc73fbd1951802f9661c5dcfb9e0efb"
+        },
+        {
+          "id": "2dc73fbd-1951-80af-be0b-c5bbacebab71",
+          "title": "[구인구직][기업] 계약 관리 상세에서 만료기간 연장 시 500 INTERNAL_SERVER_ERROR 발생",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/500-INTERNAL_SERVER_ERROR-2dc73fbd195180afbe0bc5bbacebab71"
+        },
+        {
+          "id": "2dc73fbd-1951-8076-b842-db3d528de1bb",
+          "title": "[구인구직] 계약 완료 탭 내 데이터 존재하나 상단 카운트가 0으로 표출됨",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/0-2dc73fbd19518076b842db3d528de1bb"
+        },
+        {
+          "id": "2dc73fbd-1951-806d-bd36-ce3af68c7469",
+          "title": "🎨[구인구직] 이력서 열람 알림 push 발송 → 최초 1회에 한정",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "긴급",
+          "url": "https://www.notion.so/push-1-2dc73fbd1951806dbd36ce3af68c7469"
+        },
+        {
+          "id": "2dc73fbd-1951-8027-9098-f793e1f70d65",
+          "title": "🎨[구인구직]지원내역 상세 → 새로운 일자리 추천해 드릴게요!",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "높음",
+          "url": "https://www.notion.so/2dc73fbd195180279098f793e1f70d65"
+        },
+        {
+          "id": "2dc73fbd-1951-80a4-bbba-c4816c94d036",
+          "title": "[구인구직] 기업 회원 로그인 불가 현상",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-18T04:44:35.031795+00:00"
+      "calculatedAt": "2026-05-19T05:17:51.220181+00:00"
     },
     {
-      "id": "33673fbd-1951-804e-9ae7-fc659890082c",
+      "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
       "category": "정기 업데이트",
-      "name": "5.21.0 테스트 케이스",
-      "project": "5.21.0",
-      "key": "5210",
+      "name": "신규카드 - 교통카드충전 TC",
+      "project": "신규카드 - 교통카드충전 TC",
+      "key": "신규카드교통카드충전tc",
       "progress": 1.0,
-      "status": "진행 중",
-      "date": "2026-04-28",
-      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
-      "lastEditedTime": "2026-05-18T02:24:00.000Z",
-      "testCaseBase": 1300,
-      "executedCases": 1300,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/TC-2a073fbd1951807b9f31cf70707cf43d",
+      "lastEditedTime": "2026-02-25T01:35:00.000Z",
+      "testCaseBase": 412,
+      "executedCases": 412,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
-          "id": "34873fbd-1951-8049-955d-d9fd48fda28f",
-          "title": "5.21.0 Test Case ",
-          "rows": 11,
-          "caseCount": 1300,
-          "executedCases": 1300
+          "id": "2a073fbd-1951-8002-bb65-de9353bfcedf",
+          "title": "테스트 케이스 요약",
+          "rows": 22,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "2a073fbd-1951-80df-9fa3-e2ddf2f27e19",
+          "title": "[Home_003] Home",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "2a073fbd-1951-8086-9ff7-c610f0b1512e",
+          "title": "[Card_048, Card_008] 카드 관리 보유 카드 노출\n",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        },
+        {
+          "id": "2a073fbd-1951-80a7-9a44-d051735eceac",
+          "title": "\n[Card_003] 교통카드 관리 – 보유 카드 노출 화면 \n",
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
+        },
+        {
+          "id": "2a073fbd-1951-80f1-b7ee-dbcb8787bce1",
+          "title": "\n[Card_003] 카드 목록 카드 전체 목록\n",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        },
+        {
+          "id": "2a073fbd-1951-80dd-ad31-cc47ff30d34c",
+          "title": "[Card_008] 카드 상세 \n",
+          "rows": 22,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "2a073fbd-1951-80aa-b487-df60c1e4e099",
+          "title": "\n[Card_008] 카드 상세 추가\n",
+          "rows": 23,
+          "caseCount": 23,
+          "executedCases": 23
+        },
+        {
+          "id": "2a073fbd-1951-80e2-83c4-fd94075cfc77",
+          "title": "[Card_010] 월렛 잔액 부족",
+          "rows": 14,
+          "caseCount": 14,
+          "executedCases": 14
+        },
+        {
+          "id": "2a073fbd-1951-8068-bc5c-e1ad7c983281",
+          "title": "[Card_009] 카드 디자인 선택 \n",
+          "rows": 21,
+          "caseCount": 21,
+          "executedCases": 21
+        },
+        {
+          "id": "2a073fbd-1951-80be-960d-ec83b6f491dd",
+          "title": "[Card_011] 이용약관동의",
+          "rows": 21,
+          "caseCount": 21,
+          "executedCases": 21
+        },
+        {
+          "id": "2a073fbd-1951-80d4-9fbf-ec9a03b60d54",
+          "title": "[Card_015] 사용자 정보 입력",
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
+        },
+        {
+          "id": "2a073fbd-1951-8083-b7e8-d7d9caea624d",
+          "title": "[Card_016] 해외 원화결제 차단 선택",
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
+        },
+        {
+          "id": "2a073fbd-1951-8073-9fe4-cdb034d487a9",
+          "title": "[Card_017] 카드 수령방법 선택",
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
+        },
+        {
+          "id": "2a073fbd-1951-80a1-a8c7-d0ff072f85a5",
+          "title": "[Card_018 / Card_019] 카드 수령방법 선택_수령지 입력",
+          "rows": 20,
+          "caseCount": 20,
+          "executedCases": 20
+        },
+        {
+          "id": "2a073fbd-1951-80cc-bcb4-f841ffe58327",
+          "title": "[Card_033] 정보 확인 팝업",
+          "rows": 14,
+          "caseCount": 14,
+          "executedCases": 14
+        },
+        {
+          "id": "2a073fbd-1951-802b-897f-cba8343d97b4",
+          "title": "[Card_034] 추천인 코드 입력",
+          "rows": 15,
+          "caseCount": 15,
+          "executedCases": 15
+        },
+        {
+          "id": "2a073fbd-1951-80d6-bd46-e748e1f93e79",
+          "title": "[Card_035, Card_049, Card_036] 카드 비밀번호 설정 ",
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
+        },
+        {
+          "id": "2a073fbd-1951-804a-9df2-e25089fa0681",
+          "title": "[Card_037] 교통카드 최초 충전금 결제",
+          "rows": 18,
+          "caseCount": 18,
+          "executedCases": 18
+        },
+        {
+          "id": "2a073fbd-1951-8050-9f62-ef78884571e7",
+          "title": "[공통] 공통 PIN 번호 입력",
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
+        },
+        {
+          "id": "2a073fbd-1951-8037-8769-fb062e386023",
+          "title": "[Card_038] 신청 완료",
+          "rows": 13,
+          "caseCount": 13,
+          "executedCases": 13
+        },
+        {
+          "id": "2a073fbd-1951-80c8-93e6-dd8edffe0806",
+          "title": "[Card_051] 신청 완료_최초 충전금 입금 필요",
+          "rows": 13,
+          "caseCount": 13,
+          "executedCases": 13
+        },
+        {
+          "id": "2a073fbd-1951-8036-864d-d2d1cde40518",
+          "title": "[AddMoney_001] 충전하기 Tab",
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
+        },
+        {
+          "id": "2a073fbd-1951-800b-9f7b-cb27c490ab4c",
+          "title": "Flow 테스트",
+          "rows": 24,
+          "caseCount": 24,
+          "executedCases": 24
+        },
+        {
+          "id": "2a073fbd-1951-80d5-85c4-dfe38e189100",
+          "title": "제/개정 이력",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
         }
       ],
-      "bugCount": 108,
-      "fixedCount": 32,
-      "openBugCount": 76,
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
       "TPR": 1.0,
-      "BOR": 0.9169,
-      "BFR": 0.2963,
-      "DQS": 0.6066,
-      "HQI": 0.7218,
-      "score": 72.2,
-      "severityCounts": {
-        "Minor": 67,
-        "Major": 30,
-        "개선 의견": 2,
-        "Critical": 9
-      },
-      "issues": [
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-19T05:19:16.690078+00:00"
+    },
+    {
+      "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
+      "category": "정기 업데이트",
+      "name": "한패스 KHQR 해외송금 프로세스 TC",
+      "project": "한패스 KHQR 해외송금 프로세스 TC",
+      "key": "한패스khqr해외송금프로세스tc",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-01-28",
+      "url": "https://www.notion.so/KHQR-TC-2ee73fbd1951802a9b1ecc35d83dce4d",
+      "lastEditedTime": "2026-02-25T01:36:00.000Z",
+      "testCaseBase": 5,
+      "executedCases": 5,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
         {
-          "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
-          "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
+          "id": "2f673fbd-1951-8019-b864-d76edcc278a9",
+          "title": "KHQR 해외송금 보내기",
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0
         },
         {
-          "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
-          "title": "[게이미피케이션] ‘포인트 획득 팝업’ 배경(딤 처리) 영역 클릭 시 시트 안 닫히는 현상 ",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
-        },
-        {
-          "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
-          "title": "[게이미피케이션] [AOS] 만보기 최초 진입 헬스커넥트 미허용 시 노출되는 팝업 기획서와 상이한 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
-        },
-        {
-          "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
-          "title": "[게이미피케이션] [iOS] 본인인증’ 화면 내 추가 인증 CTA 버튼 클릭 시 추가 인증 Flow 시작 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
-        },
-        {
-          "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
-          "title": "[게이미피케이션] 특정단말에서 만보기 현재 걸음 수 실시간으로 업데이트 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
-        },
-        {
-          "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
-          "title": "[게이미피케이션] [공통] 앱 흔들고 - 앱 흔들기 안내 선택 시 ‘혜택’ 메인 페이지로 이동하는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
-        },
-        {
-          "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
-          "title": "[게이미피케이션][공통] ‘회원가입/본인인증’ 화면 내 아이콘 이미지가 저화질로 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "개선 의견",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
-        },
-        {
-          "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
-          "title": "[게이미피케이션][공통] 앱 흔들기 완료 페이지에서 툴팁 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "기획서 수정",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
-        },
-        {
-          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
-          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
-        },
-        {
-          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
-          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180ba8952cd8be8c0a3a5"
-        },
-        {
-          "id": "35a73fbd-1951-8082-a4cb-fc5dd9c0e912",
-          "title": "[게이미피케이션][공통] 앱 흔들기 최초 진행 시 완료 화면 내 획득 포인트가 ‘0P’로 잘못 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/0P-35a73fbd19518082a4cbfc5dd9c0e912"
-        },
-        {
-          "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
-          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상\n",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/00-00-35a73fbd195180289930dc9fc600370f"
-        },
-        {
-          "id": "35a73fbd-1951-804c-92f5-d5833072f7b4",
-          "title": " [게이미피케이션][공통] 만보기 페이지 > ‘해외 송금하고’, ‘카드 첫 결제하고’ 메뉴 진입 시 다국어 미적용 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd1951804c92f5d5833072f7b4"
-        },
-        {
-          "id": "35a73fbd-1951-80e8-88f9-f9e0ec2e4479",
-          "title": "[게이미피케이션][공통] 로그인 상태에서 만보기 페이지 내 타 게임 진입 시 로그인 유도 팝업 노출 및 진입 불가 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180e888f9f9e0ec2e4479"
-        },
-        {
-          "id": "35a73fbd-1951-805f-a81a-d55ea95d0495",
-          "title": "[게이미피케이션][공통] 만보기 안내 바텀시트(BS) 내 ‘포인트 지급’ 문구 기획서와 불일치 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
-        },
-        {
-          "id": "35a73fbd-1951-804e-a3cd-df361cf3589d",
-          "title": "[게이미피케이션][럭키볼][공통] 특정 해상도 단말에서 ‘럭키볼 뽑기’ 화면 하단 CTA 버튼 잘림(UI 깨짐) 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/CTA-UI-35a73fbd1951804ea3cddf361cf3589d"
-        },
-        {
-          "id": "35a73fbd-1951-804c-880d-cfc39f0c8c11",
-          "title": "[게이미피케이션][공통] ‘앱 흔들기’ 최초 진입 시 최초 안내 및 권한 요청 팝업 미노출 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "처리중 (In Progress)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd1951804c880dcfc39f0c8c11"
-        },
-        {
-          "id": "35a73fbd-1951-80f5-9a2f-e1b36c84ace4",
-          "title": "[게이미피케이션][공통] ‘룰렛 돌리기 안내’ 바텀시트(BS) 내 ‘일일 제한’ 문구 기획서와 불일치 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/BS-35a73fbd195180f59a2fe1b36c84ace4"
-        },
-        {
-          "id": "35a73fbd-1951-80c4-a0d6-f251ca6ea2b8",
-          "title": "[게이미피케이션][공통] 포인트 획득 팝업에서 푸시 ON 전환 후 타 게임 진행 시 알림 유도 팝업 중복 노출 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "개발 완료 (Dev Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/ON-35a73fbd195180c4a0d6f251ca6ea2b8"
-        },
-        {
-          "id": "35a73fbd-1951-807a-be60-f791c43b2bd1",
-          "title": "[게이미피케이션][공통] 앱 푸시 수신 ON 상태에서 포인트 획득 시 알림 유도 팝업이 비정상 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/ON-35a73fbd1951807abe60f791c43b2bd1"
+          "id": "2f673fbd-1951-80ad-8378-e1190ebdb759",
+          "title": "KHQR 결제 TC",
+          "rows": 5,
+          "caseCount": 5,
+          "executedCases": 5
         }
       ],
-      "calculatedAt": "2026-05-18T04:44:28.493566+00:00"
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-19T05:15:42.578970+00:00"
+    },
+    {
+      "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
+      "category": "정기 업데이트",
+      "name": "[APP] 무기명 회원가입 TestCase",
+      "project": "[APP] 무기명 회원가입",
+      "key": "app무기명회원가입",
+      "progress": 1.0,
+      "status": "진행 중",
+      "date": "",
+      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
+      "lastEditedTime": "2026-03-23T08:38:00.000Z",
+      "testCaseBase": 532,
+      "executedCases": 532,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "31b73fbd-1951-8072-8090-c798e0699676",
+          "title": "회원가입 (무기명)",
+          "rows": 19,
+          "caseCount": 183,
+          "executedCases": 183
+        },
+        {
+          "id": "32073fbd-1951-80c1-b714-ca371e60b758",
+          "title": "신분증 인증 (기명회원 전환)",
+          "rows": 12,
+          "caseCount": 127,
+          "executedCases": 127
+        },
+        {
+          "id": "32073fbd-1951-808d-8d34-c736a83cd730",
+          "title": "카드",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32073fbd-1951-8095-bfa3-d0f44a90b7d2",
+          "title": "홈/Login/공통",
+          "rows": 6,
+          "caseCount": 70,
+          "executedCases": 70
+        },
+        {
+          "id": "32173fbd-1951-80a8-8f4d-d2a2a7f01c0e",
+          "title": "마이페이지",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32173fbd-1951-8006-94b8-d877e276f577",
+          "title": "충전하기",
+          "rows": 8,
+          "caseCount": 96,
+          "executedCases": 96
+        },
+        {
+          "id": "32173fbd-1951-801b-afa1-c3303055eb35",
+          "title": "BO",
+          "rows": 1,
+          "caseCount": 12,
+          "executedCases": 12
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-19T05:15:19.208492+00:00"
     }
   ],
   "regularTrend": [
@@ -1040,12 +2612,21 @@
     },
     {
       "project": "5.21.0",
-      "score": 72.2,
+      "score": 70.3,
       "TPR": 1.0,
-      "DQS": 0.6066,
-      "bugCount": 108,
+      "DQS": 0.5804,
+      "bugCount": 110,
       "testCaseBase": 1300,
       "executedCases": 1300
     }
-  ]
+  ],
+  "summary": {
+    "projectCount": 12,
+    "issueCount": 399,
+    "testCaseCount": 5165,
+    "executedCaseCount": 4982,
+    "averageScore": 85.7,
+    "lowestScore": 63.6,
+    "highestScore": 100.0
+  }
 }
