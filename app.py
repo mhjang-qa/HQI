@@ -39,6 +39,13 @@ DONE_STATUS_KEYWORDS = (
     "추후 수정",
     "백로그 이관",
 )
+OPEN_COUNT_EXCLUDED_STATUS_KEYWORDS = (
+    "qa검증-회귀",
+    "추적관찰-백로그",
+    "추적관찰-백로그이관",
+    "추척관찰-백로그",
+    "추척관찰-백로그이관",
+)
 HIDDEN_PROJECT_STATUSES = ("시작 전",)
 
 
@@ -274,6 +281,15 @@ def is_done_status(status):
     return any(keyword.lower() in text for keyword in DONE_STATUS_KEYWORDS)
 
 
+def normalize_status_key(status):
+    return re.sub(r"\s+", "", (status or "").strip().lower())
+
+
+def is_excluded_open_count_status(status):
+    text = normalize_status_key(status)
+    return any(keyword in text for keyword in OPEN_COUNT_EXCLUDED_STATUS_KEYWORDS)
+
+
 def is_hidden_project_status(status):
     text = re.sub(r"\s+", " ", status or "").strip().lower()
     return any(text == hidden.lower() for hidden in HIDDEN_PROJECT_STATUSES)
@@ -431,6 +447,11 @@ def calculate_project_hqi(project, issues):
     related = [issue for issue in issues if issue_matches_project(issue["key"], project["key"])]
     bug_count = len(related)
     fixed_count = sum(1 for issue in related if is_done_status(issue["status"]))
+    open_bug_count = sum(
+        1
+        for issue in related
+        if not is_done_status(issue["status"]) and not is_excluded_open_count_status(issue["status"])
+    )
     total_cases = tc_metrics["testCaseBase"]
     executed_cases = tc_metrics["executedCases"]
     denominator = max(1, executed_cases)
@@ -452,7 +473,7 @@ def calculate_project_hqi(project, issues):
         "tcDatabases": tc_metrics["tcDatabases"],
         "bugCount": bug_count,
         "fixedCount": fixed_count,
-        "openBugCount": bug_count - fixed_count,
+        "openBugCount": open_bug_count,
         "TPR": round(tpr, 4),
         "BOR": round(bor, 4),
         "BFR": round(bfr, 4),
