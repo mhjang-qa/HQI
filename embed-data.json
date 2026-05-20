@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T23:45:30.588434+00:00",
+  "generatedAt": "2026-05-20T07:56:39.731727+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-19T23:45:04.399477+00:00"
+      "calculatedAt": "2026-05-20T07:56:15.369737+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-19T23:43:20.611334+00:00"
+      "calculatedAt": "2026-05-20T07:54:33.399531+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -546,14 +546,14 @@
         }
       ],
       "bugCount": 113,
-      "fixedCount": 27,
-      "openBugCount": 8,
+      "fixedCount": 25,
+      "openBugCount": 9,
       "TPR": 1.0,
       "BOR": 0.9131,
-      "BFR": 0.2389,
-      "DQS": 0.576,
-      "HQI": 0.7002,
-      "score": 70.0,
+      "BFR": 0.2212,
+      "DQS": 0.5672,
+      "HQI": 0.6939,
+      "score": 69.4,
       "severityCounts": {
         "Minor": 69,
         "Major": 33,
@@ -616,7 +616,7 @@
           "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
           "target": "5.21.0",
           "key": "5210",
-          "status": "개발 완료 (Dev Done)",
+          "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
@@ -723,7 +723,7 @@
         },
         {
           "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
-          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상\n",
+          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상",
           "target": "5.21.0",
           "key": "5210",
           "status": "QA 검증 -회귀 (QA Verification)",
@@ -762,7 +762,7 @@
           "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
         }
       ],
-      "calculatedAt": "2026-05-19T23:42:47.009635+00:00"
+      "calculatedAt": "2026-05-20T07:53:49.375260+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1011,7 +1011,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-19T23:43:12.114939+00:00"
+      "calculatedAt": "2026-05-20T07:54:22.211018+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1252,7 +1252,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-19T23:42:51.343328+00:00"
+      "calculatedAt": "2026-05-20T07:53:54.879109+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1513,7 +1513,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-19T23:43:09.069636+00:00"
+      "calculatedAt": "2026-05-20T07:54:18.721733+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -1541,7 +1541,7 @@
       "score": 92.9,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T23:43:01.925070+00:00"
+      "calculatedAt": "2026-05-20T07:54:10.948502+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1577,7 +1577,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T23:45:30.582095+00:00"
+      "calculatedAt": "2026-05-20T07:56:39.726177+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2261,7 +2261,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-19T23:45:01.253865+00:00"
+      "calculatedAt": "2026-05-20T07:56:12.026032+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2458,7 +2458,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T23:45:25.287954+00:00"
+      "calculatedAt": "2026-05-20T07:56:35.763871+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2501,7 +2501,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T23:43:15.982907+00:00"
+      "calculatedAt": "2026-05-20T07:54:27.033461+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2579,7 +2579,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-19T23:42:55.337799+00:00"
+      "calculatedAt": "2026-05-20T07:53:58.766194+00:00"
     }
   ],
   "regularTrend": [
@@ -2612,9 +2612,9 @@
     },
     {
       "project": "5.21.0",
-      "score": 70.0,
+      "score": 69.4,
       "TPR": 1.0,
-      "DQS": 0.576,
+      "DQS": 0.5672,
       "bugCount": 113,
       "testCaseBase": 1300,
       "executedCases": 1300
