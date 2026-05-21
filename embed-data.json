@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T23:46:44.915791+00:00",
+  "generatedAt": "2026-05-21T00:33:33.922455+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-20T07:56:15.369737+00:00"
+      "calculatedAt": "2026-05-21T00:33:06.237272+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,249 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-20T07:54:33.399531+00:00"
-    },
-    {
-      "id": "33673fbd-1951-804e-9ae7-fc659890082c",
-      "category": "정기 업데이트",
-      "name": "5.21.0 테스트 케이스",
-      "project": "5.21.0",
-      "key": "5210",
-      "progress": 1.0,
-      "status": "진행 중",
-      "date": "2026-04-28",
-      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
-      "lastEditedTime": "2026-05-18T02:24:00.000Z",
-      "testCaseBase": 1300,
-      "executedCases": 1300,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "34873fbd-1951-8049-955d-d9fd48fda28f",
-          "title": "5.21.0 Test Case ",
-          "rows": 11,
-          "caseCount": 1300,
-          "executedCases": 1300
-        }
-      ],
-      "bugCount": 113,
-      "fixedCount": 25,
-      "openBugCount": 9,
-      "TPR": 1.0,
-      "BOR": 0.9131,
-      "BFR": 0.2212,
-      "DQS": 0.5672,
-      "HQI": 0.6939,
-      "score": 69.4,
-      "severityCounts": {
-        "Minor": 69,
-        "Major": 33,
-        "개선 의견": 2,
-        "Critical": 9
-      },
-      "issues": [
-        {
-          "id": "36573fbd-1951-8004-8996-dbc893a6d119",
-          "title": "[게이미피케이션][혜택][공통] ‘만 보 걷고’ 포인트 기획서와 상이",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/36573fbd195180048996dbc893a6d119"
-        },
-        {
-          "id": "36573fbd-1951-8000-ae7e-c285c49c7f14",
-          "title": "[게이미피케이션][만보기] 미수령 포인트 안내 팝업 내 버튼 문구 불일치",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/36573fbd19518000ae7ec285c49c7f14"
-        },
-        {
-          "id": "36573fbd-1951-8006-90c3-cd1cd688beaf",
-          "title": "[게이미피케이션][만보기][iOS] ‘동작 및 피트니스’ 권한 거부 후 재 진입 시 ‘권한 허용 브릿지’ 팝업 미노출",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-36573fbd1951800690c3cd1cd688beaf"
-        },
-        {
-          "id": "36573fbd-1951-80aa-bcd1-d6bfbd256030",
-          "title": "[게이미피케이션][만보기]→미션 리스트 진입 시 뒤로 가기 두번 선택해야 이전 페이지(혜택 홈)로 이동하는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/36573fbd195180aabcd1d6bfbd256030"
-        },
-        {
-          "id": "36473fbd-1951-80d6-aae4-c33f12f97ccd",
-          "title": "[게이미피케이션][AOS] 앱 흔들기 완료 후 ‘40001 에러’ 팝업 노출 되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-40001-36473fbd195180d6aae4c33f12f97ccd"
-        },
-        {
-          "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
-          "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
-        },
-        {
-          "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
-          "title": "[게이미피케이션] ‘포인트 획득 팝업’ 배경(딤 처리) 영역 클릭 시 시트 안 닫히는 현상 ",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
-        },
-        {
-          "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
-          "title": "[게이미피케이션] [AOS] 만보기 최초 진입 헬스커넥트 미허용 시 노출되는 팝업 기획서와 상이한 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
-        },
-        {
-          "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
-          "title": "[게이미피케이션] [iOS] 본인인증’ 화면 내 추가 인증 CTA 버튼 클릭 시 추가 인증 Flow 시작 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
-        },
-        {
-          "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
-          "title": "[게이미피케이션] 특정단말에서 만보기 현재 걸음 수 실시간으로 업데이트 안되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
-        },
-        {
-          "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
-          "title": "[게이미피케이션] [공통] 앱 흔들고 - 앱 흔들기 안내 선택 시 ‘혜택’ 메인 페이지로 이동하는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
-        },
-        {
-          "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
-          "title": "[게이미피케이션][공통] ‘회원가입/본인인증’ 화면 내 아이콘 이미지가 저화질로 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "개선 의견",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
-        },
-        {
-          "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
-          "title": "[게이미피케이션][공통] 앱 흔들기 완료 페이지에서 툴팁 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "기획서 수정",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
-        },
-        {
-          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
-          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
-        },
-        {
-          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
-          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "완료 (Done)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180ba8952cd8be8c0a3a5"
-        },
-        {
-          "id": "35a73fbd-1951-8082-a4cb-fc5dd9c0e912",
-          "title": "[게이미피케이션][공통] 앱 흔들기 최초 진행 시 완료 화면 내 획득 포인트가 ‘0P’로 잘못 노출되는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/0P-35a73fbd19518082a4cbfc5dd9c0e912"
-        },
-        {
-          "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
-          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/00-00-35a73fbd195180289930dc9fc600370f"
-        },
-        {
-          "id": "35a73fbd-1951-804c-92f5-d5833072f7b4",
-          "title": " [게이미피케이션][공통] 만보기 페이지 > ‘해외 송금하고’, ‘카드 첫 결제하고’ 메뉴 진입 시 다국어 미적용 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd1951804c92f5d5833072f7b4"
-        },
-        {
-          "id": "35a73fbd-1951-80e8-88f9-f9e0ec2e4479",
-          "title": "[게이미피케이션][공통] 로그인 상태에서 만보기 페이지 내 타 게임 진입 시 로그인 유도 팝업 노출 및 진입 불가 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180e888f9f9e0ec2e4479"
-        },
-        {
-          "id": "35a73fbd-1951-805f-a81a-d55ea95d0495",
-          "title": "[게이미피케이션][공통] 만보기 안내 바텀시트(BS) 내 ‘포인트 지급’ 문구 기획서와 불일치 현상",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
-        }
-      ],
-      "calculatedAt": "2026-05-20T07:53:49.375260+00:00"
+      "calculatedAt": "2026-05-21T00:31:16.551379+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1011,7 +769,249 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-20T07:54:22.211018+00:00"
+      "calculatedAt": "2026-05-21T00:31:10.781464+00:00"
+    },
+    {
+      "id": "33673fbd-1951-804e-9ae7-fc659890082c",
+      "category": "정기 업데이트",
+      "name": "5.21.0 테스트 케이스",
+      "project": "5.21.0",
+      "key": "5210",
+      "progress": 1.0,
+      "status": "진행 중",
+      "date": "2026-04-28",
+      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
+      "lastEditedTime": "2026-05-18T02:24:00.000Z",
+      "testCaseBase": 1300,
+      "executedCases": 1300,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "34873fbd-1951-8049-955d-d9fd48fda28f",
+          "title": "5.21.0 Test Case ",
+          "rows": 11,
+          "caseCount": 1300,
+          "executedCases": 1300
+        }
+      ],
+      "bugCount": 113,
+      "fixedCount": 28,
+      "openBugCount": 9,
+      "TPR": 1.0,
+      "BOR": 0.9131,
+      "BFR": 0.2478,
+      "DQS": 0.5804,
+      "HQI": 0.7033,
+      "score": 70.3,
+      "severityCounts": {
+        "Minor": 69,
+        "Major": 33,
+        "개선 의견": 2,
+        "Critical": 9
+      },
+      "issues": [
+        {
+          "id": "36573fbd-1951-8004-8996-dbc893a6d119",
+          "title": "[게이미피케이션][혜택][공통] ‘만 보 걷고’ 포인트 기획서와 상이",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/36573fbd195180048996dbc893a6d119"
+        },
+        {
+          "id": "36573fbd-1951-8000-ae7e-c285c49c7f14",
+          "title": "[게이미피케이션][만보기] 미수령 포인트 안내 팝업 내 버튼 문구 불일치",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/36573fbd19518000ae7ec285c49c7f14"
+        },
+        {
+          "id": "36573fbd-1951-8006-90c3-cd1cd688beaf",
+          "title": "[게이미피케이션][만보기][iOS] ‘동작 및 피트니스’ 권한 거부 후 재 진입 시 ‘권한 허용 브릿지’ 팝업 미노출",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-36573fbd1951800690c3cd1cd688beaf"
+        },
+        {
+          "id": "36573fbd-1951-80aa-bcd1-d6bfbd256030",
+          "title": "[게이미피케이션][만보기]→미션 리스트 진입 시 뒤로 가기 두번 선택해야 이전 페이지(혜택 홈)로 이동하는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/36573fbd195180aabcd1d6bfbd256030"
+        },
+        {
+          "id": "36473fbd-1951-80d6-aae4-c33f12f97ccd",
+          "title": "[게이미피케이션][AOS] 앱 흔들기 완료 후 ‘40001 에러’ 팝업 노출 되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-40001-36473fbd195180d6aae4c33f12f97ccd"
+        },
+        {
+          "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
+          "title": "[게이미피케이션] 앱 흔들기 완료 시 포인트 획득 팝업 노출 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
+        },
+        {
+          "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
+          "title": "[게이미피케이션] ‘포인트 획득 팝업’ 배경(딤 처리) 영역 클릭 시 시트 안 닫히는 현상 ",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
+        },
+        {
+          "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
+          "title": "[게이미피케이션] [AOS] 만보기 최초 진입 헬스커넥트 미허용 시 노출되는 팝업 기획서와 상이한 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
+        },
+        {
+          "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
+          "title": "[게이미피케이션] [iOS] 본인인증’ 화면 내 추가 인증 CTA 버튼 클릭 시 추가 인증 Flow 시작 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
+        },
+        {
+          "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
+          "title": "[게이미피케이션] 특정단말에서 만보기 현재 걸음 수 실시간으로 업데이트 안되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
+        },
+        {
+          "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
+          "title": "[게이미피케이션] [공통] 앱 흔들고 - 앱 흔들기 안내 선택 시 ‘혜택’ 메인 페이지로 이동하는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
+        },
+        {
+          "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
+          "title": "[게이미피케이션][공통] ‘회원가입/본인인증’ 화면 내 아이콘 이미지가 저화질로 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "개선 의견",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
+        },
+        {
+          "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
+          "title": "[게이미피케이션][공통] 앱 흔들기 완료 페이지에서 툴팁 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "기획서 수정",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
+        },
+        {
+          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
+          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
+        },
+        {
+          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
+          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180ba8952cd8be8c0a3a5"
+        },
+        {
+          "id": "35a73fbd-1951-8082-a4cb-fc5dd9c0e912",
+          "title": "[게이미피케이션][공통] 앱 흔들기 최초 진행 시 완료 화면 내 획득 포인트가 ‘0P’로 잘못 노출되는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/0P-35a73fbd19518082a4cbfc5dd9c0e912"
+        },
+        {
+          "id": "35a73fbd-1951-8028-9930-dc9fc600370f",
+          "title": "\n[게이미피케이션][공통] 룰렛/럭키볼 참여 후 카운트다운 타이머가 자정(00:00) 기준으로 표시되지 않는 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/00-00-35a73fbd195180289930dc9fc600370f"
+        },
+        {
+          "id": "35a73fbd-1951-804c-92f5-d5833072f7b4",
+          "title": " [게이미피케이션][공통] 만보기 페이지 > ‘해외 송금하고’, ‘카드 첫 결제하고’ 메뉴 진입 시 다국어 미적용 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd1951804c92f5d5833072f7b4"
+        },
+        {
+          "id": "35a73fbd-1951-80e8-88f9-f9e0ec2e4479",
+          "title": "[게이미피케이션][공통] 로그인 상태에서 만보기 페이지 내 타 게임 진입 시 로그인 유도 팝업 노출 및 진입 불가 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://www.notion.so/35a73fbd195180e888f9f9e0ec2e4479"
+        },
+        {
+          "id": "35a73fbd-1951-805f-a81a-d55ea95d0495",
+          "title": "[게이미피케이션][공통] 만보기 안내 바텀시트(BS) 내 ‘포인트 지급’ 문구 기획서와 불일치 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://www.notion.so/BS-35a73fbd1951805fa81ad55ea95d0495"
+        }
+      ],
+      "calculatedAt": "2026-05-21T00:27:24.553394+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1252,7 +1252,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-20T07:53:54.879109+00:00"
+      "calculatedAt": "2026-05-21T00:27:29.002143+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1541,7 +1541,7 @@
       "score": 92.9,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-20T07:54:10.948502+00:00"
+      "calculatedAt": "2026-05-21T00:27:39.983467+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1577,7 +1577,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-20T07:56:39.726177+00:00"
+      "calculatedAt": "2026-05-21T00:33:33.915659+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2261,7 +2261,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-20T07:56:12.026032+00:00"
+      "calculatedAt": "2026-05-21T00:33:01.842979+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2458,7 +2458,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-20T07:56:35.763871+00:00"
+      "calculatedAt": "2026-05-21T00:33:27.015920+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2501,7 +2501,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-20T07:54:27.033461+00:00"
+      "calculatedAt": "2026-05-21T00:31:13.881834+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2579,7 +2579,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-20T07:53:58.766194+00:00"
+      "calculatedAt": "2026-05-21T00:27:33.466401+00:00"
     }
   ],
   "regularTrend": [
@@ -2612,9 +2612,9 @@
     },
     {
       "project": "5.21.0",
-      "score": 69.4,
+      "score": 70.3,
       "TPR": 1.0,
-      "DQS": 0.5672,
+      "DQS": 0.5804,
       "bugCount": 113,
       "testCaseBase": 1300,
       "executedCases": 1300
