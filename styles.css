@@ -81,10 +81,28 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: auto;
 }
 
 .embedControls input {
   min-width: 220px;
+}
+
+.embedMeta {
+  display: grid;
+  gap: 2px;
+  min-width: 160px;
+  text-align: right;
+}
+
+.embedMeta span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.embedMeta strong {
+  font-size: 14px;
+  line-height: 1.2;
 }
 
 .controls {
@@ -596,6 +614,14 @@ dd {
   .panelHead {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .embedMeta {
+    text-align: left;
+  }
+
+  .embedControls {
+    margin-left: 0;
   }
 
   main {

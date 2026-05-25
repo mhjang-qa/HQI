@@ -43,7 +43,27 @@
       }
 
       .head {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-end;
         margin-bottom: 10px;
+      }
+
+      .meta {
+        display: grid;
+        gap: 2px;
+        text-align: right;
+      }
+
+      .meta span {
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .meta strong {
+        font-size: 14px;
+        line-height: 1.2;
       }
 
       h1,
@@ -190,14 +210,31 @@
         vertical-align: -1px;
       }
 
+      @media (max-width: 900px) {
+        .head {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .meta {
+          text-align: left;
+        }
+      }
+
     </style>
   </head>
   <body>
     <main>
       <section class="panel">
         <div class="head">
-          <h1>프로젝트별 품질 점수</h1>
-          <p class="subtle">5.18~5.21 정기 업데이트만 표시</p>
+          <div>
+            <h1>프로젝트별 품질 점수</h1>
+            <p class="subtle">5.18~5.21 정기 업데이트만 표시</p>
+          </div>
+          <div class="meta">
+            <span>마지막 생성</span>
+            <strong id="generatedAt">2026-05-26 08:44:49</strong>
+          </div>
         </div>
         <div class="tableWrap">
           <table>
@@ -298,6 +335,13 @@
       const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
       const fmtCases = (row) => (row.testCaseBase > 0 ? `${row.executedCases}/${row.testCaseBase}` : "미집계");
       const scoreClass = (score) => (score >= 85 ? "good" : score >= 70 ? "warn" : "bad");
+      const normalizeStatus = (value) => {
+        const text = String(value || "").trim().toLowerCase();
+        if (!text) return "-";
+        if (text.includes("완료") || text.includes("done")) return "완료";
+        if (text.includes("진행")) return "진행 중";
+        return value;
+      };
       const escapeHtml = (value) =>
         String(value ?? "")
           .replace(/&/g, "&amp;")
@@ -321,7 +365,7 @@
               <td class="metric">${fmtPct(row.BFR)}</td>
               <td class="metric">${fmtCases(row)}</td>
               <td class="metric">${row.bugCount} / 미해결 ${row.openBugCount}</td>
-              <td>${escapeHtml(row.status)}</td>
+              <td>${escapeHtml(normalizeStatus(row.status))}</td>
             </tr>
           `
         )

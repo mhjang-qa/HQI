@@ -13,6 +13,31 @@ function scoreClass(score) {
   return "bad";
 }
 
+function formatGeneratedAt(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "-";
+  const parts = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).formatToParts(date);
+  const lookup = Object.fromEntries(parts.filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+  return `${lookup.year}-${lookup.month}-${lookup.day} ${lookup.hour}:${lookup.minute}:${lookup.second}`;
+}
+
+function normalizeProjectStatus(status) {
+  const text = String(status || "").trim().toLowerCase();
+  if (!text) return "-";
+  if (text.includes("완료") || text.includes("done")) return "완료";
+  if (text.includes("진행")) return "진행 중";
+  return status;
+}
+
 function showToast(message) {
   const toast = $("toast");
   toast.textContent = message;
@@ -54,7 +79,7 @@ async function loadDashboard({ silent = false } = {}) {
     state.trend = data.regularTrend || [];
     renderRows();
     renderTrend();
-    $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.generatedAt).toLocaleString()}`;
+    $("generatedAt").textContent = formatGeneratedAt(data.generatedAt);
   } catch (error) {
     if (!silent) showToast(error.message);
   } finally {
@@ -107,7 +132,7 @@ function renderProjectRow(project) {
       <td class="metric">${fmtPct(project.BFR)}</td>
       <td class="metric">${fmtCases(project)}</td>
       <td class="metric">${project.bugCount} / 미해결 ${project.openBugCount}</td>
-      <td>${escapeHtml(project.status || "-")}</td>
+      <td>${escapeHtml(normalizeProjectStatus(project.status))}</td>
     </tr>
   `;
 }
