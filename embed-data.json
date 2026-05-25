@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T23:44:49.744990+00:00",
+  "generatedAt": "2026-05-25T23:58:24.310643+00:00",
   "source": "stored",
   "projects": [
     {
@@ -1308,10 +1308,10 @@
       "project": "5.21.0",
       "key": "5210",
       "progress": 1.0,
-      "status": "진행 중",
+      "status": "완료",
       "date": "2026-04-28",
       "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
-      "lastEditedTime": "2026-05-18T02:24:00.000Z",
+      "lastEditedTime": "2026-05-25T23:57:00.000Z",
       "testCaseBase": 1300,
       "executedCases": 1300,
       "tcCountSource": "notion_child_databases",
@@ -1325,29 +1325,28 @@
         }
       ],
       "bugCount": 119,
-      "fixedCount": 114,
-      "openBugCount": 5,
+      "fixedCount": 118,
+      "openBugCount": 1,
       "TPR": 1.0,
       "BOR": 0.9085,
-      "BFR": 0.958,
-      "DQS": 0.9332,
-      "HQI": 0.9528,
-      "score": 95.3,
+      "BFR": 0.9916,
+      "DQS": 0.95,
+      "HQI": 0.9647,
+      "score": 96.5,
       "severityCounts": {
-        "미지정": 1,
+        "Minor": 71,
         "Major": 37,
-        "Minor": 70,
         "개선 의견": 2,
         "Critical": 9
       },
       "issues": [
         {
           "id": "36873fbd-1951-804b-99ec-c017407d7d76",
-          "title": "[결함] 타이틀을 입력해주세요. ",
+          "title": "[게이미피케이션][공통] 회원가입/본인인증 화면 내 적립 포인트 기획서와 상이 ",
           "target": "5.21.0",
           "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "",
+          "status": "완료 (Done)",
+          "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/36873fbd1951804b99ecc017407d7d76"
         },
@@ -1376,7 +1375,7 @@
           "title": "\n[게이미피케이션][공통] 외국인 무기명 계정 상태에서 ‘추가인증 하고’ 영역에 ‘이어하기’ 뱃지 노출되는 현상\n",
           "target": "5.21.0",
           "key": "5210",
-          "status": "등록 (Registered)",
+          "status": "개발 완료 (Dev Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/36873fbd1951809c8a41fa006f849883"
@@ -1416,7 +1415,7 @@
           "title": "[게이미피케이션][만보기] 미수령 포인트 안내 팝업 내 버튼 문구 불일치",
           "target": "5.21.0",
           "key": "5210",
-          "status": "결함 재발생 (Reopen)",
+          "status": "개발 완료 (Dev Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/36573fbd19518000ae7ec285c49c7f14"
@@ -1542,7 +1541,7 @@
           "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
         }
       ],
-      "calculatedAt": "2026-05-22T07:56:53.755061+00:00"
+      "calculatedAt": "2026-05-25T23:58:24.304180+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -2613,9 +2612,9 @@
     },
     {
       "project": "5.21.0",
-      "score": 95.3,
+      "score": 96.5,
       "TPR": 1.0,
-      "DQS": 0.9332,
+      "DQS": 0.95,
       "bugCount": 119,
       "testCaseBase": 1300,
       "executedCases": 1300
@@ -2626,7 +2625,7 @@
     "issueCount": 408,
     "testCaseCount": 5165,
     "executedCaseCount": 4982,
-    "averageScore": 87.8,
+    "averageScore": 87.9,
     "lowestScore": 63.6,
     "highestScore": 100.0
   }
