@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T01:16:48.900845+00:00",
+  "generatedAt": "2026-05-26T04:08:58.846249+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-22T07:59:28.074844+00:00"
+      "calculatedAt": "2026-05-26T04:08:35.029095+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-22T07:57:39.147683+00:00"
+      "calculatedAt": "2026-05-26T04:06:46.879590+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -769,7 +769,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-22T07:57:29.147875+00:00"
+      "calculatedAt": "2026-05-26T04:06:39.614921+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1010,7 +1010,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-22T07:56:58.681672+00:00"
+      "calculatedAt": "2026-05-26T04:06:12.652025+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1271,7 +1271,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-22T07:57:25.732051+00:00"
+      "calculatedAt": "2026-05-26T04:06:33.064784+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -1299,7 +1299,7 @@
       "score": 92.9,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-22T07:57:15.943102+00:00"
+      "calculatedAt": "2026-05-26T04:06:23.795022+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1325,14 +1325,14 @@
         }
       ],
       "bugCount": 119,
-      "fixedCount": 118,
+      "fixedCount": 117,
       "openBugCount": 1,
       "TPR": 1.0,
       "BOR": 0.9085,
-      "BFR": 0.9916,
-      "DQS": 0.95,
-      "HQI": 0.9647,
-      "score": 96.5,
+      "BFR": 0.9832,
+      "DQS": 0.9458,
+      "HQI": 0.9617,
+      "score": 96.2,
       "severityCounts": {
         "Minor": 71,
         "Major": 37,
@@ -1375,7 +1375,7 @@
           "title": "\n[게이미피케이션][공통] 외국인 무기명 계정 상태에서 ‘추가인증 하고’ 영역에 ‘이어하기’ 뱃지 노출되는 현상\n",
           "target": "5.21.0",
           "key": "5210",
-          "status": "개발 완료 (Dev Done)",
+          "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/36873fbd1951809c8a41fa006f849883"
@@ -1415,7 +1415,7 @@
           "title": "[게이미피케이션][만보기] 미수령 포인트 안내 팝업 내 버튼 문구 불일치",
           "target": "5.21.0",
           "key": "5210",
-          "status": "개발 완료 (Dev Done)",
+          "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://www.notion.so/36573fbd19518000ae7ec285c49c7f14"
@@ -1541,7 +1541,7 @@
           "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
         }
       ],
-      "calculatedAt": "2026-05-25T23:58:24.304180+00:00"
+      "calculatedAt": "2026-05-26T04:06:08.424027+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1577,7 +1577,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-22T07:59:55.842692+00:00"
+      "calculatedAt": "2026-05-26T04:08:58.833750+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2261,7 +2261,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-22T07:59:24.089134+00:00"
+      "calculatedAt": "2026-05-26T04:08:32.128178+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2458,7 +2458,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-22T07:59:49.985563+00:00"
+      "calculatedAt": "2026-05-26T04:08:54.177742+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2501,7 +2501,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-22T07:57:33.911240+00:00"
+      "calculatedAt": "2026-05-26T04:06:43.187147+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2579,7 +2579,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-22T07:57:02.872409+00:00"
+      "calculatedAt": "2026-05-26T04:06:16.441221+00:00"
     }
   ],
   "regularTrend": [
@@ -2612,9 +2612,9 @@
     },
     {
       "project": "5.21.0",
-      "score": 96.5,
+      "score": 96.2,
       "TPR": 1.0,
-      "DQS": 0.95,
+      "DQS": 0.9458,
       "bugCount": 119,
       "testCaseBase": 1300,
       "executedCases": 1300
