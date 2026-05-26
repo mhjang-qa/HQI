@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T04:57:12.883013+00:00",
+  "generatedAt": "2026-05-26T23:48:51.337516+00:00",
   "source": "stored",
   "projects": [
     {
@@ -1274,34 +1274,6 @@
       "calculatedAt": "2026-05-26T04:06:33.064784+00:00"
     },
     {
-      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
-      "category": "정기 업데이트",
-      "name": "Go.hanpass 통테 시나리오",
-      "project": "Go.hanpass 통테 시나리오",
-      "key": "gohanpass통테시나리오",
-      "progress": 0.9,
-      "status": "진행 중",
-      "date": "",
-      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
-      "lastEditedTime": "2026-03-09T12:56:00.000Z",
-      "testCaseBase": 0,
-      "executedCases": 0,
-      "tcCountSource": "none",
-      "tcDatabases": [],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.9,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.9293,
-      "score": 92.9,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-26T04:06:23.795022+00:00"
-    },
-    {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
       "category": "정기 업데이트",
       "name": "5.21.0 테스트 케이스",
@@ -2264,6 +2236,112 @@
       "calculatedAt": "2026-05-26T04:08:32.128178+00:00"
     },
     {
+      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
+      "category": "정기 업데이트",
+      "name": "Go.hanpass 통테 시나리오",
+      "project": "Go.hanpass 통테 시나리오",
+      "key": "gohanpass통테시나리오",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
+      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "testCaseBase": 0,
+      "executedCases": 0,
+      "tcCountSource": "none",
+      "tcDatabases": [],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-26T23:48:51.330000+00:00"
+    },
+    {
+      "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
+      "category": "정기 업데이트",
+      "name": "[APP] 무기명 회원가입 TestCase",
+      "project": "[APP] 무기명 회원가입",
+      "key": "app무기명회원가입",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
+      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "testCaseBase": 532,
+      "executedCases": 532,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "31b73fbd-1951-8072-8090-c798e0699676",
+          "title": "회원가입 (무기명)",
+          "rows": 19,
+          "caseCount": 183,
+          "executedCases": 183
+        },
+        {
+          "id": "32073fbd-1951-80c1-b714-ca371e60b758",
+          "title": "신분증 인증 (기명회원 전환)",
+          "rows": 12,
+          "caseCount": 127,
+          "executedCases": 127
+        },
+        {
+          "id": "32073fbd-1951-808d-8d34-c736a83cd730",
+          "title": "카드",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32073fbd-1951-8095-bfa3-d0f44a90b7d2",
+          "title": "홈/Login/공통",
+          "rows": 6,
+          "caseCount": 70,
+          "executedCases": 70
+        },
+        {
+          "id": "32173fbd-1951-80a8-8f4d-d2a2a7f01c0e",
+          "title": "마이페이지",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32173fbd-1951-8006-94b8-d877e276f577",
+          "title": "충전하기",
+          "rows": 8,
+          "caseCount": 96,
+          "executedCases": 96
+        },
+        {
+          "id": "32173fbd-1951-801b-afa1-c3303055eb35",
+          "title": "BO",
+          "rows": 1,
+          "caseCount": 12,
+          "executedCases": 12
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-26T23:48:38.618663+00:00"
+    },
+    {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
       "category": "정기 업데이트",
       "name": "신규카드 - 교통카드충전 TC",
@@ -2502,84 +2580,6 @@
       "severityCounts": {},
       "issues": [],
       "calculatedAt": "2026-05-26T04:06:43.187147+00:00"
-    },
-    {
-      "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
-      "category": "정기 업데이트",
-      "name": "[APP] 무기명 회원가입 TestCase",
-      "project": "[APP] 무기명 회원가입",
-      "key": "app무기명회원가입",
-      "progress": 1.0,
-      "status": "진행 중",
-      "date": "",
-      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
-      "lastEditedTime": "2026-03-23T08:38:00.000Z",
-      "testCaseBase": 532,
-      "executedCases": 532,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "31b73fbd-1951-8072-8090-c798e0699676",
-          "title": "회원가입 (무기명)",
-          "rows": 19,
-          "caseCount": 183,
-          "executedCases": 183
-        },
-        {
-          "id": "32073fbd-1951-80c1-b714-ca371e60b758",
-          "title": "신분증 인증 (기명회원 전환)",
-          "rows": 12,
-          "caseCount": 127,
-          "executedCases": 127
-        },
-        {
-          "id": "32073fbd-1951-808d-8d34-c736a83cd730",
-          "title": "카드",
-          "rows": 2,
-          "caseCount": 22,
-          "executedCases": 22
-        },
-        {
-          "id": "32073fbd-1951-8095-bfa3-d0f44a90b7d2",
-          "title": "홈/Login/공통",
-          "rows": 6,
-          "caseCount": 70,
-          "executedCases": 70
-        },
-        {
-          "id": "32173fbd-1951-80a8-8f4d-d2a2a7f01c0e",
-          "title": "마이페이지",
-          "rows": 2,
-          "caseCount": 22,
-          "executedCases": 22
-        },
-        {
-          "id": "32173fbd-1951-8006-94b8-d877e276f577",
-          "title": "충전하기",
-          "rows": 8,
-          "caseCount": 96,
-          "executedCases": 96
-        },
-        {
-          "id": "32173fbd-1951-801b-afa1-c3303055eb35",
-          "title": "BO",
-          "rows": 1,
-          "caseCount": 12,
-          "executedCases": 12
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-26T04:06:16.441221+00:00"
     }
   ],
   "regularTrend": [
@@ -2625,7 +2625,7 @@
     "issueCount": 408,
     "testCaseCount": 5165,
     "executedCaseCount": 4982,
-    "averageScore": 87.9,
+    "averageScore": 88.5,
     "lowestScore": 63.6,
     "highestScore": 100.0
   }
