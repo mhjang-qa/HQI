@@ -50,6 +50,14 @@
         margin-bottom: 10px;
       }
 
+      .sectionHead {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
       .meta {
         display: grid;
         gap: 2px;
@@ -210,8 +218,29 @@
         vertical-align: -1px;
       }
 
+      .toggleBtn {
+        border: 1px solid var(--line);
+        background: #f0f3f5;
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 7px 12px;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .chartWrap[hidden] {
+        display: none;
+      }
+
       @media (max-width: 900px) {
         .head {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .sectionHead {
           align-items: stretch;
           flex-direction: column;
         }
@@ -257,11 +286,14 @@
       </section>
 
       <section class="panel">
-        <div class="head">
-          <h2>정기 업데이트 버전별 점수 그래프</h2>
-          <p class="subtle">5.18~5.21 HQI 추이</p>
+        <div class="sectionHead">
+          <div>
+            <h2>정기 업데이트 버전별 점수 그래프</h2>
+            <p class="subtle">5.18~5.21 HQI 추이</p>
+          </div>
+          <button id="trendToggle" class="toggleBtn" type="button" aria-expanded="true" aria-controls="trendWrap">접기</button>
         </div>
-        <div class="chartWrap">
+        <div id="trendWrap" class="chartWrap">
           <svg id="trendChart" class="chart" viewBox="0 0 860 240" role="img" aria-label="정기 업데이트 버전별 점수 그래프"></svg>
           <div class="legend"><span class="dot"></span>HQI 점수</div>
         </div>
@@ -286,6 +318,15 @@
           .replace(/>/g, "&gt;")
           .replace(/"/g, "&quot;")
           .replace(/'/g, "&#039;");
+      const trendWrap = document.getElementById("trendWrap");
+      const trendToggle = document.getElementById("trendToggle");
+      let trendCollapsed = false;
+
+      function renderTrendToggle() {
+        trendWrap.hidden = trendCollapsed;
+        trendToggle.setAttribute("aria-expanded", String(!trendCollapsed));
+        trendToggle.textContent = trendCollapsed ? "펼치기" : "접기";
+      }
 
       const formatGeneratedAt = (value) => {
         const date = new Date(value);
@@ -396,6 +437,11 @@
       loadDashboard().catch((error) => {
         document.getElementById("projectRows").innerHTML = `<tr><td colspan="9">${escapeHtml(error.message)}</td></tr>`;
       });
+      trendToggle.addEventListener("click", () => {
+        trendCollapsed = !trendCollapsed;
+        renderTrendToggle();
+      });
+      renderTrendToggle();
     </script>
   </body>
 </html>
