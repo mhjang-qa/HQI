@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T12:15:53.212016+00:00",
+  "generatedAt": "2026-05-27T12:42:11.002782+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-26T04:08:35.029095+00:00"
+      "calculatedAt": "2026-05-27T12:41:44.819507+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -1516,42 +1516,6 @@
       "calculatedAt": "2026-05-27T07:21:25.002668+00:00"
     },
     {
-      "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
-      "category": "비정기 업데이트",
-      "name": "5.20.4 테스트 케이스",
-      "project": "5.20.4",
-      "key": "5204",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-04-17",
-      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
-      "lastEditedTime": "2026-04-24T00:33:00.000Z",
-      "testCaseBase": 65,
-      "executedCases": 63,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "34473fbd-1951-805b-8ee6-c7377f9de946",
-          "title": "5.20.4 Test Case",
-          "rows": 2,
-          "caseCount": 65,
-          "executedCases": 63
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.9692,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.9782,
-      "score": 97.8,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-27T12:15:53.147035+00:00"
-    },
-    {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
       "category": "정기 업데이트",
       "name": "5.17.0 테스트 케이스",
@@ -1562,8 +1526,8 @@
       "date": "",
       "url": "https://www.notion.so/5-17-0-2ca73fbd195180d8bfa7c6355e8e7f2e",
       "lastEditedTime": "2026-02-25T01:35:00.000Z",
-      "testCaseBase": 1409,
-      "executedCases": 1409,
+      "testCaseBase": 1218,
+      "executedCases": 1218,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
@@ -1800,65 +1764,74 @@
         {
           "id": "2cb73fbd-1951-80a2-bb85-ea8bf253ff8e",
           "title": "상세검색_바텀2",
-          "rows": 21,
-          "caseCount": 21,
-          "executedCases": 21
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cb73fbd-1951-8016-b6e5-c42ca5575d2f",
           "title": "상세 검색_바텀2",
-          "rows": 12,
-          "caseCount": 12,
-          "executedCases": 12
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cb73fbd-1951-80c7-9ada-f0ce90cab6fb",
           "title": "상세 검색_바텀2",
-          "rows": 12,
-          "caseCount": 12,
-          "executedCases": 12
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-803b-965c-cfa8a114c65f",
           "title": "이력서 상세",
-          "rows": 30,
-          "caseCount": 30,
-          "executedCases": 30
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-80d0-be00-f07ee327ff13",
           "title": "이력서 상세",
-          "rows": 29,
-          "caseCount": 29,
-          "executedCases": 29
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-8092-8d9f-f5968b6edcc6",
           "title": "채용 결과 등록",
-          "rows": 19,
-          "caseCount": 19,
-          "executedCases": 19
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-804e-99be-fc5cd870424c",
           "title": "채용 결과 등록",
-          "rows": 16,
-          "caseCount": 16,
-          "executedCases": 16
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-80ec-a4aa-ecd203d3aeeb",
           "title": "계약서 안내 팝업",
-          "rows": 27,
-          "caseCount": 27,
-          "executedCases": 27
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2cc73fbd-1951-8073-ace5-d39660602cb9",
           "title": "계약서 안내 팝업",
-          "rows": 25,
-          "caseCount": 25,
-          "executedCases": 25
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         {
           "id": "2ce73fbd-1951-8010-b896-f50dc228b8a4",
@@ -2019,11 +1992,11 @@
       "fixedCount": 66,
       "openBugCount": 0,
       "TPR": 1.0,
-      "BOR": 0.9524,
+      "BOR": 0.945,
       "BFR": 0.9851,
-      "DQS": 0.9688,
-      "HQI": 0.9779,
-      "score": 97.8,
+      "DQS": 0.965,
+      "HQI": 0.9753,
+      "score": 97.5,
       "severityCounts": {
         "Major": 26,
         "Minor": 27,
@@ -2233,156 +2206,43 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-26T04:08:32.128178+00:00"
+      "calculatedAt": "2026-05-27T12:41:41.183179+00:00"
     },
     {
-      "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
-      "category": "정기 업데이트",
-      "name": "한패스 KHQR 해외송금 프로세스 TC",
-      "project": "한패스 KHQR 해외송금 프로세스 TC",
-      "key": "한패스khqr해외송금프로세스tc",
+      "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
+      "category": "비정기 업데이트",
+      "name": "5.20.4 테스트 케이스",
+      "project": "5.20.4",
+      "key": "5204",
       "progress": 1.0,
       "status": "완료",
-      "date": "2026-01-28",
-      "url": "https://www.notion.so/KHQR-TC-2ee73fbd1951802a9b1ecc35d83dce4d",
-      "lastEditedTime": "2026-02-25T01:36:00.000Z",
-      "testCaseBase": 5,
-      "executedCases": 5,
+      "date": "2026-04-17",
+      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
+      "lastEditedTime": "2026-04-24T00:33:00.000Z",
+      "testCaseBase": 65,
+      "executedCases": 63,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
-          "id": "2f673fbd-1951-8019-b864-d76edcc278a9",
-          "title": "KHQR 해외송금 보내기",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0
-        },
-        {
-          "id": "2f673fbd-1951-80ad-8378-e1190ebdb759",
-          "title": "KHQR 결제 TC",
-          "rows": 5,
-          "caseCount": 5,
-          "executedCases": 5
+          "id": "34473fbd-1951-805b-8ee6-c7377f9de946",
+          "title": "5.20.4 Test Case",
+          "rows": 2,
+          "caseCount": 65,
+          "executedCases": 63
         }
       ],
       "bugCount": 0,
       "fixedCount": 0,
       "openBugCount": 0,
-      "TPR": 1.0,
+      "TPR": 0.9692,
       "BOR": 1.0,
       "BFR": 1.0,
       "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
+      "HQI": 0.9782,
+      "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-27T07:22:09.837249+00:00"
-    },
-    {
-      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
-      "category": "정기 업데이트",
-      "name": "Go.hanpass 통테 시나리오",
-      "project": "Go.hanpass 통테 시나리오",
-      "key": "gohanpass통테시나리오",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "",
-      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
-      "lastEditedTime": "2026-05-26T05:45:00.000Z",
-      "testCaseBase": 0,
-      "executedCases": 0,
-      "tcCountSource": "none",
-      "tcDatabases": [],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-27T07:21:48.945886+00:00"
-    },
-    {
-      "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
-      "category": "정기 업데이트",
-      "name": "[APP] 무기명 회원가입 TestCase",
-      "project": "[APP] 무기명 회원가입",
-      "key": "app무기명회원가입",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "",
-      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
-      "lastEditedTime": "2026-05-26T05:45:00.000Z",
-      "testCaseBase": 532,
-      "executedCases": 532,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "31b73fbd-1951-8072-8090-c798e0699676",
-          "title": "회원가입 (무기명)",
-          "rows": 19,
-          "caseCount": 183,
-          "executedCases": 183
-        },
-        {
-          "id": "32073fbd-1951-80c1-b714-ca371e60b758",
-          "title": "신분증 인증 (기명회원 전환)",
-          "rows": 12,
-          "caseCount": 127,
-          "executedCases": 127
-        },
-        {
-          "id": "32073fbd-1951-808d-8d34-c736a83cd730",
-          "title": "카드",
-          "rows": 2,
-          "caseCount": 22,
-          "executedCases": 22
-        },
-        {
-          "id": "32073fbd-1951-8095-bfa3-d0f44a90b7d2",
-          "title": "홈/Login/공통",
-          "rows": 6,
-          "caseCount": 70,
-          "executedCases": 70
-        },
-        {
-          "id": "32173fbd-1951-80a8-8f4d-d2a2a7f01c0e",
-          "title": "마이페이지",
-          "rows": 2,
-          "caseCount": 22,
-          "executedCases": 22
-        },
-        {
-          "id": "32173fbd-1951-8006-94b8-d877e276f577",
-          "title": "충전하기",
-          "rows": 8,
-          "caseCount": 96,
-          "executedCases": 96
-        },
-        {
-          "id": "32173fbd-1951-801b-afa1-c3303055eb35",
-          "title": "BO",
-          "rows": 1,
-          "caseCount": 12,
-          "executedCases": 12
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-27T07:21:37.580588+00:00"
+      "calculatedAt": "2026-05-27T12:15:53.147035+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2579,7 +2439,156 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-26T04:09:04.041308+00:00"
+      "calculatedAt": "2026-05-27T12:42:10.988264+00:00"
+    },
+    {
+      "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
+      "category": "정기 업데이트",
+      "name": "한패스 KHQR 해외송금 프로세스 TC",
+      "project": "한패스 KHQR 해외송금 프로세스 TC",
+      "key": "한패스khqr해외송금프로세스tc",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-01-28",
+      "url": "https://www.notion.so/KHQR-TC-2ee73fbd1951802a9b1ecc35d83dce4d",
+      "lastEditedTime": "2026-02-25T01:36:00.000Z",
+      "testCaseBase": 5,
+      "executedCases": 5,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2f673fbd-1951-8019-b864-d76edcc278a9",
+          "title": "KHQR 해외송금 보내기",
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0
+        },
+        {
+          "id": "2f673fbd-1951-80ad-8378-e1190ebdb759",
+          "title": "KHQR 결제 TC",
+          "rows": 5,
+          "caseCount": 5,
+          "executedCases": 5
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-27T07:22:09.837249+00:00"
+    },
+    {
+      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
+      "category": "정기 업데이트",
+      "name": "Go.hanpass 통테 시나리오",
+      "project": "Go.hanpass 통테 시나리오",
+      "key": "gohanpass통테시나리오",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
+      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "testCaseBase": 0,
+      "executedCases": 0,
+      "tcCountSource": "none",
+      "tcDatabases": [],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-27T07:21:48.945886+00:00"
+    },
+    {
+      "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
+      "category": "정기 업데이트",
+      "name": "[APP] 무기명 회원가입 TestCase",
+      "project": "[APP] 무기명 회원가입",
+      "key": "app무기명회원가입",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
+      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "testCaseBase": 532,
+      "executedCases": 532,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "31b73fbd-1951-8072-8090-c798e0699676",
+          "title": "회원가입 (무기명)",
+          "rows": 19,
+          "caseCount": 183,
+          "executedCases": 183
+        },
+        {
+          "id": "32073fbd-1951-80c1-b714-ca371e60b758",
+          "title": "신분증 인증 (기명회원 전환)",
+          "rows": 12,
+          "caseCount": 127,
+          "executedCases": 127
+        },
+        {
+          "id": "32073fbd-1951-808d-8d34-c736a83cd730",
+          "title": "카드",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32073fbd-1951-8095-bfa3-d0f44a90b7d2",
+          "title": "홈/Login/공통",
+          "rows": 6,
+          "caseCount": 70,
+          "executedCases": 70
+        },
+        {
+          "id": "32173fbd-1951-80a8-8f4d-d2a2a7f01c0e",
+          "title": "마이페이지",
+          "rows": 2,
+          "caseCount": 22,
+          "executedCases": 22
+        },
+        {
+          "id": "32173fbd-1951-8006-94b8-d877e276f577",
+          "title": "충전하기",
+          "rows": 8,
+          "caseCount": 96,
+          "executedCases": 96
+        },
+        {
+          "id": "32173fbd-1951-801b-afa1-c3303055eb35",
+          "title": "BO",
+          "rows": 1,
+          "caseCount": 12,
+          "executedCases": 12
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-27T07:21:37.580588+00:00"
     }
   ],
   "regularTrend": [
@@ -2623,8 +2632,8 @@
   "summary": {
     "projectCount": 12,
     "issueCount": 408,
-    "testCaseCount": 5165,
-    "executedCaseCount": 4982,
+    "testCaseCount": 4974,
+    "executedCaseCount": 4791,
     "averageScore": 88.5,
     "lowestScore": 63.6,
     "highestScore": 100.0
