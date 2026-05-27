@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T23:48:51.337516+00:00",
+  "generatedAt": "2026-05-27T00:15:08.416177+00:00",
   "source": "stored",
   "projects": [
     {
@@ -2261,7 +2261,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-26T23:48:51.330000+00:00"
+      "calculatedAt": "2026-05-27T00:15:08.406459+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2339,7 +2339,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-26T23:48:38.618663+00:00"
+      "calculatedAt": "2026-05-27T00:15:00.636382+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
