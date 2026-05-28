@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T23:12:45.919810+00:00",
+  "generatedAt": "2026-05-28T04:32:36.722489+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-27T12:41:44.819507+00:00"
+      "calculatedAt": "2026-05-28T04:32:10.748233+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-27T07:22:13.522163+00:00"
+      "calculatedAt": "2026-05-28T04:30:20.011403+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -769,7 +769,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-27T07:22:02.464904+00:00"
+      "calculatedAt": "2026-05-28T04:30:13.372670+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1010,7 +1010,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-27T07:21:31.858679+00:00"
+      "calculatedAt": "2026-05-28T04:29:48.232168+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1271,7 +1271,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-27T07:21:57.189608+00:00"
+      "calculatedAt": "2026-05-28T04:30:10.404469+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1513,7 +1513,43 @@
           "url": "https://www.notion.so/40001-35a73fbd19518098995df458c2550d82"
         }
       ],
-      "calculatedAt": "2026-05-27T07:21:25.002668+00:00"
+      "calculatedAt": "2026-05-28T04:29:44.012408+00:00"
+    },
+    {
+      "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
+      "category": "비정기 업데이트",
+      "name": "5.20.4 테스트 케이스",
+      "project": "5.20.4",
+      "key": "5204",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-04-17",
+      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
+      "lastEditedTime": "2026-04-24T00:33:00.000Z",
+      "testCaseBase": 65,
+      "executedCases": 63,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "34473fbd-1951-805b-8ee6-c7377f9de946",
+          "title": "5.20.4 Test Case",
+          "rows": 2,
+          "caseCount": 65,
+          "executedCases": 63
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 0.9692,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 0.9782,
+      "score": 97.8,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-05-28T04:32:36.711209+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -1526,8 +1562,8 @@
       "date": "",
       "url": "https://www.notion.so/5-17-0-2ca73fbd195180d8bfa7c6355e8e7f2e",
       "lastEditedTime": "2026-02-25T01:35:00.000Z",
-      "testCaseBase": 1218,
-      "executedCases": 1218,
+      "testCaseBase": 1409,
+      "executedCases": 1409,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
@@ -1764,74 +1800,65 @@
         {
           "id": "2cb73fbd-1951-80a2-bb85-ea8bf253ff8e",
           "title": "상세검색_바텀2",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 21,
+          "caseCount": 21,
+          "executedCases": 21
         },
         {
           "id": "2cb73fbd-1951-8016-b6e5-c42ca5575d2f",
           "title": "상세 검색_바텀2",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
         },
         {
           "id": "2cb73fbd-1951-80c7-9ada-f0ce90cab6fb",
           "title": "상세 검색_바텀2",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 12,
+          "caseCount": 12,
+          "executedCases": 12
         },
         {
           "id": "2cc73fbd-1951-803b-965c-cfa8a114c65f",
           "title": "이력서 상세",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 30,
+          "caseCount": 30,
+          "executedCases": 30
         },
         {
           "id": "2cc73fbd-1951-80d0-be00-f07ee327ff13",
           "title": "이력서 상세",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 29,
+          "caseCount": 29,
+          "executedCases": 29
         },
         {
           "id": "2cc73fbd-1951-8092-8d9f-f5968b6edcc6",
           "title": "채용 결과 등록",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 19,
+          "caseCount": 19,
+          "executedCases": 19
         },
         {
           "id": "2cc73fbd-1951-804e-99be-fc5cd870424c",
           "title": "채용 결과 등록",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 16,
+          "caseCount": 16,
+          "executedCases": 16
         },
         {
           "id": "2cc73fbd-1951-80ec-a4aa-ecd203d3aeeb",
           "title": "계약서 안내 팝업",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 27,
+          "caseCount": 27,
+          "executedCases": 27
         },
         {
           "id": "2cc73fbd-1951-8073-ace5-d39660602cb9",
           "title": "계약서 안내 팝업",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+          "rows": 25,
+          "caseCount": 25,
+          "executedCases": 25
         },
         {
           "id": "2ce73fbd-1951-8010-b896-f50dc228b8a4",
@@ -1992,11 +2019,11 @@
       "fixedCount": 66,
       "openBugCount": 0,
       "TPR": 1.0,
-      "BOR": 0.945,
+      "BOR": 0.9524,
       "BFR": 0.9851,
-      "DQS": 0.965,
-      "HQI": 0.9753,
-      "score": 97.5,
+      "DQS": 0.9688,
+      "HQI": 0.9779,
+      "score": 97.8,
       "severityCounts": {
         "Major": 26,
         "Minor": 27,
@@ -2206,43 +2233,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-27T12:41:41.183179+00:00"
-    },
-    {
-      "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
-      "category": "비정기 업데이트",
-      "name": "5.20.4 테스트 케이스",
-      "project": "5.20.4",
-      "key": "5204",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-04-17",
-      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
-      "lastEditedTime": "2026-04-24T00:33:00.000Z",
-      "testCaseBase": 65,
-      "executedCases": 63,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "34473fbd-1951-805b-8ee6-c7377f9de946",
-          "title": "5.20.4 Test Case",
-          "rows": 2,
-          "caseCount": 65,
-          "executedCases": 63
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.9692,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.9782,
-      "score": 97.8,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-05-27T12:15:53.147035+00:00"
+      "calculatedAt": "2026-05-28T04:32:06.652261+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2439,7 +2430,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-27T12:42:10.988264+00:00"
+      "calculatedAt": "2026-05-28T04:32:32.645226+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2482,7 +2473,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-27T07:22:09.837249+00:00"
+      "calculatedAt": "2026-05-28T04:30:17.584972+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2510,7 +2501,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-27T07:21:48.945886+00:00"
+      "calculatedAt": "2026-05-28T04:29:59.569077+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2588,7 +2579,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-27T07:21:37.580588+00:00"
+      "calculatedAt": "2026-05-28T04:29:53.323162+00:00"
     }
   ],
   "regularTrend": [
@@ -2632,8 +2623,8 @@
   "summary": {
     "projectCount": 12,
     "issueCount": 408,
-    "testCaseCount": 4974,
-    "executedCaseCount": 4791,
+    "testCaseCount": 5165,
+    "executedCaseCount": 4982,
     "averageScore": 88.5,
     "lowestScore": 63.6,
     "highestScore": 100.0
