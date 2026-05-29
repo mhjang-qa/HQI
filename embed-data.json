@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T02:57:38.549493+00:00",
+  "generatedAt": "2026-05-29T07:05:03.630349+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-05-29T02:57:06.945266+00:00"
+      "calculatedAt": "2026-05-29T07:04:34.594130+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-05-29T02:55:28.611180+00:00"
+      "calculatedAt": "2026-05-29T07:02:42.383615+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -769,7 +769,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-05-29T02:55:21.499452+00:00"
+      "calculatedAt": "2026-05-29T07:02:33.561773+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1010,7 +1010,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-05-29T02:54:59.444429+00:00"
+      "calculatedAt": "2026-05-29T07:02:01.839310+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1271,7 +1271,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-05-29T02:55:18.582632+00:00"
+      "calculatedAt": "2026-05-29T07:02:30.533169+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1514,7 +1514,7 @@
           "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
         }
       ],
-      "calculatedAt": "2026-05-29T02:54:55.087925+00:00"
+      "calculatedAt": "2026-05-29T07:01:51.826923+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1550,7 +1550,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-29T02:57:38.540064+00:00"
+      "calculatedAt": "2026-05-29T07:05:03.603964+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2234,7 +2234,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-05-29T02:57:03.952011+00:00"
+      "calculatedAt": "2026-05-29T07:04:30.572585+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2431,7 +2431,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-29T02:57:32.537685+00:00"
+      "calculatedAt": "2026-05-29T07:04:59.793353+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2474,7 +2474,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-29T02:55:25.231363+00:00"
+      "calculatedAt": "2026-05-29T07:02:36.754080+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2502,7 +2502,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-29T02:55:12.644113+00:00"
+      "calculatedAt": "2026-05-29T07:02:24.100719+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2580,7 +2580,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-05-29T02:55:03.828508+00:00"
+      "calculatedAt": "2026-05-29T07:02:10.947741+00:00"
     }
   ],
   "regularTrend": [
