@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:32:18.156932+00:00",
+  "generatedAt": "2026-06-02T05:48:35.267398+00:00",
   "source": "stored",
   "projects": [
     {
@@ -50,7 +50,7 @@
       "score": 32.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:10.756530+00:00"
+      "calculatedAt": "2026-06-02T05:02:41.144706+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -86,7 +86,7 @@
       "score": 38.2,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:13.986511+00:00"
+      "calculatedAt": "2026-06-02T05:05:43.007632+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -343,7 +343,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-02T05:31:44.323795+00:00"
+      "calculatedAt": "2026-06-02T05:05:12.267530+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -606,7 +606,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:59.133641+00:00"
+      "calculatedAt": "2026-06-02T05:03:23.328973+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -855,7 +855,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:50.702257+00:00"
+      "calculatedAt": "2026-06-02T05:03:17.120327+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1096,7 +1096,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:25.366213+00:00"
+      "calculatedAt": "2026-06-02T05:02:55.826685+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1357,7 +1357,7 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:47.348985+00:00"
+      "calculatedAt": "2026-06-02T05:03:12.574726+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1599,7 +1599,7 @@
           "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:20.036340+00:00"
+      "calculatedAt": "2026-06-02T05:02:51.066412+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1635,7 +1635,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:18.143868+00:00"
+      "calculatedAt": "2026-06-02T05:05:47.089386+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2319,7 +2319,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-02T05:31:41.537563+00:00"
+      "calculatedAt": "2026-06-02T05:05:05.080335+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2516,7 +2516,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:11.550136+00:00"
+      "calculatedAt": "2026-06-02T05:05:41.020713+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2559,7 +2559,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:55.846454+00:00"
+      "calculatedAt": "2026-06-02T05:03:20.225739+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2587,7 +2587,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:41.002912+00:00"
+      "calculatedAt": "2026-06-02T05:03:06.394954+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2665,7 +2665,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:31.267063+00:00"
+      "calculatedAt": "2026-06-02T05:03:00.096190+00:00"
     }
   ],
   "regularTrend": [
