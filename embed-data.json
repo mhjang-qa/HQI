@@ -1,70 +1,20 @@
 {
-  "generatedAt": "2026-06-02T06:49:51.026369+00:00",
+  "generatedAt": "2026-06-02T09:15:48.908813+00:00",
   "source": "stored",
   "projects": [
     {
-      "id": "37273fbd-1951-8024-9855-cf7d377e5744",
-      "category": "정기 업데이트",
-      "name": "동일 실명확인번호 재가입 3회 시도 시 가입 차단 Test Case",
-      "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
-      "key": "동일실명확인번호재가입3회시도시가입차단",
-      "progress": 0.05,
-      "status": "진행 중",
-      "date": "2026-06-02",
-      "url": "https://www.notion.so/3-Test-Case-37273fbd195180249855cf7d377e5744",
-      "lastEditedTime": "2026-06-02T02:31:00.000Z",
-      "testCaseBase": 52,
-      "executedCases": 3,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
-          "title": "실명확인번호 재가입(3회) 가입 차단 Test Case_1",
-          "rows": 10,
-          "caseCount": 10,
-          "executedCases": 0
-        },
-        {
-          "id": "37273fbd-1951-8096-a222-e4940596b36c",
-          "title": "실명확인번호 재가입(3회) 가입 차단 Test Case_2",
-          "rows": 7,
-          "caseCount": 7,
-          "executedCases": 0
-        },
-        {
-          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
-          "title": "실명확인번호 재가입(3회) 가입 차단 Test Case_3",
-          "rows": 35,
-          "caseCount": 35,
-          "executedCases": 2
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.05,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.3282,
-      "score": 32.8,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-06-02T05:29:10.756530+00:00"
-    },
-    {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
       "category": "비정기 업데이트",
-      "name": "5.21.1 테스트 케이스",
-      "project": "5.21.1",
-      "key": "5211",
-      "progress": 0.05,
+      "name": "5.22.1 테스트 케이스",
+      "project": "5.22.1",
+      "key": "5221",
+      "progress": 0.2,
       "status": "진행 중",
       "date": "",
-      "url": "https://www.notion.so/5-21-1-37273fbd19518011bce2cf5ae90c5fdc",
-      "lastEditedTime": "2026-06-02T04:16:00.000Z",
+      "url": "https://www.notion.so/5-22-1-37273fbd19518011bce2cf5ae90c5fdc",
+      "lastEditedTime": "2026-06-02T08:19:00.000Z",
       "testCaseBase": 526,
-      "executedCases": 66,
+      "executedCases": 166,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
@@ -72,21 +22,21 @@
           "title": "5.22.1 Test Case",
           "rows": 2,
           "caseCount": 526,
-          "executedCases": 66
+          "executedCases": 166
         }
       ],
       "bugCount": 0,
       "fixedCount": 0,
       "openBugCount": 0,
-      "TPR": 0.1262,
+      "TPR": 0.3156,
       "BOR": 1.0,
       "BFR": 1.0,
       "DQS": 1.0,
-      "HQI": 0.3822,
-      "score": 38.2,
+      "HQI": 0.516,
+      "score": 51.6,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:13.986511+00:00"
+      "calculatedAt": "2026-06-02T09:15:45.112995+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -343,7 +293,7 @@
           "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-02T05:31:44.323795+00:00"
+      "calculatedAt": "2026-06-02T09:15:24.262588+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -606,7 +556,7 @@
           "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:59.133641+00:00"
+      "calculatedAt": "2026-06-02T09:13:26.204023+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -855,7 +805,7 @@
           "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:50.702257+00:00"
+      "calculatedAt": "2026-06-02T09:13:14.955722+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1096,7 +1046,7 @@
           "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:25.366213+00:00"
+      "calculatedAt": "2026-06-02T09:12:54.080556+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1357,7 +1307,57 @@
           "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:47.348985+00:00"
+      "calculatedAt": "2026-06-02T09:13:11.899479+00:00"
+    },
+    {
+      "id": "37273fbd-1951-8024-9855-cf7d377e5744",
+      "category": "정기 업데이트",
+      "name": "동일 실명확인번호 재가입 3회 시도 시 가입 차단 Test Case",
+      "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
+      "key": "동일실명확인번호재가입3회시도시가입차단",
+      "progress": 0.9,
+      "status": "진행 중",
+      "date": "2026-06-02",
+      "url": "https://www.notion.so/3-Test-Case-37273fbd195180249855cf7d377e5744",
+      "lastEditedTime": "2026-06-02T08:15:00.000Z",
+      "testCaseBase": 52,
+      "executedCases": 47,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
+          "title": "Test Case_1",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 9
+        },
+        {
+          "id": "37273fbd-1951-8096-a222-e4940596b36c",
+          "title": "Test Case_2",
+          "rows": 7,
+          "caseCount": 7,
+          "executedCases": 6
+        },
+        {
+          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
+          "title": "Test Case_3",
+          "rows": 35,
+          "caseCount": 35,
+          "executedCases": 31
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 0.9,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 0.9293,
+      "score": 92.9,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-06-02T09:12:39.014194+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1599,7 +1599,7 @@
           "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
         }
       ],
-      "calculatedAt": "2026-06-02T05:29:20.036340+00:00"
+      "calculatedAt": "2026-06-02T09:12:47.284517+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1635,7 +1635,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:18.143868+00:00"
+      "calculatedAt": "2026-06-02T09:15:48.891958+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2319,7 +2319,7 @@
           "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-02T05:31:41.537563+00:00"
+      "calculatedAt": "2026-06-02T09:15:19.124552+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2516,7 +2516,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:32:11.550136+00:00"
+      "calculatedAt": "2026-06-02T09:15:44.145147+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2559,7 +2559,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:55.846454+00:00"
+      "calculatedAt": "2026-06-02T09:13:23.530642+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2587,7 +2587,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:41.002912+00:00"
+      "calculatedAt": "2026-06-02T09:13:04.894211+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2665,7 +2665,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T05:29:31.267063+00:00"
+      "calculatedAt": "2026-06-02T09:12:58.560809+00:00"
     }
   ],
   "regularTrend": [
@@ -2710,9 +2710,9 @@
     "projectCount": 14,
     "issueCount": 409,
     "testCaseCount": 5743,
-    "executedCaseCount": 5051,
-    "averageScore": 80.9,
-    "lowestScore": 32.8,
+    "executedCaseCount": 5195,
+    "averageScore": 86.1,
+    "lowestScore": 51.6,
     "highestScore": 100.0
   }
 }
