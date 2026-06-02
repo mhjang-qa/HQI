@@ -208,6 +208,41 @@
         font-size: 12px;
       }
 
+      .pager {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .pagerInfo {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .pagerControls {
+        display: flex;
+        gap: 8px;
+      }
+
+      .pagerBtn {
+        border: 1px solid var(--line);
+        background: #f0f3f5;
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 7px 12px;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .pagerBtn:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+
       .dot {
         width: 8px;
         height: 8px;
@@ -248,6 +283,15 @@
         .meta {
           text-align: left;
         }
+
+        .pager {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .pagerControls {
+          justify-content: flex-start;
+        }
       }
 
     </style>
@@ -258,7 +302,7 @@
         <div class="head">
           <div>
             <h1>프로젝트별 품질 점수</h1>
-            <p class="subtle">5.18~5.21 정기 업데이트만 표시</p>
+            <p class="subtle">5.18 이후 업데이트 만 표시</p>
           </div>
           <div class="meta">
             <span>마지막 생성</span>
@@ -283,13 +327,14 @@
             <tbody id="projectRows"></tbody>
           </table>
         </div>
+        <div id="pager" class="pager"></div>
       </section>
 
       <section class="panel">
         <div class="sectionHead">
           <div>
             <h2>정기 업데이트 버전별 점수 그래프</h2>
-            <p class="subtle">5.18~5.21 HQI 추이</p>
+            <p class="subtle">5.18 이후 HQI 추이</p>
           </div>
           <button id="trendToggle" class="toggleBtn" type="button" aria-expanded="false" aria-controls="trendWrap">펼치기</button>
         </div>
@@ -301,6 +346,13 @@
     </main>
 
     <script>
+      const PAGE_SIZE = 10;
+      const state = {
+        projects: [],
+        trend: [],
+        page: 1,
+      };
+
       const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
       const fmtCases = (row) => (row.testCaseBase > 0 ? `${row.executedCases}/${row.testCaseBase}` : "미집계");
       const scoreClass = (score) => (score >= 85 ? "good" : score >= 70 ? "warn" : "bad");
@@ -320,6 +372,7 @@
           .replace(/'/g, "&#039;");
       const trendWrap = document.getElementById("trendWrap");
       const trendToggle = document.getElementById("trendToggle");
+      const pager = document.getElementById("pager");
       let trendCollapsed = true;
 
       function renderTrendToggle() {
@@ -345,9 +398,60 @@
         return `${lookup.year}-${lookup.month}-${lookup.day} ${lookup.hour}:${lookup.minute}:${lookup.second}`;
       };
 
-      function renderRows(rows) {
+      const compareVersionAsc = (leftValue, rightValue) => {
+        const parse = (value) => {
+          const match = String(value || "").trim().match(/^(\d+)\.(\d+)(?:\.(\d+))?$/);
+          if (!match) return null;
+          return [Number(match[1]), Number(match[2]), Number(match[3] || 0)];
+        };
+        const left = parse(leftValue);
+        const right = parse(rightValue);
+        if (left && right) {
+          for (let index = 0; index < left.length; index += 1) {
+            if (left[index] !== right[index]) return left[index] - right[index];
+          }
+          return 0;
+        }
+        if (left) return -1;
+        if (right) return 1;
+        return String(leftValue || "").localeCompare(String(rightValue || ""), "ko");
+      };
+
+      const compareDateDesc = (leftValue, rightValue) => {
+        const left = Date.parse(leftValue || "");
+        const right = Date.parse(rightValue || "");
+        const leftValid = Number.isFinite(left);
+        const rightValid = Number.isFinite(right);
+        if (leftValid && rightValid && left !== right) return right - left;
+        if (leftValid !== rightValid) return leftValid ? -1 : 1;
+        return 0;
+      };
+
+      const sortProjects = (rows) =>
+        [...rows].sort((left, right) => compareDateDesc(left.date, right.date) || compareVersionAsc(right.project, left.project));
+
+      const sortTrend = (rows) => [...rows].sort((left, right) => compareVersionAsc(left.project, right.project));
+
+      const visibleTrendRows = () => {
+        const source =
+          state.trend.length > 0
+            ? state.trend
+            : state.projects
+                .filter((row) => row.category === "정기 업데이트" && row.score !== undefined && row.score !== null)
+                .map((row) => ({ project: row.project, score: row.score }));
+        return sortTrend(source);
+      };
+
+      function renderRows() {
+        const rows = sortProjects(state.projects);
+        const totalPages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+        if (state.page > totalPages) state.page = totalPages;
+        if (state.page < 1) state.page = 1;
+        const start = (state.page - 1) * PAGE_SIZE;
+        const pageRows = rows.slice(start, start + PAGE_SIZE);
+
         document.getElementById("projectRows").innerHTML = rows.length
-          ? rows
+          ? pageRows
               .map(
                 (row) => `
                   <tr>
@@ -368,9 +472,29 @@
               )
               .join("")
           : '<tr><td colspan="9">표시할 정기 업데이트 결과가 없습니다.</td></tr>';
+
+        pager.innerHTML =
+          rows.length > PAGE_SIZE
+            ? `
+                <div class="pagerInfo">총 ${rows.length}개 · ${state.page}/${totalPages} 페이지 · 페이지당 ${PAGE_SIZE}개</div>
+                <div class="pagerControls">
+                  <button class="pagerBtn" type="button" data-page="prev" ${state.page === 1 ? "disabled" : ""}>이전</button>
+                  <button class="pagerBtn" type="button" data-page="next" ${state.page === totalPages ? "disabled" : ""}>다음</button>
+                </div>
+              `
+            : `<div class="pagerInfo">총 ${rows.length}개</div>`;
+
+        pager.querySelectorAll("[data-page]").forEach((button) => {
+          button.addEventListener("click", () => {
+            if (button.dataset.page === "prev") state.page -= 1;
+            if (button.dataset.page === "next") state.page += 1;
+            renderRows();
+          });
+        });
       }
 
-      function renderTrend(rows) {
+      function renderTrend() {
+        const rows = visibleTrendRows();
         const svg = document.getElementById("trendChart");
         const width = 860;
         const height = 240;
@@ -429,9 +553,12 @@
           throw new Error("embed-data.json 조회 실패");
         }
         const data = await response.json();
+        state.projects = data.projects || [];
+        state.trend = data.regularTrend || [];
+        state.page = 1;
         document.getElementById("generatedAt").textContent = formatGeneratedAt(data.generatedAt);
-        renderRows(data.projects || []);
-        renderTrend(data.regularTrend || []);
+        renderRows();
+        renderTrend();
       }
 
       loadDashboard().catch((error) => {
