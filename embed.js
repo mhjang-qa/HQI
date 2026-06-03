@@ -6,6 +6,17 @@ const state = {
 const $ = (id) => document.getElementById(id);
 const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
 const fmtCases = (project) => (project.testCaseBase > 0 ? `${project.executedCases}/${project.testCaseBase}` : "미집계");
+const KST_TIME_ZONE = "Asia/Seoul";
+
+function normalizeDateInput(value) {
+  const text = String(value ?? "").trim();
+  if (!text) return "";
+  if (/[zZ]$|[+-]\d{2}:\d{2}$/.test(text)) return text;
+  if (/^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text)) {
+    return `${text.replace(" ", "T")}+09:00`;
+  }
+  return text;
+}
 
 function scoreClass(score) {
   if (score >= 85) return "good";
@@ -13,11 +24,12 @@ function scoreClass(score) {
   return "bad";
 }
 
-function formatGeneratedAt(value) {
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "-";
+function formatKstDateTime(value) {
+  if (!value) return "-";
+  const date = new Date(normalizeDateInput(value));
+  if (Number.isNaN(date.getTime())) return String(value).replace("T", " ");
   const parts = new Intl.DateTimeFormat("sv-SE", {
-    timeZone: "Asia/Seoul",
+    timeZone: KST_TIME_ZONE,
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -79,7 +91,7 @@ async function loadDashboard({ silent = false } = {}) {
     state.trend = data.regularTrend || [];
     renderRows();
     renderTrend();
-    $("generatedAt").textContent = formatGeneratedAt(data.generatedAt);
+  $("generatedAt").textContent = formatKstDateTime(data.generatedAt);
   } catch (error) {
     if (!silent) showToast(error.message);
   } finally {

@@ -356,6 +356,16 @@
       const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
       const fmtCases = (row) => (row.testCaseBase > 0 ? `${row.executedCases}/${row.testCaseBase}` : "미집계");
       const scoreClass = (score) => (score >= 85 ? "good" : score >= 70 ? "warn" : "bad");
+      const KST_TIME_ZONE = "Asia/Seoul";
+      const normalizeDateInput = (value) => {
+        const text = String(value ?? "").trim();
+        if (!text) return "";
+        if (/[zZ]$|[+-]\d{2}:\d{2}$/.test(text)) return text;
+        if (/^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text)) {
+          return `${text.replace(" ", "T")}+09:00`;
+        }
+        return text;
+      };
       const normalizeStatus = (value) => {
         const text = String(value || "").trim().toLowerCase();
         if (!text) return "-";
@@ -381,11 +391,12 @@
         trendToggle.textContent = trendCollapsed ? "펼치기" : "접기";
       }
 
-      const formatGeneratedAt = (value) => {
-        const date = new Date(value);
-        if (Number.isNaN(date.getTime())) return "-";
+      const formatKstDateTime = (value) => {
+        if (!value) return "-";
+        const date = new Date(normalizeDateInput(value));
+        if (Number.isNaN(date.getTime())) return String(value).replace("T", " ");
         const parts = new Intl.DateTimeFormat("sv-SE", {
-          timeZone: "Asia/Seoul",
+          timeZone: KST_TIME_ZONE,
           year: "numeric",
           month: "2-digit",
           day: "2-digit",
@@ -556,7 +567,7 @@
         state.projects = data.projects || [];
         state.trend = data.regularTrend || [];
         state.page = 1;
-        document.getElementById("generatedAt").textContent = formatGeneratedAt(data.generatedAt);
+        document.getElementById("generatedAt").textContent = formatKstDateTime(data.generatedAt);
         renderRows();
         renderTrend();
       }

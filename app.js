@@ -7,6 +7,35 @@ const state = {
 const $ = (id) => document.getElementById(id);
 const fmtPct = (value) => `${Math.round((value || 0) * 100)}%`;
 const fmtCases = (project) => (project.testCaseBase > 0 ? `${project.executedCases}/${project.testCaseBase}` : "미집계");
+const KST_TIME_ZONE = "Asia/Seoul";
+
+function normalizeDateInput(value) {
+  const text = String(value ?? "").trim();
+  if (!text) return "";
+  if (/[zZ]$|[+-]\d{2}:\d{2}$/.test(text)) return text;
+  if (/^\d{4}-\d{2}-\d{2}[T ]\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text)) {
+    return `${text.replace(" ", "T")}+09:00`;
+  }
+  return text;
+}
+
+function formatKstDateTime(value) {
+  if (!value) return "-";
+  const date = new Date(normalizeDateInput(value));
+  if (Number.isNaN(date.getTime())) return String(value).replace("T", " ");
+  const parts = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: KST_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).formatToParts(date);
+  const lookup = Object.fromEntries(parts.filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+  return `${lookup.year}-${lookup.month}-${lookup.day} ${lookup.hour}:${lookup.minute}:${lookup.second}`;
+}
 
 function scoreClass(score) {
   if (score >= 85) return "good";
@@ -73,7 +102,7 @@ async function loadDashboard() {
   renderRegularTrend(data.regularTrend || []);
   renderRows();
   renderDetail();
-  $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.generatedAt).toLocaleString()}`;
+  $("generatedAt").textContent = `저장된 계산 결과 기준 ${formatKstDateTime(data.generatedAt)}`;
 }
 
 async function calculateSelected() {
@@ -101,7 +130,7 @@ async function calculateSelected() {
     renderRegularTrend(data.dashboard.regularTrend || []);
     renderRows();
     renderDetail();
-    $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.dashboard.generatedAt).toLocaleString()}`;
+    $("generatedAt").textContent = `저장된 계산 결과 기준 ${formatKstDateTime(data.dashboard.generatedAt)}`;
     showToast(data.updated ? "계산 결과를 DB에 저장했습니다." : "변경 사항이 없어 저장된 결과를 표시합니다.");
   } catch (error) {
     showToast(error.message);
@@ -130,7 +159,7 @@ async function calculateAllProjects() {
     renderRegularTrend(data.dashboard.regularTrend || []);
     renderRows();
     renderDetail();
-    $("generatedAt").textContent = `저장된 계산 결과 기준 ${new Date(data.dashboard.generatedAt).toLocaleString()}`;
+    $("generatedAt").textContent = `저장된 계산 결과 기준 ${formatKstDateTime(data.dashboard.generatedAt)}`;
     const errorText = data.errorCount ? `, 실패 ${data.errorCount}개` : "";
     showToast(`전체 계산 완료: 신규/갱신 ${data.updatedCount}개, 저장 결과 재사용 ${data.reusedCount}개${errorText}`);
   } catch (error) {
