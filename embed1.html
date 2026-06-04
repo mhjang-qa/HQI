@@ -265,6 +265,24 @@
         white-space: nowrap;
       }
 
+      .refreshBtn {
+        margin-top: 6px;
+        border: 1px solid var(--line);
+        background: #fff;
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .refreshBtn:disabled {
+        opacity: 0.55;
+        cursor: wait;
+      }
+
       .chartWrap[hidden] {
         display: none;
       }
@@ -307,6 +325,7 @@
           <div class="meta">
             <span>마지막 생성</span>
             <strong id="generatedAt">-</strong>
+            <button id="refreshBtn" class="refreshBtn" type="button">새로고침</button>
           </div>
         </div>
         <div class="tableWrap">
@@ -382,8 +401,10 @@
           .replace(/'/g, "&#039;");
       const trendWrap = document.getElementById("trendWrap");
       const trendToggle = document.getElementById("trendToggle");
+      const refreshBtn = document.getElementById("refreshBtn");
       const pager = document.getElementById("pager");
       let trendCollapsed = true;
+      let refreshTimer = null;
 
       function renderTrendToggle() {
         trendWrap.hidden = trendCollapsed;
@@ -558,28 +579,44 @@
         `;
       }
 
-      async function loadDashboard() {
-        const response = await fetch("./embed-data.json", { cache: "no-store" });
-        if (!response.ok) {
-          throw new Error("embed-data.json 조회 실패");
+      async function loadDashboard(force = false) {
+        refreshBtn.disabled = true;
+        refreshBtn.textContent = "갱신 중";
+        try {
+          const response = await fetch(`./embed-data.json${force ? `?ts=${Date.now()}` : ""}`, { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error("embed-data.json 조회 실패");
+          }
+          const data = await response.json();
+          state.projects = data.projects || [];
+          state.trend = data.regularTrend || [];
+          state.page = 1;
+          document.getElementById("generatedAt").textContent = formatKstDateTime(data.generatedAt);
+          renderRows();
+          renderTrend();
+          return data;
+        } finally {
+          refreshBtn.disabled = false;
+          refreshBtn.textContent = "새로고침";
         }
-        const data = await response.json();
-        state.projects = data.projects || [];
-        state.trend = data.regularTrend || [];
-        state.page = 1;
-        document.getElementById("generatedAt").textContent = formatKstDateTime(data.generatedAt);
-        renderRows();
-        renderTrend();
       }
 
-      loadDashboard().catch((error) => {
+      loadDashboard(true).catch((error) => {
         document.getElementById("projectRows").innerHTML = `<tr><td colspan="9">${escapeHtml(error.message)}</td></tr>`;
       });
       trendToggle.addEventListener("click", () => {
         trendCollapsed = !trendCollapsed;
         renderTrendToggle();
       });
+      refreshBtn.addEventListener("click", () => {
+        loadDashboard(true).catch((error) => {
+          document.getElementById("projectRows").innerHTML = `<tr><td colspan="9">${escapeHtml(error.message)}</td></tr>`;
+        });
+      });
       renderTrendToggle();
+      refreshTimer = window.setInterval(() => {
+        loadDashboard(true).catch(() => {});
+      }, 30000);
     </script>
   </body>
 </html>
