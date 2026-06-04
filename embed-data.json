@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T09:16:35.016557+00:00",
+  "generatedAt": "2026-06-04T23:50:12.505957+00:00",
   "source": "stored",
   "projects": [
     {
@@ -11,7 +11,7 @@
       "progress": 0.2,
       "status": "진행 중",
       "date": "",
-      "url": "https://www.notion.so/5-22-1-37273fbd19518011bce2cf5ae90c5fdc",
+      "url": "https://app.notion.com/p/5-22-1-37273fbd19518011bce2cf5ae90c5fdc",
       "lastEditedTime": "2026-06-02T08:19:00.000Z",
       "testCaseBase": 526,
       "executedCases": 166,
@@ -36,7 +36,7 @@
       "score": 51.6,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:16:31.303250+00:00"
+      "calculatedAt": "2026-06-04T23:50:08.699231+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -47,7 +47,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "",
-      "url": "https://www.notion.so/5-16-0-2a973fbd19518058b6f1fcfacaf0cad9",
+      "url": "https://app.notion.com/p/5-16-0-2a973fbd19518058b6f1fcfacaf0cad9",
       "lastEditedTime": "2026-02-25T01:35:00.000Z",
       "testCaseBase": 17,
       "executedCases": 17,
@@ -100,7 +100,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2bd73fbd19518044bbd9d803c3a83290"
+          "url": "https://app.notion.com/p/BO-2bd73fbd19518044bbd9d803c3a83290"
         },
         {
           "id": "2b973fbd-1951-80c2-8883-e2aa9a6710e2",
@@ -110,7 +110,7 @@
           "status": "결함 아님 (Not an issue)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2b973fbd195180c28883e2aa9a6710e2"
+          "url": "https://app.notion.com/p/BO-2b973fbd195180c28883e2aa9a6710e2"
         },
         {
           "id": "2b873fbd-1951-80a2-9c46-c948de4d5107",
@@ -120,7 +120,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "높음",
-          "url": "https://www.notion.so/iOS-2b873fbd195180a29c46c948de4d5107"
+          "url": "https://app.notion.com/p/iOS-2b873fbd195180a29c46c948de4d5107"
         },
         {
           "id": "2b873fbd-1951-80ad-91f4-deaf3c20ba65",
@@ -130,7 +130,7 @@
           "status": "결함 아님 (Not an issue)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-AOS-2b873fbd195180ad91f4deaf3c20ba65"
+          "url": "https://app.notion.com/p/iOS-AOS-2b873fbd195180ad91f4deaf3c20ba65"
         },
         {
           "id": "2b873fbd-1951-80ba-ba29-ff25f10aaad0",
@@ -140,7 +140,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "개선 의견",
           "priority": "낮음",
-          "url": "https://www.notion.so/iOS-iOS-AOS-2b873fbd195180baba29ff25f10aaad0"
+          "url": "https://app.notion.com/p/iOS-iOS-AOS-2b873fbd195180baba29ff25f10aaad0"
         },
         {
           "id": "2b873fbd-1951-800b-bf94-d053168d390d",
@@ -150,7 +150,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-2b873fbd1951800bbf94d053168d390d"
+          "url": "https://app.notion.com/p/AOS-2b873fbd1951800bbf94d053168d390d"
         },
         {
           "id": "2b773fbd-1951-8020-b3b3-d378708bd27e",
@@ -160,7 +160,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-1-1-2b773fbd19518020b3b3d378708bd27e"
+          "url": "https://app.notion.com/p/BO-1-1-2b773fbd19518020b3b3d378708bd27e"
         },
         {
           "id": "2b773fbd-1951-8016-b855-fad1d609084d",
@@ -170,7 +170,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2b773fbd19518016b855fad1d609084d"
+          "url": "https://app.notion.com/p/BO-2b773fbd19518016b855fad1d609084d"
         },
         {
           "id": "2b773fbd-1951-80fb-b516-f69ca0393be3",
@@ -180,7 +180,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2b773fbd195180fbb516f69ca0393be3"
+          "url": "https://app.notion.com/p/BO-2b773fbd195180fbb516f69ca0393be3"
         },
         {
           "id": "2b773fbd-1951-808e-ba20-d1bbb1d0e0b5",
@@ -190,7 +190,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2b773fbd1951808eba20d1bbb1d0e0b5"
+          "url": "https://app.notion.com/p/2b773fbd1951808eba20d1bbb1d0e0b5"
         },
         {
           "id": "2b773fbd-1951-8021-8634-dc1cf8db6e0f",
@@ -200,7 +200,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-2b773fbd195180218634dc1cf8db6e0f"
+          "url": "https://app.notion.com/p/iOS-2b773fbd195180218634dc1cf8db6e0f"
         },
         {
           "id": "2b773fbd-1951-8063-b389-c2e4b0deceed",
@@ -210,7 +210,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-2b773fbd19518063b389c2e4b0deceed"
+          "url": "https://app.notion.com/p/iOS-2b773fbd19518063b389c2e4b0deceed"
         },
         {
           "id": "2b773fbd-1951-8016-9ab2-ecb9ab3cee6b",
@@ -220,7 +220,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2b773fbd195180169ab2ecb9ab3cee6b"
+          "url": "https://app.notion.com/p/BO-2b773fbd195180169ab2ecb9ab3cee6b"
         },
         {
           "id": "2b773fbd-1951-804c-b131-c02a36b3e206",
@@ -230,7 +230,7 @@
           "status": "추척 관찰-백로그",
           "severity": "Major",
           "priority": "높음",
-          "url": "https://www.notion.so/2b773fbd1951804cb131c02a36b3e206"
+          "url": "https://app.notion.com/p/2b773fbd1951804cb131c02a36b3e206"
         },
         {
           "id": "2b773fbd-1951-80f1-8416-d6079df55f12",
@@ -240,7 +240,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-1-1-2b773fbd195180f18416d6079df55f12"
+          "url": "https://app.notion.com/p/BO-1-1-2b773fbd195180f18416d6079df55f12"
         },
         {
           "id": "2b773fbd-1951-80cc-98f9-fc87a63f202f",
@@ -250,7 +250,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-2b773fbd195180cc98f9fc87a63f202f"
+          "url": "https://app.notion.com/p/BO-2b773fbd195180cc98f9fc87a63f202f"
         },
         {
           "id": "2b773fbd-1951-80b5-9b53-e8d2d05a81b4",
@@ -260,7 +260,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2b773fbd195180b59b53e8d2d05a81b4"
+          "url": "https://app.notion.com/p/2b773fbd195180b59b53e8d2d05a81b4"
         },
         {
           "id": "2b673fbd-1951-80ed-bf58-c95bef286efb",
@@ -270,7 +270,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/PDF-2b673fbd195180edbf58c95bef286efb"
+          "url": "https://app.notion.com/p/PDF-2b673fbd195180edbf58c95bef286efb"
         },
         {
           "id": "2b673fbd-1951-8043-977f-d0ca2a41a7c2",
@@ -280,7 +280,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-SM-F926N-UI-2b673fbd19518043977fd0ca2a41a7c2"
+          "url": "https://app.notion.com/p/AOS-SM-F926N-UI-2b673fbd19518043977fd0ca2a41a7c2"
         },
         {
           "id": "2b673fbd-1951-8045-aeb4-f2362b027726",
@@ -290,10 +290,10 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-2b673fbd19518045aeb4f2362b027726"
+          "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-02T09:16:12.423239+00:00"
+      "calculatedAt": "2026-06-04T23:49:41.213834+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -304,7 +304,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-01-20",
-      "url": "https://www.notion.so/5-18-0-2ee73fbd195180ea9ad8cfbd07f8fc01",
+      "url": "https://app.notion.com/p/5-18-0-2ee73fbd195180ea9ad8cfbd07f8fc01",
       "lastEditedTime": "2026-02-05T01:10:00.000Z",
       "testCaseBase": 9,
       "executedCases": 9,
@@ -363,7 +363,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-2fb73fbd19518051bc14c27fc206ebce"
+          "url": "https://app.notion.com/p/QR-AOS-2fb73fbd19518051bc14c27fc206ebce"
         },
         {
           "id": "2f773fbd-1951-80ea-81d5-c9d7e3f23d01",
@@ -373,7 +373,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-1-2f773fbd195180ea81d5c9d7e3f23d01"
+          "url": "https://app.notion.com/p/QR-AOS-1-2f773fbd195180ea81d5c9d7e3f23d01"
         },
         {
           "id": "2f773fbd-1951-80cb-b335-f711fac55a2a",
@@ -383,7 +383,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-PIN-2f773fbd195180cbb335f711fac55a2a"
+          "url": "https://app.notion.com/p/QR-AOS-PIN-2f773fbd195180cbb335f711fac55a2a"
         },
         {
           "id": "2f773fbd-1951-80e0-aff0-da83468e9cba",
@@ -393,7 +393,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-iOS-2f773fbd195180e0aff0da83468e9cba"
+          "url": "https://app.notion.com/p/QR-AOS-iOS-2f773fbd195180e0aff0da83468e9cba"
         },
         {
           "id": "2f773fbd-1951-8090-8c92-f5fac45808cb",
@@ -403,7 +403,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-2f773fbd195180908c92f5fac45808cb"
+          "url": "https://app.notion.com/p/QR-AOS-2f773fbd195180908c92f5fac45808cb"
         },
         {
           "id": "2f773fbd-1951-807e-9cc8-e35d1737144f",
@@ -413,7 +413,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-iOS-2f773fbd1951807e9cc8e35d1737144f"
+          "url": "https://app.notion.com/p/QR-AOS-iOS-2f773fbd1951807e9cc8e35d1737144f"
         },
         {
           "id": "2f773fbd-1951-80ad-be0e-df06fb35453e",
@@ -423,7 +423,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-2f773fbd195180adbe0edf06fb35453e"
+          "url": "https://app.notion.com/p/QR-AOS-2f773fbd195180adbe0edf06fb35453e"
         },
         {
           "id": "2f773fbd-1951-806b-aff7-fbf74248d12b",
@@ -433,7 +433,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-2f773fbd1951806baff7fbf74248d12b"
+          "url": "https://app.notion.com/p/QR-2f773fbd1951806baff7fbf74248d12b"
         },
         {
           "id": "2f773fbd-1951-802b-a056-c8aba3e9598a",
@@ -443,7 +443,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-2f773fbd1951802ba056c8aba3e9598a"
+          "url": "https://app.notion.com/p/QR-2f773fbd1951802ba056c8aba3e9598a"
         },
         {
           "id": "2f773fbd-1951-807d-a5c1-c8c7b79df665",
@@ -453,7 +453,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-USD-QR-2f773fbd1951807da5c1c8c7b79df665"
+          "url": "https://app.notion.com/p/QR-USD-QR-2f773fbd1951807da5c1c8c7b79df665"
         },
         {
           "id": "2f773fbd-1951-8081-8c2f-d8515507ad83",
@@ -463,7 +463,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-iOS-2f773fbd195180818c2fd8515507ad83"
+          "url": "https://app.notion.com/p/QR-iOS-iOS-2f773fbd195180818c2fd8515507ad83"
         },
         {
           "id": "2f773fbd-1951-8061-a0a8-daf52ded649c",
@@ -473,7 +473,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-ON-KHQR-2f773fbd19518061a0a8daf52ded649c"
+          "url": "https://app.notion.com/p/QR-iOS-ON-KHQR-2f773fbd19518061a0a8daf52ded649c"
         },
         {
           "id": "2f773fbd-1951-8012-9e01-f37d4d7fb048",
@@ -483,7 +483,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-QR-2f773fbd195180129e01f37d4d7fb048"
+          "url": "https://app.notion.com/p/QR-AOS-QR-2f773fbd195180129e01f37d4d7fb048"
         },
         {
           "id": "2f773fbd-1951-8071-b847-ccbeeb75c456",
@@ -493,7 +493,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-2f773fbd19518071b847ccbeeb75c456"
+          "url": "https://app.notion.com/p/QR-AOS-2f773fbd19518071b847ccbeeb75c456"
         },
         {
           "id": "2f773fbd-1951-8019-8897-d8c9b6d5f7d4",
@@ -503,7 +503,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-AOS-2f773fbd195180198897d8c9b6d5f7d4"
+          "url": "https://app.notion.com/p/QR-iOS-AOS-2f773fbd195180198897d8c9b6d5f7d4"
         },
         {
           "id": "2f773fbd-1951-8092-a578-cb5a1c9fc709",
@@ -513,7 +513,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-Blocking-2f773fbd19518092a578cb5a1c9fc709"
+          "url": "https://app.notion.com/p/QR-iOS-Blocking-2f773fbd19518092a578cb5a1c9fc709"
         },
         {
           "id": "2f773fbd-1951-805b-8f92-c750636a9e3d",
@@ -523,7 +523,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-2f773fbd1951805b8f92c750636a9e3d"
+          "url": "https://app.notion.com/p/QR-iOS-2f773fbd1951805b8f92c750636a9e3d"
         },
         {
           "id": "2f673fbd-1951-8083-8df7-e8a406663fc4",
@@ -533,7 +533,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-iOS-2f673fbd195180838df7e8a406663fc4"
+          "url": "https://app.notion.com/p/QR-iOS-2f673fbd195180838df7e8a406663fc4"
         },
         {
           "id": "2f673fbd-1951-80db-87a7-f9c4adece5ac",
@@ -543,7 +543,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-QR-QR-2f673fbd195180db87a7f9c4adece5ac"
+          "url": "https://app.notion.com/p/QR-AOS-QR-QR-2f673fbd195180db87a7f9c4adece5ac"
         },
         {
           "id": "2f673fbd-1951-8054-bf56-d9f8e12b1470",
@@ -553,10 +553,10 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
+          "url": "https://app.notion.com/p/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-02T09:12:33.510363+00:00"
+      "calculatedAt": "2026-06-04T23:47:39.373299+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -567,7 +567,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-02-06",
-      "url": "https://www.notion.so/2fc73fbd1951800797fec5174b72d1c6",
+      "url": "https://app.notion.com/p/2fc73fbd1951800797fec5174b72d1c6",
       "lastEditedTime": "2026-03-04T02:15:00.000Z",
       "testCaseBase": 810,
       "executedCases": 744,
@@ -612,7 +612,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/1-30d73fbd19518089b16dfd6ba6f68423"
+          "url": "https://app.notion.com/p/1-30d73fbd19518089b16dfd6ba6f68423"
         },
         {
           "id": "30273fbd-1951-8013-ae61-e1fe8911d474",
@@ -622,7 +622,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/30273fbd19518013ae61e1fe8911d474"
+          "url": "https://app.notion.com/p/30273fbd19518013ae61e1fe8911d474"
         },
         {
           "id": "2ff73fbd-1951-8030-be1f-e51b51f5a8ec",
@@ -632,7 +632,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-2-2ff73fbd19518030be1fe51b51f5a8ec"
+          "url": "https://app.notion.com/p/AOS-2-2ff73fbd19518030be1fe51b51f5a8ec"
         },
         {
           "id": "2ff73fbd-1951-8092-b235-f51b9b0a51ca",
@@ -642,7 +642,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2ff73fbd19518092b235f51b9b0a51ca"
+          "url": "https://app.notion.com/p/2ff73fbd19518092b235f51b9b0a51ca"
         },
         {
           "id": "2ff73fbd-1951-80cf-89a1-f3fb2d486e8a",
@@ -652,7 +652,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2ff73fbd195180cf89a1f3fb2d486e8a"
+          "url": "https://app.notion.com/p/2ff73fbd195180cf89a1f3fb2d486e8a"
         },
         {
           "id": "2ff73fbd-1951-80c3-b068-d05cb71af344",
@@ -662,7 +662,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/2ff73fbd195180c3b068d05cb71af344"
+          "url": "https://app.notion.com/p/2ff73fbd195180c3b068d05cb71af344"
         },
         {
           "id": "2ff73fbd-1951-802a-8541-e620f687e9fd",
@@ -672,7 +672,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2ff73fbd1951802a8541e620f687e9fd"
+          "url": "https://app.notion.com/p/2ff73fbd1951802a8541e620f687e9fd"
         },
         {
           "id": "2ff73fbd-1951-8065-9d3f-e98dba7e4e76",
@@ -682,7 +682,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/1-3-2ff73fbd195180659d3fe98dba7e4e76"
+          "url": "https://app.notion.com/p/1-3-2ff73fbd195180659d3fe98dba7e4e76"
         },
         {
           "id": "2fe73fbd-1951-808e-803c-d129b2a68952",
@@ -692,7 +692,7 @@
           "status": "추척 관찰-백로그",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/1-2fe73fbd1951808e803cd129b2a68952"
+          "url": "https://app.notion.com/p/1-2fe73fbd1951808e803cd129b2a68952"
         },
         {
           "id": "2fe73fbd-1951-80d6-bca4-eb1ccab85697",
@@ -702,7 +702,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/1-404-2fe73fbd195180d6bca4eb1ccab85697"
+          "url": "https://app.notion.com/p/1-404-2fe73fbd195180d6bca4eb1ccab85697"
         },
         {
           "id": "2fe73fbd-1951-8093-85ff-e8040e6af1bb",
@@ -712,7 +712,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd1951809385ffe8040e6af1bb"
+          "url": "https://app.notion.com/p/2fe73fbd1951809385ffe8040e6af1bb"
         },
         {
           "id": "2fe73fbd-1951-80f0-bac1-ead77fb8b96d",
@@ -722,7 +722,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/1-15-OS-iOS-AOS-2fe73fbd195180f0bac1ead77fb8b96d"
+          "url": "https://app.notion.com/p/1-15-OS-iOS-AOS-2fe73fbd195180f0bac1ead77fb8b96d"
         },
         {
           "id": "2fe73fbd-1951-807b-aa13-e165ea9b1f52",
@@ -732,7 +732,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/1-2fe73fbd1951807baa13e165ea9b1f52"
+          "url": "https://app.notion.com/p/1-2fe73fbd1951807baa13e165ea9b1f52"
         },
         {
           "id": "2fe73fbd-1951-8009-b927-e57663276410",
@@ -742,7 +742,7 @@
           "status": "결함 아님 (Not an issue)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd19518009b927e57663276410"
+          "url": "https://app.notion.com/p/2fe73fbd19518009b927e57663276410"
         },
         {
           "id": "2fe73fbd-1951-80ee-8093-efab55380cc3",
@@ -752,7 +752,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd195180ee8093efab55380cc3"
+          "url": "https://app.notion.com/p/2fe73fbd195180ee8093efab55380cc3"
         },
         {
           "id": "2fe73fbd-1951-804b-a063-f0af11a13f54",
@@ -762,7 +762,7 @@
           "status": "등록 (Registered)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd1951804ba063f0af11a13f54"
+          "url": "https://app.notion.com/p/2fe73fbd1951804ba063f0af11a13f54"
         },
         {
           "id": "2fe73fbd-1951-8075-b675-ec987306360c",
@@ -772,7 +772,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd19518075b675ec987306360c"
+          "url": "https://app.notion.com/p/2fe73fbd19518075b675ec987306360c"
         },
         {
           "id": "2fe73fbd-1951-80ec-b348-d9be4f2bb280",
@@ -782,7 +782,7 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/1-1-2fe73fbd195180ecb348d9be4f2bb280"
+          "url": "https://app.notion.com/p/1-1-2fe73fbd195180ecb348d9be4f2bb280"
         },
         {
           "id": "2fe73fbd-1951-80be-9856-f7b9757b4d93",
@@ -792,7 +792,7 @@
           "status": "결함 아님 (Not an issue)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd195180be9856f7b9757b4d93"
+          "url": "https://app.notion.com/p/2fe73fbd195180be9856f7b9757b4d93"
         },
         {
           "id": "2fe73fbd-1951-80be-ac41-f68d2ba873de",
@@ -802,10 +802,10 @@
           "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2fe73fbd195180beac41f68d2ba873de"
+          "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-02T09:12:27.656332+00:00"
+      "calculatedAt": "2026-06-04T23:47:33.994874+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -816,7 +816,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-03-30",
-      "url": "https://www.notion.so/5-20-0-32c73fbd195180a0bc84cd803d395f31",
+      "url": "https://app.notion.com/p/5-20-0-32c73fbd195180a0bc84cd803d395f31",
       "lastEditedTime": "2026-04-20T02:34:00.000Z",
       "testCaseBase": 372,
       "executedCases": 279,
@@ -853,7 +853,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33773fbd19518070a244c815ec149e20"
+          "url": "https://app.notion.com/p/33773fbd19518070a244c815ec149e20"
         },
         {
           "id": "33773fbd-1951-8063-9bf3-ec462e9e9538",
@@ -863,7 +863,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/BO-Y-N-UI-33773fbd195180639bf3ec462e9e9538"
+          "url": "https://app.notion.com/p/BO-Y-N-UI-33773fbd195180639bf3ec462e9e9538"
         },
         {
           "id": "33773fbd-1951-801a-b30c-d352fac6a650",
@@ -873,7 +873,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/10-33773fbd1951801ab30cd352fac6a650"
+          "url": "https://app.notion.com/p/10-33773fbd1951801ab30cd352fac6a650"
         },
         {
           "id": "33773fbd-1951-8051-83e9-d6d9c6ab3765",
@@ -883,7 +883,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33773fbd1951805183e9d6d9c6ab3765"
+          "url": "https://app.notion.com/p/AOS-iOS-33773fbd1951805183e9d6d9c6ab3765"
         },
         {
           "id": "33773fbd-1951-80ed-950f-e58b91201d3a",
@@ -893,7 +893,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-ATM-iOS-33773fbd195180ed950fe58b91201d3a"
+          "url": "https://app.notion.com/p/AOS-ATM-iOS-33773fbd195180ed950fe58b91201d3a"
         },
         {
           "id": "33773fbd-1951-80a8-b416-cc6318824dfc",
@@ -903,7 +903,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "보통",
-          "url": "https://www.notion.so/33773fbd195180a8b416cc6318824dfc"
+          "url": "https://app.notion.com/p/33773fbd195180a8b416cc6318824dfc"
         },
         {
           "id": "33773fbd-1951-808e-a1cb-f5fd8990cafb",
@@ -913,7 +913,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "보통",
-          "url": "https://www.notion.so/Popup-33773fbd1951808ea1cbf5fd8990cafb"
+          "url": "https://app.notion.com/p/Popup-33773fbd1951808ea1cbf5fd8990cafb"
         },
         {
           "id": "33773fbd-1951-80b4-81e8-e156497cb1ad",
@@ -923,7 +923,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-QR-AOS-33773fbd195180b481e8e156497cb1ad"
+          "url": "https://app.notion.com/p/iOS-QR-AOS-33773fbd195180b481e8e156497cb1ad"
         },
         {
           "id": "33773fbd-1951-80ac-96bf-df79377e9fcb",
@@ -933,7 +933,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-AOS-33773fbd195180ac96bfdf79377e9fcb"
+          "url": "https://app.notion.com/p/iOS-AOS-33773fbd195180ac96bfdf79377e9fcb"
         },
         {
           "id": "33773fbd-1951-8013-bf57-fb0459945955",
@@ -943,7 +943,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-10-000-50-000-100-000-500-000-AOS-33773fbd19518013bf57fb0459945955"
+          "url": "https://app.notion.com/p/iOS-10-000-50-000-100-000-500-000-AOS-33773fbd19518013bf57fb0459945955"
         },
         {
           "id": "33773fbd-1951-80af-ac9f-fcf5353f3c22",
@@ -953,7 +953,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-ATM-AOS-33773fbd195180afac9ffcf5353f3c22"
+          "url": "https://app.notion.com/p/iOS-ATM-AOS-33773fbd195180afac9ffcf5353f3c22"
         },
         {
           "id": "33773fbd-1951-8010-8184-dde637f13979",
@@ -963,7 +963,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33773fbd195180108184dde637f13979"
+          "url": "https://app.notion.com/p/33773fbd195180108184dde637f13979"
         },
         {
           "id": "33673fbd-1951-8070-9bf2-c554cd72140f",
@@ -973,7 +973,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33673fbd195180709bf2c554cd72140f"
+          "url": "https://app.notion.com/p/AOS-iOS-33673fbd195180709bf2c554cd72140f"
         },
         {
           "id": "33673fbd-1951-802f-a903-e5c12ec14ad1",
@@ -983,7 +983,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33673fbd1951802fa903e5c12ec14ad1"
+          "url": "https://app.notion.com/p/33673fbd1951802fa903e5c12ec14ad1"
         },
         {
           "id": "33673fbd-1951-8067-b517-d38bd302faaa",
@@ -993,7 +993,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-33673fbd19518067b517d38bd302faaa"
+          "url": "https://app.notion.com/p/AOS-33673fbd19518067b517d38bd302faaa"
         },
         {
           "id": "33673fbd-1951-80bc-b0f4-ff0bc86abc21",
@@ -1003,7 +1003,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-Check-Uncheck-iOS-33673fbd195180bcb0f4ff0bc86abc21"
+          "url": "https://app.notion.com/p/AOS-Check-Uncheck-iOS-33673fbd195180bcb0f4ff0bc86abc21"
         },
         {
           "id": "33673fbd-1951-80f2-922c-da2eb2ef1a2e",
@@ -1013,7 +1013,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33673fbd195180f2922cda2eb2ef1a2e"
+          "url": "https://app.notion.com/p/33673fbd195180f2922cda2eb2ef1a2e"
         },
         {
           "id": "33673fbd-1951-8061-9eda-e1c08ba86438",
@@ -1023,7 +1023,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-33673fbd195180619edae1c08ba86438"
+          "url": "https://app.notion.com/p/AOS-iOS-33673fbd195180619edae1c08ba86438"
         },
         {
           "id": "33673fbd-1951-80ad-8ed9-f6fe7abe30bf",
@@ -1033,7 +1033,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/33673fbd195180ad8ed9f6fe7abe30bf"
+          "url": "https://app.notion.com/p/33673fbd195180ad8ed9f6fe7abe30bf"
         },
         {
           "id": "33673fbd-1951-80d8-982f-c6c3dcf864d6",
@@ -1043,10 +1043,10 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
+          "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-02T09:12:06.239008+00:00"
+      "calculatedAt": "2026-06-04T23:47:07.371501+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1057,7 +1057,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-02-23",
-      "url": "https://www.notion.so/5-19-0-30373fbd195180e78766c38fb4b0466f",
+      "url": "https://app.notion.com/p/5-19-0-30373fbd195180e78766c38fb4b0466f",
       "lastEditedTime": "2026-04-20T02:09:00.000Z",
       "testCaseBase": 234,
       "executedCases": 212,
@@ -1114,7 +1114,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-iOS-31373fbd195180718a54fbbb31ab26cb"
+          "url": "https://app.notion.com/p/AOS-iOS-31373fbd195180718a54fbbb31ab26cb"
         },
         {
           "id": "31373fbd-1951-806d-890c-d6fad63d161c",
@@ -1124,7 +1124,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/UI-AOS-X-iOS-31373fbd1951806d890cd6fad63d161c"
+          "url": "https://app.notion.com/p/UI-AOS-X-iOS-31373fbd1951806d890cd6fad63d161c"
         },
         {
           "id": "31373fbd-1951-80ff-8172-f2a41bddd07e",
@@ -1134,7 +1134,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-31373fbd195180ff8172f2a41bddd07e"
+          "url": "https://app.notion.com/p/AOS-31373fbd195180ff8172f2a41bddd07e"
         },
         {
           "id": "31273fbd-1951-80e8-ac93-e7dd82a53943",
@@ -1144,7 +1144,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/31273fbd195180e8ac93e7dd82a53943"
+          "url": "https://app.notion.com/p/31273fbd195180e8ac93e7dd82a53943"
         },
         {
           "id": "31273fbd-1951-805b-9496-fccb91bd7f2f",
@@ -1154,7 +1154,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/Urdu-31273fbd1951805b9496fccb91bd7f2f"
+          "url": "https://app.notion.com/p/Urdu-31273fbd1951805b9496fccb91bd7f2f"
         },
         {
           "id": "31273fbd-1951-8053-adb4-f8b640ccaebe",
@@ -1164,7 +1164,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-Urdu-31273fbd19518053adb4f8b640ccaebe"
+          "url": "https://app.notion.com/p/AOS-Urdu-31273fbd19518053adb4f8b640ccaebe"
         },
         {
           "id": "31273fbd-1951-8022-b400-e97185272fee",
@@ -1174,7 +1174,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-Urdu-31273fbd19518022b400e97185272fee"
+          "url": "https://app.notion.com/p/AOS-Urdu-31273fbd19518022b400e97185272fee"
         },
         {
           "id": "31273fbd-1951-8082-b55b-f109e564dc4b",
@@ -1184,7 +1184,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/31273fbd19518082b55bf109e564dc4b"
+          "url": "https://app.notion.com/p/31273fbd19518082b55bf109e564dc4b"
         },
         {
           "id": "31173fbd-1951-8098-94a9-c6e4ee4091f5",
@@ -1194,7 +1194,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/App-31173fbd1951809894a9c6e4ee4091f5"
+          "url": "https://app.notion.com/p/App-31173fbd1951809894a9c6e4ee4091f5"
         },
         {
           "id": "31073fbd-1951-807c-86ba-f718dbaf2706",
@@ -1204,7 +1204,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/ARS-ARS-iOS-ARS-31073fbd1951807c86baf718dbaf2706"
+          "url": "https://app.notion.com/p/ARS-ARS-iOS-ARS-31073fbd1951807c86baf718dbaf2706"
         },
         {
           "id": "31073fbd-1951-8048-af20-de96ab41fca4",
@@ -1214,7 +1214,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/ARS-ARS-ARS-31073fbd19518048af20de96ab41fca4"
+          "url": "https://app.notion.com/p/ARS-ARS-ARS-31073fbd19518048af20de96ab41fca4"
         },
         {
           "id": "31073fbd-1951-807b-aa48-fb57986711bc",
@@ -1224,7 +1224,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/10-31073fbd1951807baa48fb57986711bc"
+          "url": "https://app.notion.com/p/10-31073fbd1951807baa48fb57986711bc"
         },
         {
           "id": "31073fbd-1951-8011-81f5-c943fda5cde3",
@@ -1234,7 +1234,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/A-Z-31073fbd1951801181f5c943fda5cde3"
+          "url": "https://app.notion.com/p/A-Z-31073fbd1951801181f5c943fda5cde3"
         },
         {
           "id": "31073fbd-1951-80de-ab77-e1dbaff464b7",
@@ -1244,7 +1244,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/ARS-ARS-31073fbd195180deab77e1dbaff464b7"
+          "url": "https://app.notion.com/p/ARS-ARS-31073fbd195180deab77e1dbaff464b7"
         },
         {
           "id": "31073fbd-1951-8004-bd9a-cafc0a5bfaeb",
@@ -1254,7 +1254,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-AOS-31073fbd19518004bd9acafc0a5bfaeb"
+          "url": "https://app.notion.com/p/iOS-AOS-31073fbd19518004bd9acafc0a5bfaeb"
         },
         {
           "id": "31073fbd-1951-8010-b16c-ecf4d4ee2bc9",
@@ -1264,7 +1264,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/A-Z-31073fbd19518010b16cecf4d4ee2bc9"
+          "url": "https://app.notion.com/p/A-Z-31073fbd19518010b16cecf4d4ee2bc9"
         },
         {
           "id": "31073fbd-1951-802a-a818-d6a544afbcaf",
@@ -1274,7 +1274,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-31073fbd1951802aa818d6a544afbcaf"
+          "url": "https://app.notion.com/p/AOS-31073fbd1951802aa818d6a544afbcaf"
         },
         {
           "id": "31073fbd-1951-80dd-a10f-c87f4b031b6b",
@@ -1284,7 +1284,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/31073fbd195180dda10fc87f4b031b6b"
+          "url": "https://app.notion.com/p/31073fbd195180dda10fc87f4b031b6b"
         },
         {
           "id": "31073fbd-1951-8048-abbe-c2fbe0f5f82d",
@@ -1294,7 +1294,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/31073fbd19518048abbec2fbe0f5f82d"
+          "url": "https://app.notion.com/p/31073fbd19518048abbec2fbe0f5f82d"
         },
         {
           "id": "2f773fbd-1951-804b-860f-cbe69bd83838",
@@ -1304,10 +1304,10 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-2f773fbd1951804b860fcbe69bd83838"
+          "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-02T09:12:24.686403+00:00"
+      "calculatedAt": "2026-06-04T23:47:30.945668+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -1316,10 +1316,10 @@
       "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
       "key": "동일실명확인번호재가입3회시도시가입차단",
       "progress": 0.9,
-      "status": "진행 중",
+      "status": "완료",
       "date": "2026-06-02",
-      "url": "https://www.notion.so/3-Test-Case-37273fbd195180249855cf7d377e5744",
-      "lastEditedTime": "2026-06-02T08:15:00.000Z",
+      "url": "https://app.notion.com/p/3-Test-Case-37273fbd195180249855cf7d377e5744",
+      "lastEditedTime": "2026-06-04T01:00:00.000Z",
       "testCaseBase": 52,
       "executedCases": 47,
       "tcCountSource": "notion_child_databases",
@@ -1357,7 +1357,7 @@
       "score": 92.9,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:11:52.975807+00:00"
+      "calculatedAt": "2026-06-04T23:46:53.536771+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1368,7 +1368,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-04-28",
-      "url": "https://www.notion.so/5-21-0-33673fbd1951804e9ae7fc659890082c",
+      "url": "https://app.notion.com/p/5-21-0-33673fbd1951804e9ae7fc659890082c",
       "lastEditedTime": "2026-05-25T23:57:00.000Z",
       "testCaseBase": 1300,
       "executedCases": 1300,
@@ -1406,7 +1406,7 @@
           "status": "등록 (Registered)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-36f73fbd19518099a5f5c0992f45b99c"
+          "url": "https://app.notion.com/p/AOS-36f73fbd19518099a5f5c0992f45b99c"
         },
         {
           "id": "36873fbd-1951-804b-99ec-c017407d7d76",
@@ -1416,7 +1416,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/36873fbd1951804b99ecc017407d7d76"
+          "url": "https://app.notion.com/p/36873fbd1951804b99ecc017407d7d76"
         },
         {
           "id": "36873fbd-1951-8013-b8aa-dc2d27d16492",
@@ -1426,7 +1426,7 @@
           "status": "등록 (Registered)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/QR-QR-36873fbd19518013b8aadc2d27d16492"
+          "url": "https://app.notion.com/p/QR-QR-36873fbd19518013b8aadc2d27d16492"
         },
         {
           "id": "36873fbd-1951-80fb-81c7-d22e679a0dab",
@@ -1436,7 +1436,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-36873fbd195180fb81c7d22e679a0dab"
+          "url": "https://app.notion.com/p/AOS-36873fbd195180fb81c7d22e679a0dab"
         },
         {
           "id": "36873fbd-1951-809c-8a41-fa006f849883",
@@ -1446,7 +1446,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/36873fbd1951809c8a41fa006f849883"
+          "url": "https://app.notion.com/p/36873fbd1951809c8a41fa006f849883"
         },
         {
           "id": "36873fbd-1951-802c-9e78-f1c93c65dfba",
@@ -1456,7 +1456,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/36873fbd1951802c9e78f1c93c65dfba"
+          "url": "https://app.notion.com/p/36873fbd1951802c9e78f1c93c65dfba"
         },
         {
           "id": "36873fbd-1951-803f-bc39-d2ffead7a4c7",
@@ -1466,7 +1466,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-36873fbd1951803fbc39d2ffead7a4c7"
+          "url": "https://app.notion.com/p/iOS-36873fbd1951803fbc39d2ffead7a4c7"
         },
         {
           "id": "36573fbd-1951-8004-8996-dbc893a6d119",
@@ -1476,7 +1476,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/36573fbd195180048996dbc893a6d119"
+          "url": "https://app.notion.com/p/36573fbd195180048996dbc893a6d119"
         },
         {
           "id": "36573fbd-1951-8000-ae7e-c285c49c7f14",
@@ -1486,7 +1486,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/36573fbd19518000ae7ec285c49c7f14"
+          "url": "https://app.notion.com/p/36573fbd19518000ae7ec285c49c7f14"
         },
         {
           "id": "36573fbd-1951-8006-90c3-cd1cd688beaf",
@@ -1496,7 +1496,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-36573fbd1951800690c3cd1cd688beaf"
+          "url": "https://app.notion.com/p/iOS-36573fbd1951800690c3cd1cd688beaf"
         },
         {
           "id": "36573fbd-1951-80aa-bcd1-d6bfbd256030",
@@ -1506,7 +1506,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/36573fbd195180aabcd1d6bfbd256030"
+          "url": "https://app.notion.com/p/36573fbd195180aabcd1d6bfbd256030"
         },
         {
           "id": "36473fbd-1951-80d6-aae4-c33f12f97ccd",
@@ -1516,7 +1516,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-40001-36473fbd195180d6aae4c33f12f97ccd"
+          "url": "https://app.notion.com/p/AOS-40001-36473fbd195180d6aae4c33f12f97ccd"
         },
         {
           "id": "35d73fbd-1951-807c-9c58-e943c06e0908",
@@ -1526,7 +1526,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951807c9c58e943c06e0908"
+          "url": "https://app.notion.com/p/35d73fbd1951807c9c58e943c06e0908"
         },
         {
           "id": "35d73fbd-1951-80dc-9d5e-f82591e37204",
@@ -1536,7 +1536,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd195180dc9d5ef82591e37204"
+          "url": "https://app.notion.com/p/35d73fbd195180dc9d5ef82591e37204"
         },
         {
           "id": "35d73fbd-1951-8075-9435-d1ef0eff03ee",
@@ -1546,7 +1546,7 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/AOS-35d73fbd195180759435d1ef0eff03ee"
+          "url": "https://app.notion.com/p/AOS-35d73fbd195180759435d1ef0eff03ee"
         },
         {
           "id": "35d73fbd-1951-8022-9fa1-f0d5b2bebbe7",
@@ -1556,7 +1556,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
+          "url": "https://app.notion.com/p/iOS-CTA-Flow-35d73fbd195180229fa1f0d5b2bebbe7"
         },
         {
           "id": "35d73fbd-1951-8086-82b3-c0997189b44c",
@@ -1566,7 +1566,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/35d73fbd1951808682b3c0997189b44c"
+          "url": "https://app.notion.com/p/35d73fbd1951808682b3c0997189b44c"
         },
         {
           "id": "35a73fbd-1951-8016-a4d3-f1788624e39f",
@@ -1576,7 +1576,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518016a4d3f1788624e39f"
+          "url": "https://app.notion.com/p/35a73fbd19518016a4d3f1788624e39f"
         },
         {
           "id": "35a73fbd-1951-80ff-a65d-f2dc6d99bd5e",
@@ -1586,7 +1586,7 @@
           "status": "완료 (Done)",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd195180ffa65df2dc6d99bd5e"
+          "url": "https://app.notion.com/p/35a73fbd195180ffa65df2dc6d99bd5e"
         },
         {
           "id": "35a73fbd-1951-8014-b25d-c4bd3c261273",
@@ -1596,10 +1596,10 @@
           "status": "완료 (Done)",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/35a73fbd19518014b25dc4bd3c261273"
+          "url": "https://app.notion.com/p/35a73fbd19518014b25dc4bd3c261273"
         }
       ],
-      "calculatedAt": "2026-06-02T09:12:01.749774+00:00"
+      "calculatedAt": "2026-06-04T23:47:01.780916+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1610,7 +1610,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-04-17",
-      "url": "https://www.notion.so/5-20-4-34473fbd19518047b5e6fa06deb781fd",
+      "url": "https://app.notion.com/p/5-20-4-34473fbd19518047b5e6fa06deb781fd",
       "lastEditedTime": "2026-04-24T00:33:00.000Z",
       "testCaseBase": 65,
       "executedCases": 63,
@@ -1635,7 +1635,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:16:35.007702+00:00"
+      "calculatedAt": "2026-06-04T23:50:12.496703+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -1646,7 +1646,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "",
-      "url": "https://www.notion.so/5-17-0-2ca73fbd195180d8bfa7c6355e8e7f2e",
+      "url": "https://app.notion.com/p/5-17-0-2ca73fbd195180d8bfa7c6355e8e7f2e",
       "lastEditedTime": "2026-02-25T01:35:00.000Z",
       "testCaseBase": 1409,
       "executedCases": 1409,
@@ -2126,7 +2126,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/2e273fbd195180b3add5c073d815fc7d"
+          "url": "https://app.notion.com/p/2e273fbd195180b3add5c073d815fc7d"
         },
         {
           "id": "2e173fbd-1951-80f6-af65-ddc3dfe95224",
@@ -2136,7 +2136,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Minor",
           "priority": "보통",
-          "url": "https://www.notion.so/2e173fbd195180f6af65ddc3dfe95224"
+          "url": "https://app.notion.com/p/2e173fbd195180f6af65ddc3dfe95224"
         },
         {
           "id": "2e173fbd-1951-806a-b4e3-fca9d206d6fa",
@@ -2146,7 +2146,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "개선 의견",
           "priority": "낮음",
-          "url": "https://www.notion.so/Favicon-2e173fbd1951806ab4e3fca9d206d6fa"
+          "url": "https://app.notion.com/p/Favicon-2e173fbd1951806ab4e3fca9d206d6fa"
         },
         {
           "id": "2df73fbd-1951-800c-8c31-f0bfa5e14eb5",
@@ -2156,7 +2156,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Critical",
           "priority": "높음",
-          "url": "https://www.notion.so/2df73fbd1951800c8c31f0bfa5e14eb5"
+          "url": "https://app.notion.com/p/2df73fbd1951800c8c31f0bfa5e14eb5"
         },
         {
           "id": "2df73fbd-1951-80dd-81bc-d1ed4c9b10c1",
@@ -2166,7 +2166,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/BO-2df73fbd195180dd81bcd1ed4c9b10c1"
+          "url": "https://app.notion.com/p/BO-2df73fbd195180dd81bcd1ed4c9b10c1"
         },
         {
           "id": "2dd73fbd-1951-8020-9447-e300d5d51be4",
@@ -2176,7 +2176,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/like-2dd73fbd195180209447e300d5d51be4"
+          "url": "https://app.notion.com/p/like-2dd73fbd195180209447e300d5d51be4"
         },
         {
           "id": "2dd73fbd-1951-8048-b26f-c3802225bf05",
@@ -2186,7 +2186,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/UI-2dd73fbd19518048b26fc3802225bf05"
+          "url": "https://app.notion.com/p/UI-2dd73fbd19518048b26fc3802225bf05"
         },
         {
           "id": "2dd73fbd-1951-802c-95df-ff49b0ffd145",
@@ -2196,7 +2196,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Major",
           "priority": "높음",
-          "url": "https://www.notion.so/2dd73fbd1951802c95dfff49b0ffd145"
+          "url": "https://app.notion.com/p/2dd73fbd1951802c95dfff49b0ffd145"
         },
         {
           "id": "2dd73fbd-1951-805a-9995-f75d4c128891",
@@ -2206,7 +2206,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/2dd73fbd1951805a9995f75d4c128891"
+          "url": "https://app.notion.com/p/2dd73fbd1951805a9995f75d4c128891"
         },
         {
           "id": "2dc73fbd-1951-8094-851e-e8360861748e",
@@ -2216,7 +2216,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/tab-2dc73fbd19518094851ee8360861748e"
+          "url": "https://app.notion.com/p/tab-2dc73fbd19518094851ee8360861748e"
         },
         {
           "id": "2dc73fbd-1951-802a-9246-f6a9fb475d91",
@@ -2226,7 +2226,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "개선 의견",
           "priority": "보통",
-          "url": "https://www.notion.so/2dc73fbd1951802a9246f6a9fb475d91"
+          "url": "https://app.notion.com/p/2dc73fbd1951802a9246f6a9fb475d91"
         },
         {
           "id": "2dc73fbd-1951-80ff-8449-f39b1f135f80",
@@ -2236,7 +2236,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "완료",
-          "url": "https://www.notion.so/push-2dc73fbd195180ff8449f39b1f135f80"
+          "url": "https://app.notion.com/p/push-2dc73fbd195180ff8449f39b1f135f80"
         },
         {
           "id": "2dc73fbd-1951-80c4-b77f-ff24bc9d4690",
@@ -2246,7 +2246,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/push-2dc73fbd195180c4b77fff24bc9d4690"
+          "url": "https://app.notion.com/p/push-2dc73fbd195180c4b77fff24bc9d4690"
         },
         {
           "id": "2dc73fbd-1951-80e9-a6f8-c952d3db473e",
@@ -2256,7 +2256,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "긴급",
-          "url": "https://www.notion.so/2dc73fbd195180e9a6f8c952d3db473e"
+          "url": "https://app.notion.com/p/2dc73fbd195180e9a6f8c952d3db473e"
         },
         {
           "id": "2dc73fbd-1951-802f-9661-c5dcfb9e0efb",
@@ -2266,7 +2266,7 @@
           "status": "추후 수정 백로그 이관",
           "severity": "Major",
           "priority": "긴급",
-          "url": "https://www.notion.so/2dc73fbd1951802f9661c5dcfb9e0efb"
+          "url": "https://app.notion.com/p/2dc73fbd1951802f9661c5dcfb9e0efb"
         },
         {
           "id": "2dc73fbd-1951-80af-be0b-c5bbacebab71",
@@ -2276,7 +2276,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/500-INTERNAL_SERVER_ERROR-2dc73fbd195180afbe0bc5bbacebab71"
+          "url": "https://app.notion.com/p/500-INTERNAL_SERVER_ERROR-2dc73fbd195180afbe0bc5bbacebab71"
         },
         {
           "id": "2dc73fbd-1951-8076-b842-db3d528de1bb",
@@ -2286,7 +2286,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "보통",
-          "url": "https://www.notion.so/0-2dc73fbd19518076b842db3d528de1bb"
+          "url": "https://app.notion.com/p/0-2dc73fbd19518076b842db3d528de1bb"
         },
         {
           "id": "2dc73fbd-1951-806d-bd36-ce3af68c7469",
@@ -2296,7 +2296,7 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "긴급",
-          "url": "https://www.notion.so/push-1-2dc73fbd1951806dbd36ce3af68c7469"
+          "url": "https://app.notion.com/p/push-1-2dc73fbd1951806dbd36ce3af68c7469"
         },
         {
           "id": "2dc73fbd-1951-8027-9098-f793e1f70d65",
@@ -2306,7 +2306,7 @@
           "status": "완료 (Done)",
           "severity": "Major",
           "priority": "높음",
-          "url": "https://www.notion.so/2dc73fbd195180279098f793e1f70d65"
+          "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         },
         {
           "id": "2dc73fbd-1951-80a4-bbba-c4816c94d036",
@@ -2316,10 +2316,10 @@
           "status": "완료 (Done)",
           "severity": "Critical",
           "priority": "보통",
-          "url": "https://www.notion.so/2dc73fbd195180a4bbbac4816c94d036"
+          "url": "https://app.notion.com/p/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-02T09:16:09.797244+00:00"
+      "calculatedAt": "2026-06-04T23:49:38.435038+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2330,7 +2330,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "",
-      "url": "https://www.notion.so/TC-2a073fbd1951807b9f31cf70707cf43d",
+      "url": "https://app.notion.com/p/TC-2a073fbd1951807b9f31cf70707cf43d",
       "lastEditedTime": "2026-02-25T01:35:00.000Z",
       "testCaseBase": 412,
       "executedCases": 412,
@@ -2516,7 +2516,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:16:29.556043+00:00"
+      "calculatedAt": "2026-06-04T23:50:07.772146+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2527,7 +2527,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "2026-01-28",
-      "url": "https://www.notion.so/KHQR-TC-2ee73fbd1951802a9b1ecc35d83dce4d",
+      "url": "https://app.notion.com/p/KHQR-TC-2ee73fbd1951802a9b1ecc35d83dce4d",
       "lastEditedTime": "2026-02-25T01:36:00.000Z",
       "testCaseBase": 5,
       "executedCases": 5,
@@ -2559,7 +2559,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:12:30.828012+00:00"
+      "calculatedAt": "2026-06-04T23:47:37.135091+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2570,7 +2570,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "",
-      "url": "https://www.notion.so/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
+      "url": "https://app.notion.com/p/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
       "lastEditedTime": "2026-05-26T05:45:00.000Z",
       "testCaseBase": 0,
       "executedCases": 0,
@@ -2587,7 +2587,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:12:18.926756+00:00"
+      "calculatedAt": "2026-06-04T23:47:22.417516+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2598,7 +2598,7 @@
       "progress": 1.0,
       "status": "완료",
       "date": "",
-      "url": "https://www.notion.so/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
+      "url": "https://app.notion.com/p/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
       "lastEditedTime": "2026-05-26T05:45:00.000Z",
       "testCaseBase": 532,
       "executedCases": 532,
@@ -2665,7 +2665,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-02T09:12:10.464883+00:00"
+      "calculatedAt": "2026-06-04T23:47:15.242649+00:00"
     }
   ],
   "regularTrend": [
