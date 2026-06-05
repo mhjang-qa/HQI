@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T23:50:12.505957+00:00",
+  "generatedAt": "2026-06-05T00:56:39.361834+00:00",
   "source": "stored",
   "projects": [
     {
@@ -25,18 +25,31 @@
           "executedCases": 166
         }
       ],
-      "bugCount": 0,
+      "bugCount": 1,
       "fixedCount": 0,
-      "openBugCount": 0,
+      "openBugCount": 1,
       "TPR": 0.3156,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.516,
-      "score": 51.6,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-06-04T23:50:08.699231+00:00"
+      "BOR": 0.994,
+      "BFR": 0.0,
+      "DQS": 0.497,
+      "HQI": 0.3994,
+      "score": 39.9,
+      "severityCounts": {
+        "Major": 1
+      },
+      "issues": [
+        {
+          "id": "36f73fbd-1951-8099-a5f5-c0992f45b99c",
+          "title": "[게이미피케이션][만보기][AOS] 권한 허용 후 앱 흔들기 진입 시 ‘동작 및 피트니스 권한’ 팝업 노출 ",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/AOS-36f73fbd19518099a5f5c0992f45b99c"
+        }
+      ],
+      "calculatedAt": "2026-06-05T00:56:35.167421+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -293,7 +306,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-04T23:49:41.213834+00:00"
+      "calculatedAt": "2026-06-05T00:56:14.717546+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -556,7 +569,7 @@
           "url": "https://app.notion.com/p/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-04T23:47:39.373299+00:00"
+      "calculatedAt": "2026-06-05T00:54:17.413446+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -805,7 +818,7 @@
           "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-04T23:47:33.994874+00:00"
+      "calculatedAt": "2026-06-05T00:54:10.533957+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1046,7 +1059,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-04T23:47:07.371501+00:00"
+      "calculatedAt": "2026-06-05T00:53:01.698091+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1307,57 +1320,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-04T23:47:30.945668+00:00"
-    },
-    {
-      "id": "37273fbd-1951-8024-9855-cf7d377e5744",
-      "category": "정기 업데이트",
-      "name": "동일 실명확인번호 재가입 3회 시도 시 가입 차단 Test Case",
-      "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
-      "key": "동일실명확인번호재가입3회시도시가입차단",
-      "progress": 0.9,
-      "status": "완료",
-      "date": "2026-06-02",
-      "url": "https://app.notion.com/p/3-Test-Case-37273fbd195180249855cf7d377e5744",
-      "lastEditedTime": "2026-06-04T01:00:00.000Z",
-      "testCaseBase": 52,
-      "executedCases": 47,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
-          "title": "Test Case_1",
-          "rows": 10,
-          "caseCount": 10,
-          "executedCases": 9
-        },
-        {
-          "id": "37273fbd-1951-8096-a222-e4940596b36c",
-          "title": "Test Case_2",
-          "rows": 7,
-          "caseCount": 7,
-          "executedCases": 6
-        },
-        {
-          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
-          "title": "Test Case_3",
-          "rows": 35,
-          "caseCount": 35,
-          "executedCases": 31
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.9,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.9293,
-      "score": 92.9,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-06-04T23:46:53.536771+00:00"
+      "calculatedAt": "2026-06-05T00:54:06.834043+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1382,32 +1345,22 @@
           "executedCases": 1300
         }
       ],
-      "bugCount": 120,
+      "bugCount": 117,
       "fixedCount": 117,
-      "openBugCount": 2,
+      "openBugCount": 0,
       "TPR": 1.0,
-      "BOR": 0.9077,
-      "BFR": 0.975,
-      "DQS": 0.9413,
-      "HQI": 0.9585,
-      "score": 95.9,
+      "BOR": 0.91,
+      "BFR": 1.0,
+      "DQS": 0.955,
+      "HQI": 0.9682,
+      "score": 96.8,
       "severityCounts": {
-        "Major": 38,
-        "Minor": 71,
+        "Minor": 70,
+        "Major": 36,
         "개선 의견": 2,
         "Critical": 9
       },
       "issues": [
-        {
-          "id": "36f73fbd-1951-8099-a5f5-c0992f45b99c",
-          "title": "[게이미피케이션][만보기][AOS] 권한 허용 후 앱 흔들기 진입 시 ‘동작 및 피트니스 권한’ 팝업 노출 ",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/AOS-36f73fbd19518099a5f5c0992f45b99c"
-        },
         {
           "id": "36873fbd-1951-804b-99ec-c017407d7d76",
           "title": "[게이미피케이션][공통] 회원가입/본인인증 화면 내 적립 포인트 기획서와 상이 ",
@@ -1417,16 +1370,6 @@
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/36873fbd1951804b99ecc017407d7d76"
-        },
-        {
-          "id": "36873fbd-1951-8013-b8aa-dc2d27d16492",
-          "title": "[QR결제] 무기명 계정 상태에서 통합 QR 결제 진입 시 ‘자동출금계좌 등록’ 유도 팝업 미노출 현상\n",
-          "target": "5.21.0",
-          "key": "5210",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-QR-36873fbd19518013b8aadc2d27d16492"
         },
         {
           "id": "36873fbd-1951-80fb-81c7-d22e679a0dab",
@@ -1597,9 +1540,29 @@
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/35a73fbd19518014b25dc4bd3c261273"
+        },
+        {
+          "id": "35a73fbd-1951-8098-995d-f458c2550d82",
+          "title": "[게이미피케이션][공통] 기참여 미션/게임 재진입 후 참여 시 정의되지 않은 ‘40001’ 오류 팝업 노출 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/40001-35a73fbd19518098995df458c2550d82"
+        },
+        {
+          "id": "35a73fbd-1951-80ba-8952-cd8be8c0a3a5",
+          "title": "[게이미피케이션][공통] 기참여 게임/미션 재진입 시 상태 동기화 지연으로 버튼 일시 활성화 및 중복 조작 가능 현상",
+          "target": "5.21.0",
+          "key": "5210",
+          "status": "완료 (Done)",
+          "severity": "Critical",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-06-04T23:47:01.780916+00:00"
+      "calculatedAt": "2026-06-05T00:52:57.158929+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1635,7 +1598,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-04T23:50:12.496703+00:00"
+      "calculatedAt": "2026-06-05T00:56:39.354166+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2319,7 +2282,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-04T23:49:38.435038+00:00"
+      "calculatedAt": "2026-06-05T00:56:09.082189+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2516,7 +2479,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-04T23:50:07.772146+00:00"
+      "calculatedAt": "2026-06-05T00:56:34.266563+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2559,35 +2522,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-04T23:47:37.135091+00:00"
-    },
-    {
-      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
-      "category": "정기 업데이트",
-      "name": "Go.hanpass 통테 시나리오",
-      "project": "Go.hanpass 통테 시나리오",
-      "key": "gohanpass통테시나리오",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "",
-      "url": "https://app.notion.com/p/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
-      "lastEditedTime": "2026-05-26T05:45:00.000Z",
-      "testCaseBase": 0,
-      "executedCases": 0,
-      "tcCountSource": "none",
-      "tcDatabases": [],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-06-04T23:47:22.417516+00:00"
+      "calculatedAt": "2026-06-05T00:54:14.473091+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2665,7 +2600,85 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-04T23:47:15.242649+00:00"
+      "calculatedAt": "2026-06-05T00:53:08.672288+00:00"
+    },
+    {
+      "id": "37273fbd-1951-8024-9855-cf7d377e5744",
+      "category": "정기 업데이트",
+      "name": "동일 실명확인번호 재가입 3회 시도 시 가입 차단 Test Case",
+      "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
+      "key": "동일실명확인번호재가입3회시도시가입차단",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-06-02",
+      "url": "https://app.notion.com/p/3-Test-Case-37273fbd195180249855cf7d377e5744",
+      "lastEditedTime": "2026-06-05T00:50:00.000Z",
+      "testCaseBase": 52,
+      "executedCases": 52,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
+          "title": "Test Case_1",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 10
+        },
+        {
+          "id": "37273fbd-1951-8096-a222-e4940596b36c",
+          "title": "Test Case_2",
+          "rows": 7,
+          "caseCount": 7,
+          "executedCases": 7
+        },
+        {
+          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
+          "title": "Test Case_3",
+          "rows": 35,
+          "caseCount": 35,
+          "executedCases": 35
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-06-05T00:52:48.715159+00:00"
+    },
+    {
+      "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
+      "category": "정기 업데이트",
+      "name": "Go.hanpass 통테 시나리오",
+      "project": "Go.hanpass 통테 시나리오",
+      "key": "gohanpass통테시나리오",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "",
+      "url": "https://app.notion.com/p/Go-hanpass-30c73fbd195180299cb7c185c74e98ba",
+      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "testCaseBase": 0,
+      "executedCases": 0,
+      "tcCountSource": "none",
+      "tcDatabases": [],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-06-04T23:47:22.417516+00:00"
     }
   ],
   "regularTrend": [
@@ -2698,21 +2711,21 @@
     },
     {
       "project": "5.21.0",
-      "score": 95.9,
+      "score": 96.8,
       "TPR": 1.0,
-      "DQS": 0.9413,
-      "bugCount": 120,
+      "DQS": 0.955,
+      "bugCount": 117,
       "testCaseBase": 1300,
       "executedCases": 1300
     }
   ],
   "summary": {
     "projectCount": 14,
-    "issueCount": 409,
+    "issueCount": 407,
     "testCaseCount": 5743,
-    "executedCaseCount": 5195,
-    "averageScore": 86.1,
-    "lowestScore": 51.6,
+    "executedCaseCount": 5200,
+    "averageScore": 85.9,
+    "lowestScore": 39.9,
     "highestScore": 100.0
   }
 }
