@@ -189,7 +189,12 @@ def get_block_children(block_id):
     cursor = None
     while True:
         suffix = f"&start_cursor={cursor}" if cursor else ""
-        data = notion_request(f"/blocks/{block_id}/children?page_size=100{suffix}")
+        try:
+            data = notion_request(f"/blocks/{block_id}/children?page_size=100{suffix}")
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                return rows
+            raise
         rows.extend(data.get("results", []))
         cursor = data.get("next_cursor")
         if not cursor:
@@ -257,7 +262,14 @@ def normalize_project_name(name):
 
 
 def match_key(name):
-    return re.sub(r"[^0-9a-z가-힣]+", "", normalize_project_name(name).lower())
+    normalized = normalize_project_name(name).lower()
+    normalized = re.sub(
+        r"^(?:\[?\s*g\.?\s*h\.?\s*\]?|go\.?\s*hanpass|gohanpass)\s*",
+        "gohanpass",
+        normalized,
+        flags=re.I,
+    )
+    return re.sub(r"[^0-9a-z가-힣]+", "", normalized)
 
 
 def clamp(value, low=0.0, high=1.0):
@@ -533,27 +545,38 @@ def hqi_payload(projects, source="stored"):
     }
 
 
-def parse_version_project(project):
-    match = re.fullmatch(r"5\.(\d+)(?:\.(\d+))?", project.get("project", "").strip())
-    if not match or project.get("category") != "정기 업데이트":
+def parse_regular_update_version(project):
+    if project.get("category") != "정기 업데이트":
         return None
-    minor = int(match.group(1))
-    patch = int(match.group(2) or 0)
-    if minor < 18:
-        return None
-    return (minor, patch)
+    text = project.get("project", "").strip()
+    match = re.fullmatch(r"5\.(\d+)(?:\.(\d+))?", text)
+    if match:
+        minor = int(match.group(1))
+        patch = int(match.group(2) or 0)
+        if minor < 18:
+            return None
+        return (0, 5, minor, patch, text)
+    gh_match = re.fullmatch(r"\[G\.H\]\s*v?(\d+)\.(\d+)\.(\d+)(?:[-_](\d{2})\.(\d{2}))?", text, re.I)
+    if gh_match:
+        major = int(gh_match.group(1))
+        minor = int(gh_match.group(2))
+        patch = int(gh_match.group(3))
+        year = int(gh_match.group(4) or 0)
+        month = int(gh_match.group(5) or 0)
+        return (1, major, minor, patch, year, month, text)
+    return None
 
 
 def regular_update_trend(projects):
     trend = []
     for project in projects:
-        version = parse_version_project(project)
-        if version is None:
+        version_key = parse_regular_update_version(project)
+        if version_key is None:
             continue
         trend.append(
             {
                 "project": project["project"],
-                "versionKey": version,
+                "versionKey": version_key,
                 "score": project["score"],
                 "TPR": project["TPR"],
                 "DQS": project["DQS"],

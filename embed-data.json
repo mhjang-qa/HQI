@@ -1,56 +1,7 @@
 {
-  "generatedAt": "2026-06-05T06:11:20.352441+00:00",
+  "generatedAt": "2026-06-09T04:01:59.166354+00:00",
   "source": "stored",
   "projects": [
-    {
-      "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
-      "category": "비정기 업데이트",
-      "name": "5.22.1 테스트 케이스",
-      "project": "5.22.1",
-      "key": "5221",
-      "progress": 0.2,
-      "status": "진행 중",
-      "date": "",
-      "url": "https://app.notion.com/p/5-22-1-37273fbd19518011bce2cf5ae90c5fdc",
-      "lastEditedTime": "2026-06-02T08:19:00.000Z",
-      "testCaseBase": 526,
-      "executedCases": 166,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "37273fbd-1951-80f7-8c33-ebc20004db05",
-          "title": "5.22.1 Test Case",
-          "rows": 2,
-          "caseCount": 526,
-          "executedCases": 166
-        }
-      ],
-      "bugCount": 1,
-      "fixedCount": 0,
-      "openBugCount": 1,
-      "TPR": 0.3156,
-      "BOR": 0.994,
-      "BFR": 0.0,
-      "DQS": 0.497,
-      "HQI": 0.3994,
-      "score": 39.9,
-      "severityCounts": {
-        "Major": 1
-      },
-      "issues": [
-        {
-          "id": "36f73fbd-1951-8099-a5f5-c0992f45b99c",
-          "title": "",
-          "target": "5.22.1",
-          "key": "5221",
-          "status": "처리중 (In Progress)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/AOS-36f73fbd19518099a5f5c0992f45b99c"
-        }
-      ],
-      "calculatedAt": "2026-06-05T06:11:16.524135+00:00"
-    },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
       "category": "정기 업데이트",
@@ -306,7 +257,268 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-05T06:10:53.962741+00:00"
+      "calculatedAt": "2026-06-09T04:01:31.934196+00:00"
+    },
+    {
+      "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
+      "category": "비정기 업데이트",
+      "name": "5.22.1 테스트 케이스",
+      "project": "5.22.1",
+      "key": "5221",
+      "progress": 0.2,
+      "status": "진행 중",
+      "date": "",
+      "url": "https://app.notion.com/p/5-22-1-37273fbd19518011bce2cf5ae90c5fdc",
+      "lastEditedTime": "2026-06-08T07:29:00.000Z",
+      "testCaseBase": 481,
+      "executedCases": 439,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "37273fbd-1951-80f7-8c33-ebc20004db05",
+          "title": "5.22.1 Test Case",
+          "rows": 3,
+          "caseCount": 429,
+          "executedCases": 429
+        },
+        {
+          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
+          "title": "Case_1",
+          "rows": 10,
+          "caseCount": 10,
+          "executedCases": 2
+        },
+        {
+          "id": "37273fbd-1951-8096-a222-e4940596b36c",
+          "title": "Case_2",
+          "rows": 7,
+          "caseCount": 7,
+          "executedCases": 1
+        },
+        {
+          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
+          "title": "Case_3",
+          "rows": 35,
+          "caseCount": 35,
+          "executedCases": 7
+        }
+      ],
+      "bugCount": 29,
+      "fixedCount": 2,
+      "openBugCount": 2,
+      "TPR": 0.9135,
+      "BOR": 0.9339,
+      "BFR": 0.069,
+      "DQS": 0.5015,
+      "HQI": 0.6422,
+      "score": 64.2,
+      "severityCounts": {
+        "Major": 7,
+        "Minor": 22
+      },
+      "issues": [
+        {
+          "id": "37973fbd-1951-80a9-afde-d21b001adb2c",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37973fbd195180a9afded21b001adb2c"
+        },
+        {
+          "id": "37673fbd-1951-80cd-8d51-e830a90f66e6",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd195180cd8d51e830a90f66e6"
+        },
+        {
+          "id": "37673fbd-1951-804a-98d2-c23c89cc68f7",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-prefill-37673fbd1951804a98d2c23c89cc68f7"
+        },
+        {
+          "id": "37673fbd-1951-80da-a2f4-fee09a289877",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd195180daa2f4fee09a289877"
+        },
+        {
+          "id": "37673fbd-1951-80c4-a0ca-cca0e3a664c0",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-KST-37673fbd195180c4a0cacca0e3a664c0"
+        },
+        {
+          "id": "37673fbd-1951-8002-ba22-e524964c6e0f",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd19518002ba22e524964c6e0f"
+        },
+        {
+          "id": "37673fbd-1951-809c-a995-ffd7d2d505a8",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd1951809ca995ffd7d2d505a8"
+        },
+        {
+          "id": "37673fbd-1951-8032-ba5c-dbe9ce9c010d",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd19518032ba5cdbe9ce9c010d"
+        },
+        {
+          "id": "37673fbd-1951-80b4-b587-f0afd59217b1",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-iOS-37673fbd195180b4b587f0afd59217b1"
+        },
+        {
+          "id": "37673fbd-1951-8054-9e3f-e6d11949be89",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd195180549e3fe6d11949be89"
+        },
+        {
+          "id": "37673fbd-1951-800f-a25f-ddc5aed4b016",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd1951800fa25fddc5aed4b016"
+        },
+        {
+          "id": "37673fbd-1951-8002-8721-f177ffc31413",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37673fbd195180028721f177ffc31413"
+        },
+        {
+          "id": "37673fbd-1951-804d-83ad-ce23dcf79f52",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-iOS-QR-X-37673fbd1951804d83adce23dcf79f52"
+        },
+        {
+          "id": "37573fbd-1951-8088-9e86-fe845ec31b06",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-QR-37573fbd195180889e86fe845ec31b06"
+        },
+        {
+          "id": "37573fbd-1951-8010-b56a-c41adc6f53e2",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
+        },
+        {
+          "id": "37573fbd-1951-80e5-9093-e1af092e5f33",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37573fbd195180e59093e1af092e5f33"
+        },
+        {
+          "id": "37573fbd-1951-8095-9df9-eb0515726e46",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-QR-KST-37573fbd195180959df9eb0515726e46"
+        },
+        {
+          "id": "37573fbd-1951-807d-b295-c74fc378fbb7",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37573fbd1951807db295c74fc378fbb7"
+        },
+        {
+          "id": "37573fbd-1951-8053-a08f-e6aa14cfbfda",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37573fbd19518053a08fe6aa14cfbfda"
+        },
+        {
+          "id": "37573fbd-1951-8014-ab85-fa8bfc04a9b5",
+          "title": "",
+          "target": "5.22.1",
+          "key": "5221",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/_9PAY-37573fbd19518014ab85fa8bfc04a9b5"
+        }
+      ],
+      "calculatedAt": "2026-06-09T04:01:55.195876+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -352,8 +564,8 @@
           "executedCases": 2
         }
       ],
-      "bugCount": 36,
-      "fixedCount": 36,
+      "bugCount": 57,
+      "fixedCount": 57,
       "openBugCount": 0,
       "TPR": 1.0,
       "BOR": 0.0,
@@ -362,9 +574,9 @@
       "HQI": 0.6464,
       "score": 64.6,
       "severityCounts": {
-        "Minor": 23,
-        "Major": 7,
-        "개선 의견": 3,
+        "Minor": 39,
+        "Major": 10,
+        "개선 의견": 5,
         "Critical": 3
       },
       "issues": [
@@ -569,7 +781,7 @@
           "url": "https://app.notion.com/p/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-05T06:09:07.934054+00:00"
+      "calculatedAt": "2026-06-09T03:59:33.370823+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -818,7 +1030,7 @@
           "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-05T06:09:00.171633+00:00"
+      "calculatedAt": "2026-06-09T03:59:28.216069+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1059,7 +1271,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-05T06:08:40.658544+00:00"
+      "calculatedAt": "2026-06-09T03:59:06.474498+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1320,7 +1532,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-05T06:08:57.387181+00:00"
+      "calculatedAt": "2026-06-09T03:59:25.154471+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1562,7 +1774,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-06-05T06:08:35.140600+00:00"
+      "calculatedAt": "2026-06-09T03:59:02.179211+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1598,7 +1810,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-05T06:11:20.344252+00:00"
+      "calculatedAt": "2026-06-09T04:01:59.161721+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2282,7 +2494,137 @@
           "url": "https://app.notion.com/p/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-05T06:10:51.451334+00:00"
+      "calculatedAt": "2026-06-09T04:01:28.578114+00:00"
+    },
+    {
+      "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
+      "category": "정기 업데이트",
+      "name": "5.22.0 테스트 케이스",
+      "project": "5.22.0",
+      "key": "5220",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-05-28",
+      "url": "https://app.notion.com/p/5-22-0-36473fbd195180f2b3f7dd6e3fc88bf2",
+      "lastEditedTime": "2026-06-01T05:11:00.000Z",
+      "testCaseBase": 410,
+      "executedCases": 410,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "36473fbd-1951-8057-ab74-c2a682d6bcd4",
+          "title": "5.22.0 Test Case",
+          "rows": 5,
+          "caseCount": 410,
+          "executedCases": 410
+        }
+      ],
+      "bugCount": 9,
+      "fixedCount": 9,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 0.978,
+      "BFR": 1.0,
+      "DQS": 0.989,
+      "HQI": 0.9922,
+      "score": 99.2,
+      "severityCounts": {
+        "Minor": 7,
+        "Major": 2
+      },
+      "issues": [
+        {
+          "id": "36f73fbd-1951-80f9-8f1f-f157ef2c5545",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/36f73fbd195180f98f1ff157ef2c5545"
+        },
+        {
+          "id": "36e73fbd-1951-8068-a6e2-f96c083258b3",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-36e73fbd19518068a6e2f96c083258b3"
+        },
+        {
+          "id": "36e73fbd-1951-80da-8770-c5b57d6ee9ad",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-BS-36e73fbd195180da8770c5b57d6ee9ad"
+        },
+        {
+          "id": "36e73fbd-1951-80fb-82d9-ff4185b124ec",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/ATM-36e73fbd195180fb82d9ff4185b124ec"
+        },
+        {
+          "id": "36e73fbd-1951-80ff-912e-fef824ac5617",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/AOS-BS-x-36e73fbd195180ff912efef824ac5617"
+        },
+        {
+          "id": "36e73fbd-1951-8030-906e-f034b43889d2",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/AOS-36e73fbd19518030906ef034b43889d2"
+        },
+        {
+          "id": "36e73fbd-1951-8082-9e9c-c3ae6cee3f09",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-36e73fbd195180829e9cc3ae6cee3f09"
+        },
+        {
+          "id": "36e73fbd-1951-80f7-8362-c1940da2c5b4",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-36e73fbd195180f78362c1940da2c5b4"
+        },
+        {
+          "id": "35a73fbd-1951-80c3-a76e-fac7960739b8",
+          "title": "",
+          "target": "5.22.0",
+          "key": "5220",
+          "status": "완료 (Done)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
+        }
+      ],
+      "calculatedAt": "2026-06-09T04:00:51.464935+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2479,7 +2821,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-05T06:11:15.620091+00:00"
+      "calculatedAt": "2026-06-09T04:01:51.057565+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2522,7 +2864,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-05T06:09:03.920396+00:00"
+      "calculatedAt": "2026-06-09T03:59:31.125727+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2550,7 +2892,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-05T06:08:51.556507+00:00"
+      "calculatedAt": "2026-06-09T03:59:18.043368+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2628,7 +2970,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-05T06:08:45.151557+00:00"
+      "calculatedAt": "2026-06-09T03:59:10.397072+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -2687,7 +3029,7 @@
       "score": 64.6,
       "TPR": 1.0,
       "DQS": 0.5,
-      "bugCount": 36,
+      "bugCount": 57,
       "testCaseBase": 9,
       "executedCases": 9
     },
@@ -2717,15 +3059,24 @@
       "bugCount": 117,
       "testCaseBase": 1300,
       "executedCases": 1300
+    },
+    {
+      "project": "5.22.0",
+      "score": 99.2,
+      "TPR": 1.0,
+      "DQS": 0.989,
+      "bugCount": 9,
+      "testCaseBase": 410,
+      "executedCases": 410
     }
   ],
   "summary": {
-    "projectCount": 14,
-    "issueCount": 407,
-    "testCaseCount": 5743,
-    "executedCaseCount": 5200,
-    "averageScore": 85.9,
-    "lowestScore": 39.9,
+    "projectCount": 15,
+    "issueCount": 465,
+    "testCaseCount": 6108,
+    "executedCaseCount": 5883,
+    "averageScore": 88.4,
+    "lowestScore": 63.6,
     "highestScore": 100.0
   }
 }

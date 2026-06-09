@@ -127,7 +127,7 @@ function renderTrend() {
           `;
         })
         .join("")
-    : '<div class="empty">5.18 이후 정기 업데이트 계산 결과가 없습니다.</div>';
+    : '<div class="empty">정기 업데이트 계산 결과가 없습니다.</div>';
 }
 
 function renderProjectRow(project) {
