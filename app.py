@@ -47,6 +47,7 @@ OPEN_COUNT_EXCLUDED_STATUS_KEYWORDS = (
     "추척관찰-백로그이관",
 )
 HIDDEN_PROJECT_STATUSES = ("시작 전",)
+GO_HANPASS_KEYWORDS = ("go hanpass", "gohanpass", "go.hanpass", "[g.h]", "g.h", "방한홈", "고한패스")
 
 
 def notion_token():
@@ -261,15 +262,62 @@ def normalize_project_name(name):
     return cleaned.strip()
 
 
+def has_go_hanpass_keyword(value):
+    text = (value or "").strip().lower()
+    return any(keyword in text for keyword in GO_HANPASS_KEYWORDS)
+
+
+def extract_semver(value):
+    match = re.search(r"(?<!\d)(\d+)\.(\d+)(?:\.(\d+))?(?!\d)", value or "")
+    if not match:
+        return None
+    return tuple(int(part or 0) for part in match.groups())
+
+
+def extract_year_month_suffix(value):
+    match = re.search(r"(?<!\d)(\d{2})\.(\d{2})(?!\d)", value or "")
+    if not match:
+        return None
+    return int(match.group(1)), int(match.group(2))
+
+
+def normalize_version_label(value, domain=""):
+    text = normalize_project_name(value)
+    if not text:
+        return ""
+    if domain == "Go Hanpass" or has_go_hanpass_keyword(text):
+        version = extract_semver(text)
+        suffix = extract_year_month_suffix(text)
+        if version:
+            label = f"[G.H]v{version[0]}.{version[1]}.{version[2]}"
+            if suffix:
+                label += f"-{suffix[0]:02d}.{suffix[1]:02d}"
+            return label
+        body = re.sub(
+            r"^(?:\[?\s*g\.?\s*h\.?\s*\]?|go\.?\s*hanpass|gohanpass|방한홈|고한패스)\s*",
+            "",
+            text,
+            flags=re.I,
+        ).strip()
+        body = body.lstrip(" :-_")
+        return f"[G.H]{body}" if body else "[G.H]"
+    version = extract_semver(text)
+    if version:
+        return f"{version[0]}.{version[1]}.{version[2]}"
+    return text
+
+
 def match_key(name):
-    normalized = normalize_project_name(name).lower()
-    normalized = re.sub(
-        r"^(?:\[?\s*g\.?\s*h\.?\s*\]?|go\.?\s*hanpass|gohanpass)\s*",
-        "gohanpass",
-        normalized,
-        flags=re.I,
-    )
-    return re.sub(r"[^0-9a-z가-힣]+", "", normalized)
+    normalized = normalize_project_name(name)
+    if has_go_hanpass_keyword(normalized):
+        normalized = normalize_version_label(normalized, "Go Hanpass")
+    else:
+        version = extract_semver(normalized)
+        if version:
+            normalized = f"{version[0]}.{version[1]}.{version[2]}"
+    lowered = normalized.lower()
+    lowered = re.sub(r"^\[g\.h\]", "gohanpass", lowered)
+    return re.sub(r"[^0-9a-z가-힣]+", "", lowered)
 
 
 def clamp(value, low=0.0, high=1.0):
@@ -409,7 +457,11 @@ def load_projects():
                     "id": page["id"],
                     "category": category,
                     "name": raw_name.strip(),
-                    "project": normalize_project_name(raw_name),
+                    "project": (
+                        normalize_version_label(raw_name, "Go Hanpass" if has_go_hanpass_keyword(raw_name) else "")
+                        if category == "정기 업데이트"
+                        else normalize_project_name(raw_name)
+                    ),
                     "key": match_key(raw_name),
                     "progress": as_ratio(prop_value(props, "진행율")),
                     "status": status,
@@ -549,21 +601,13 @@ def parse_regular_update_version(project):
     if project.get("category") != "정기 업데이트":
         return None
     text = project.get("project", "").strip()
-    match = re.fullmatch(r"5\.(\d+)(?:\.(\d+))?", text)
-    if match:
-        minor = int(match.group(1))
-        patch = int(match.group(2) or 0)
-        if minor < 18:
-            return None
-        return (0, 5, minor, patch, text)
-    gh_match = re.fullmatch(r"\[G\.H\]\s*v?(\d+)\.(\d+)\.(\d+)(?:[-_](\d{2})\.(\d{2}))?", text, re.I)
-    if gh_match:
-        major = int(gh_match.group(1))
-        minor = int(gh_match.group(2))
-        patch = int(gh_match.group(3))
-        year = int(gh_match.group(4) or 0)
-        month = int(gh_match.group(5) or 0)
-        return (1, major, minor, patch, year, month, text)
+    version = extract_semver(text)
+    if not version:
+        return None
+    suffix = extract_year_month_suffix(text) or (0, 0)
+    if text.startswith("[G.H]") or has_go_hanpass_keyword(text):
+        return (1, version[0], version[1], version[2], suffix[0], suffix[1], text)
+    return (0, version[0], version[1], version[2], suffix[0], suffix[1], text)
     return None
 
 
