@@ -459,10 +459,17 @@
         return 0;
       };
 
-      const sortProjects = (rows) =>
-        [...rows].sort((left, right) => compareDateDesc(left.date, right.date) || compareVersionAsc(right.project, left.project));
+      const isInProgress = (status) => /진행\s*중|처리중|in progress/i.test(String(status || ""));
 
-      const sortTrend = (rows) => [...rows].sort((left, right) => compareVersionAsc(left.project, right.project));
+      const sortProjects = (rows) =>
+        [...rows].sort((left, right) => {
+          const leftActive = isInProgress(left.status);
+          const rightActive = isInProgress(right.status);
+          if (leftActive !== rightActive) return leftActive ? -1 : 1;
+          return compareDateDesc(left.date, right.date) || compareVersionAsc(right.project, left.project);
+        });
+
+      const sortTrend = (rows) => [...rows].sort((left, right) => compareVersionAsc(right.project, left.project));
 
       const visibleTrendRows = () => {
         const source =
