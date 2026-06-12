@@ -285,7 +285,7 @@ def normalize_version_label(value, domain=""):
     text = normalize_project_name(value)
     if not text:
         return ""
-    if domain == "Go Hanpass" or has_go_hanpass_keyword(text):
+    if domain == "GoHanpass" or has_go_hanpass_keyword(text):
         version = extract_semver(text)
         suffix = extract_year_month_suffix(text)
         if version:
@@ -310,7 +310,7 @@ def normalize_version_label(value, domain=""):
 def match_key(name):
     normalized = normalize_project_name(name)
     if has_go_hanpass_keyword(normalized):
-        normalized = normalize_version_label(normalized, "Go Hanpass")
+        normalized = normalize_version_label(normalized, "GoHanpass")
     else:
         version = extract_semver(normalized)
         if version:
@@ -458,7 +458,7 @@ def load_projects():
                     "category": category,
                     "name": raw_name.strip(),
                     "project": (
-                        normalize_version_label(raw_name, "Go Hanpass" if has_go_hanpass_keyword(raw_name) else "")
+                        normalize_version_label(raw_name, "GoHanpass" if has_go_hanpass_keyword(raw_name) else "")
                         if category == "정기 업데이트"
                         else normalize_project_name(raw_name)
                     ),
