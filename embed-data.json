@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T23:45:51.767163+00:00",
+  "generatedAt": "2026-06-17T02:37:29.710457+00:00",
   "source": "stored",
   "projects": [
     {
@@ -257,7 +257,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-16T23:45:19.143018+00:00"
+      "calculatedAt": "2026-06-17T02:36:58.910992+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -520,7 +520,7 @@
           "url": "https://app.notion.com/p/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:52.621584+00:00"
+      "calculatedAt": "2026-06-17T02:35:21.514566+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -781,7 +781,7 @@
           "url": "https://app.notion.com/p/_9PAY-37573fbd19518014ab85fa8bfc04a9b5"
         }
       ],
-      "calculatedAt": "2026-06-16T23:45:46.025527+00:00"
+      "calculatedAt": "2026-06-17T02:37:23.955489+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1030,7 +1030,7 @@
           "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:47.332188+00:00"
+      "calculatedAt": "2026-06-17T02:35:14.618498+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1271,7 +1271,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:25.401622+00:00"
+      "calculatedAt": "2026-06-17T02:34:50.311918+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1532,7 +1532,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:44.369053+00:00"
+      "calculatedAt": "2026-06-17T02:35:10.348241+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1774,7 +1774,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:20.431198+00:00"
+      "calculatedAt": "2026-06-17T02:34:44.900466+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1810,7 +1810,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:45:51.761686+00:00"
+      "calculatedAt": "2026-06-17T02:37:29.700895+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2494,7 +2494,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-16T23:45:15.408189+00:00"
+      "calculatedAt": "2026-06-17T02:36:56.188255+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2624,7 +2624,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-06-16T23:43:15.642121+00:00"
+      "calculatedAt": "2026-06-17T02:34:39.990009+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2660,7 +2660,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:45:40.080711+00:00"
+      "calculatedAt": "2026-06-17T02:37:19.759389+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2857,7 +2857,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:45:39.092704+00:00"
+      "calculatedAt": "2026-06-17T02:37:18.756786+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2900,7 +2900,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:43:50.429522+00:00"
+      "calculatedAt": "2026-06-17T02:35:18.362997+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2928,7 +2928,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:43:36.500855+00:00"
+      "calculatedAt": "2026-06-17T02:35:02.726805+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3006,7 +3006,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-16T23:43:29.002260+00:00"
+      "calculatedAt": "2026-06-17T02:34:54.064639+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
