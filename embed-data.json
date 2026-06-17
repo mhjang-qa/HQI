@@ -1,7 +1,270 @@
 {
-  "generatedAt": "2026-06-17T02:37:29.710457+00:00",
+  "generatedAt": "2026-06-17T08:46:09.158525+00:00",
   "source": "stored",
   "projects": [
+    {
+      "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
+      "category": "정기 업데이트",
+      "name": "5.18.0 테스트 케이스",
+      "project": "5.18.0",
+      "key": "5180",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-01-20",
+      "url": "https://app.notion.com/p/5-18-0-2ee73fbd195180ea9ad8cfbd07f8fc01",
+      "lastEditedTime": "2026-02-05T01:10:00.000Z",
+      "testCaseBase": 9,
+      "executedCases": 9,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2ee73fbd-1951-8057-9e54-f59a1cadbc11",
+          "title": "TestCase-5.18.0",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
+        },
+        {
+          "id": "2ee73fbd-1951-80d1-8ca7-f104fd60a53a",
+          "title": "Check List",
+          "rows": 1,
+          "caseCount": 1,
+          "executedCases": 1
+        },
+        {
+          "id": "2ee73fbd-1951-80c2-8edd-eb407dba13ee",
+          "title": "Etc",
+          "rows": 4,
+          "caseCount": 4,
+          "executedCases": 4
+        },
+        {
+          "id": "2ee73fbd-1951-80dc-b3d8-e390ae68205b",
+          "title": "완료 [고속/시외버스] 통합 개발 - Sign off",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
+        }
+      ],
+      "bugCount": 103,
+      "fixedCount": 67,
+      "openBugCount": 3,
+      "TPR": 1.0,
+      "BOR": 0.0,
+      "BFR": 0.6505,
+      "DQS": 0.3252,
+      "HQI": 0.5229,
+      "score": 52.3,
+      "severityCounts": {
+        "Major": 21,
+        "Minor": 72,
+        "개선 의견": 7,
+        "Critical": 3
+      },
+      "issues": [
+        {
+          "id": "30d73fbd-1951-8089-b16d-fd6ba6f68423",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-30d73fbd19518089b16dfd6ba6f68423"
+        },
+        {
+          "id": "30273fbd-1951-8013-ae61-e1fe8911d474",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/30273fbd19518013ae61e1fe8911d474"
+        },
+        {
+          "id": "2ff73fbd-1951-8030-be1f-e51b51f5a8ec",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/AOS-2-2ff73fbd19518030be1fe51b51f5a8ec"
+        },
+        {
+          "id": "2ff73fbd-1951-8092-b235-f51b9b0a51ca",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2ff73fbd19518092b235f51b9b0a51ca"
+        },
+        {
+          "id": "2ff73fbd-1951-80cf-89a1-f3fb2d486e8a",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2ff73fbd195180cf89a1f3fb2d486e8a"
+        },
+        {
+          "id": "2ff73fbd-1951-80c3-b068-d05cb71af344",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2ff73fbd195180c3b068d05cb71af344"
+        },
+        {
+          "id": "2ff73fbd-1951-802a-8541-e620f687e9fd",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2ff73fbd1951802a8541e620f687e9fd"
+        },
+        {
+          "id": "2ff73fbd-1951-8065-9d3f-e98dba7e4e76",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-3-2ff73fbd195180659d3fe98dba7e4e76"
+        },
+        {
+          "id": "2fe73fbd-1951-808e-803c-d129b2a68952",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "추척 관찰-백로그",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-2fe73fbd1951808e803cd129b2a68952"
+        },
+        {
+          "id": "2fe73fbd-1951-80d6-bca4-eb1ccab85697",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-404-2fe73fbd195180d6bca4eb1ccab85697"
+        },
+        {
+          "id": "2fe73fbd-1951-8093-85ff-e8040e6af1bb",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd1951809385ffe8040e6af1bb"
+        },
+        {
+          "id": "2fe73fbd-1951-80f0-bac1-ead77fb8b96d",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-15-OS-iOS-AOS-2fe73fbd195180f0bac1ead77fb8b96d"
+        },
+        {
+          "id": "2fe73fbd-1951-807b-aa13-e165ea9b1f52",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-2fe73fbd1951807baa13e165ea9b1f52"
+        },
+        {
+          "id": "2fe73fbd-1951-80ee-8093-efab55380cc3",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd195180ee8093efab55380cc3"
+        },
+        {
+          "id": "2fe73fbd-1951-804b-a063-f0af11a13f54",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd1951804ba063f0af11a13f54"
+        },
+        {
+          "id": "2fe73fbd-1951-8075-b675-ec987306360c",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd19518075b675ec987306360c"
+        },
+        {
+          "id": "2fe73fbd-1951-80ec-b348-d9be4f2bb280",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-1-2fe73fbd195180ecb348d9be4f2bb280"
+        },
+        {
+          "id": "2fe73fbd-1951-80be-9856-f7b9757b4d93",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd195180be9856f7b9757b4d93"
+        },
+        {
+          "id": "2fe73fbd-1951-80be-ac41-f68d2ba873de",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
+        },
+        {
+          "id": "2fe73fbd-1951-80f2-b49c-ff794fc03054",
+          "title": "",
+          "target": "5.18.0",
+          "key": "5180",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
+        }
+      ],
+      "calculatedAt": "2026-06-17T08:43:45.835494+00:00"
+    },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
       "category": "정기 업데이트",
@@ -257,270 +520,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-17T02:36:58.910992+00:00"
-    },
-    {
-      "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
-      "category": "정기 업데이트",
-      "name": "5.18.0 테스트 케이스",
-      "project": "5.18.0",
-      "key": "5180",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-01-20",
-      "url": "https://app.notion.com/p/5-18-0-2ee73fbd195180ea9ad8cfbd07f8fc01",
-      "lastEditedTime": "2026-02-05T01:10:00.000Z",
-      "testCaseBase": 9,
-      "executedCases": 9,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "2ee73fbd-1951-8057-9e54-f59a1cadbc11",
-          "title": "TestCase-5.18.0",
-          "rows": 2,
-          "caseCount": 2,
-          "executedCases": 2
-        },
-        {
-          "id": "2ee73fbd-1951-80d1-8ca7-f104fd60a53a",
-          "title": "Check List",
-          "rows": 1,
-          "caseCount": 1,
-          "executedCases": 1
-        },
-        {
-          "id": "2ee73fbd-1951-80c2-8edd-eb407dba13ee",
-          "title": "Etc",
-          "rows": 4,
-          "caseCount": 4,
-          "executedCases": 4
-        },
-        {
-          "id": "2ee73fbd-1951-80dc-b3d8-e390ae68205b",
-          "title": "완료 [고속/시외버스] 통합 개발 - Sign off",
-          "rows": 2,
-          "caseCount": 2,
-          "executedCases": 2
-        }
-      ],
-      "bugCount": 57,
-      "fixedCount": 57,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 0.0,
-      "BFR": 1.0,
-      "DQS": 0.5,
-      "HQI": 0.6464,
-      "score": 64.6,
-      "severityCounts": {
-        "Minor": 39,
-        "Major": 10,
-        "개선 의견": 5,
-        "Critical": 3
-      },
-      "issues": [
-        {
-          "id": "2fb73fbd-1951-8051-bc14-c27fc206ebce",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "추후 수정 백로그 이관",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-2fb73fbd19518051bc14c27fc206ebce"
-        },
-        {
-          "id": "2f773fbd-1951-80ea-81d5-c9d7e3f23d01",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-1-2f773fbd195180ea81d5c9d7e3f23d01"
-        },
-        {
-          "id": "2f773fbd-1951-80cb-b335-f711fac55a2a",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-PIN-2f773fbd195180cbb335f711fac55a2a"
-        },
-        {
-          "id": "2f773fbd-1951-80e0-aff0-da83468e9cba",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-iOS-2f773fbd195180e0aff0da83468e9cba"
-        },
-        {
-          "id": "2f773fbd-1951-8090-8c92-f5fac45808cb",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-2f773fbd195180908c92f5fac45808cb"
-        },
-        {
-          "id": "2f773fbd-1951-807e-9cc8-e35d1737144f",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-iOS-2f773fbd1951807e9cc8e35d1737144f"
-        },
-        {
-          "id": "2f773fbd-1951-80ad-be0e-df06fb35453e",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "추후 수정 백로그 이관",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-2f773fbd195180adbe0edf06fb35453e"
-        },
-        {
-          "id": "2f773fbd-1951-806b-aff7-fbf74248d12b",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-2f773fbd1951806baff7fbf74248d12b"
-        },
-        {
-          "id": "2f773fbd-1951-802b-a056-c8aba3e9598a",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "개선 의견",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-2f773fbd1951802ba056c8aba3e9598a"
-        },
-        {
-          "id": "2f773fbd-1951-807d-a5c1-c8c7b79df665",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-USD-QR-2f773fbd1951807da5c1c8c7b79df665"
-        },
-        {
-          "id": "2f773fbd-1951-8081-8c2f-d8515507ad83",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "추후 수정 백로그 이관",
-          "severity": "개선 의견",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-iOS-2f773fbd195180818c2fd8515507ad83"
-        },
-        {
-          "id": "2f773fbd-1951-8061-a0a8-daf52ded649c",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "개선 의견",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-ON-KHQR-2f773fbd19518061a0a8daf52ded649c"
-        },
-        {
-          "id": "2f773fbd-1951-8012-9e01-f37d4d7fb048",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-QR-2f773fbd195180129e01f37d4d7fb048"
-        },
-        {
-          "id": "2f773fbd-1951-8071-b847-ccbeeb75c456",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-2f773fbd19518071b847ccbeeb75c456"
-        },
-        {
-          "id": "2f773fbd-1951-8019-8897-d8c9b6d5f7d4",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "추후 수정 백로그 이관",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-AOS-2f773fbd195180198897d8c9b6d5f7d4"
-        },
-        {
-          "id": "2f773fbd-1951-8092-a578-cb5a1c9fc709",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-Blocking-2f773fbd19518092a578cb5a1c9fc709"
-        },
-        {
-          "id": "2f773fbd-1951-805b-8f92-c750636a9e3d",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-2f773fbd1951805b8f92c750636a9e3d"
-        },
-        {
-          "id": "2f673fbd-1951-8083-8df7-e8a406663fc4",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-iOS-2f673fbd195180838df7e8a406663fc4"
-        },
-        {
-          "id": "2f673fbd-1951-80db-87a7-f9c4adece5ac",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-QR-QR-2f673fbd195180db87a7f9c4adece5ac"
-        },
-        {
-          "id": "2f673fbd-1951-8054-bf56-d9f8e12b1470",
-          "title": "",
-          "target": "5.18.0",
-          "key": "5180",
-          "status": "완료 (Done)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/QR-AOS-2f673fbd19518054bf56d9f8e12b1470"
-        }
-      ],
-      "calculatedAt": "2026-06-17T02:35:21.514566+00:00"
+      "calculatedAt": "2026-06-17T08:45:44.618554+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -781,256 +781,7 @@
           "url": "https://app.notion.com/p/_9PAY-37573fbd19518014ab85fa8bfc04a9b5"
         }
       ],
-      "calculatedAt": "2026-06-17T02:37:23.955489+00:00"
-    },
-    {
-      "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
-      "category": "정기 업데이트",
-      "name": "대출 비교 테스트 케이스",
-      "project": "대출 비교",
-      "key": "대출비교",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-02-06",
-      "url": "https://app.notion.com/p/2fc73fbd1951800797fec5174b72d1c6",
-      "lastEditedTime": "2026-03-04T02:15:00.000Z",
-      "testCaseBase": 810,
-      "executedCases": 744,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "2f473fbd-1951-80e5-923f-f027ca4fd02f",
-          "title": "대출 비교 테스트 TestCase",
-          "rows": 6,
-          "caseCount": 810,
-          "executedCases": 744
-        },
-        {
-          "id": "2fc73fbd-1951-809e-812f-fe5ba624e25c",
-          "title": "Untitled",
-          "rows": 0,
-          "caseCount": 0,
-          "executedCases": 0,
-          "error": "HTTP Error 400: Bad Request"
-        }
-      ],
-      "bugCount": 47,
-      "fixedCount": 11,
-      "openBugCount": 3,
-      "TPR": 0.919,
-      "BOR": 0.9368,
-      "BFR": 0.234,
-      "DQS": 0.5854,
-      "HQI": 0.7013,
-      "score": 70.1,
-      "severityCounts": {
-        "Major": 11,
-        "Minor": 34,
-        "개선 의견": 2
-      },
-      "issues": [
-        {
-          "id": "30d73fbd-1951-8089-b16d-fd6ba6f68423",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-30d73fbd19518089b16dfd6ba6f68423"
-        },
-        {
-          "id": "30273fbd-1951-8013-ae61-e1fe8911d474",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/30273fbd19518013ae61e1fe8911d474"
-        },
-        {
-          "id": "2ff73fbd-1951-8030-be1f-e51b51f5a8ec",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/AOS-2-2ff73fbd19518030be1fe51b51f5a8ec"
-        },
-        {
-          "id": "2ff73fbd-1951-8092-b235-f51b9b0a51ca",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2ff73fbd19518092b235f51b9b0a51ca"
-        },
-        {
-          "id": "2ff73fbd-1951-80cf-89a1-f3fb2d486e8a",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2ff73fbd195180cf89a1f3fb2d486e8a"
-        },
-        {
-          "id": "2ff73fbd-1951-80c3-b068-d05cb71af344",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "추후 수정 백로그 이관",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2ff73fbd195180c3b068d05cb71af344"
-        },
-        {
-          "id": "2ff73fbd-1951-802a-8541-e620f687e9fd",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2ff73fbd1951802a8541e620f687e9fd"
-        },
-        {
-          "id": "2ff73fbd-1951-8065-9d3f-e98dba7e4e76",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-3-2ff73fbd195180659d3fe98dba7e4e76"
-        },
-        {
-          "id": "2fe73fbd-1951-808e-803c-d129b2a68952",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "추척 관찰-백로그",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-2fe73fbd1951808e803cd129b2a68952"
-        },
-        {
-          "id": "2fe73fbd-1951-80d6-bca4-eb1ccab85697",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-404-2fe73fbd195180d6bca4eb1ccab85697"
-        },
-        {
-          "id": "2fe73fbd-1951-8093-85ff-e8040e6af1bb",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd1951809385ffe8040e6af1bb"
-        },
-        {
-          "id": "2fe73fbd-1951-80f0-bac1-ead77fb8b96d",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-15-OS-iOS-AOS-2fe73fbd195180f0bac1ead77fb8b96d"
-        },
-        {
-          "id": "2fe73fbd-1951-807b-aa13-e165ea9b1f52",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-2fe73fbd1951807baa13e165ea9b1f52"
-        },
-        {
-          "id": "2fe73fbd-1951-8009-b927-e57663276410",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd19518009b927e57663276410"
-        },
-        {
-          "id": "2fe73fbd-1951-80ee-8093-efab55380cc3",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd195180ee8093efab55380cc3"
-        },
-        {
-          "id": "2fe73fbd-1951-804b-a063-f0af11a13f54",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd1951804ba063f0af11a13f54"
-        },
-        {
-          "id": "2fe73fbd-1951-8075-b675-ec987306360c",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd19518075b675ec987306360c"
-        },
-        {
-          "id": "2fe73fbd-1951-80ec-b348-d9be4f2bb280",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/1-1-2fe73fbd195180ecb348d9be4f2bb280"
-        },
-        {
-          "id": "2fe73fbd-1951-80be-9856-f7b9757b4d93",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd195180be9856f7b9757b4d93"
-        },
-        {
-          "id": "2fe73fbd-1951-80be-ac41-f68d2ba873de",
-          "title": "",
-          "target": "대출비교",
-          "key": "대출비교",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2fe73fbd195180beac41f68d2ba873de"
-        }
-      ],
-      "calculatedAt": "2026-06-17T02:35:14.618498+00:00"
+      "calculatedAt": "2026-06-17T08:46:05.585002+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1271,7 +1022,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-17T02:34:50.311918+00:00"
+      "calculatedAt": "2026-06-17T08:43:21.090870+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1532,7 +1283,51 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-17T02:35:10.348241+00:00"
+      "calculatedAt": "2026-06-17T08:43:37.101814+00:00"
+    },
+    {
+      "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
+      "category": "정기 업데이트",
+      "name": "대출 비교 테스트 케이스",
+      "project": "대출 비교",
+      "key": "대출비교",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-02-06",
+      "url": "https://app.notion.com/p/2fc73fbd1951800797fec5174b72d1c6",
+      "lastEditedTime": "2026-03-04T02:15:00.000Z",
+      "testCaseBase": 810,
+      "executedCases": 744,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "2f473fbd-1951-80e5-923f-f027ca4fd02f",
+          "title": "대출 비교 테스트 TestCase",
+          "rows": 6,
+          "caseCount": 810,
+          "executedCases": 744
+        },
+        {
+          "id": "2fc73fbd-1951-809e-812f-fe5ba624e25c",
+          "title": "Untitled",
+          "rows": 0,
+          "caseCount": 0,
+          "executedCases": 0,
+          "error": "HTTP Error 400: Bad Request"
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 0.919,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 0.9427,
+      "score": 94.3,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-06-17T08:43:39.830555+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1774,7 +1569,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-06-17T02:34:44.900466+00:00"
+      "calculatedAt": "2026-06-17T08:43:17.169259+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1810,7 +1605,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:37:29.700895+00:00"
+      "calculatedAt": "2026-06-17T08:46:09.155441+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2276,23 +2071,33 @@
           "executedCases": 20
         }
       ],
-      "bugCount": 67,
-      "fixedCount": 66,
+      "bugCount": 68,
+      "fixedCount": 67,
       "openBugCount": 0,
       "TPR": 1.0,
-      "BOR": 0.9524,
-      "BFR": 0.9851,
-      "DQS": 0.9688,
-      "HQI": 0.9779,
+      "BOR": 0.9517,
+      "BFR": 0.9853,
+      "DQS": 0.9685,
+      "HQI": 0.9777,
       "score": 97.8,
       "severityCounts": {
+        "Minor": 28,
         "Major": 26,
-        "Minor": 27,
         "개선 의견": 3,
         "Critical": 9,
         "기획 문의": 2
       },
       "issues": [
+        {
+          "id": "2fe73fbd-1951-8009-b927-e57663276410",
+          "title": "",
+          "target": "5.17.0",
+          "key": "5170",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2fe73fbd19518009b927e57663276410"
+        },
         {
           "id": "2e273fbd-1951-80b3-add5-c073d815fc7d",
           "title": "",
@@ -2482,19 +2287,9 @@
           "severity": "Major",
           "priority": "높음",
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
-        },
-        {
-          "id": "2dc73fbd-1951-80a4-bbba-c4816c94d036",
-          "title": "",
-          "target": "5.17.0",
-          "key": "5170",
-          "status": "완료 (Done)",
-          "severity": "Critical",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/2dc73fbd195180a4bbbac4816c94d036"
         }
       ],
-      "calculatedAt": "2026-06-17T02:36:56.188255+00:00"
+      "calculatedAt": "2026-06-17T08:45:42.250610+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2624,7 +2419,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-06-17T02:34:39.990009+00:00"
+      "calculatedAt": "2026-06-17T08:43:12.672287+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2633,10 +2428,10 @@
       "project": "5.22.2",
       "key": "5222",
       "progress": 1.0,
-      "status": "진행 중",
+      "status": "완료",
       "date": "2026-06-15",
       "url": "https://app.notion.com/p/5-22-2-38073fbd1951803ea1a4ef7903e18b3c",
-      "lastEditedTime": "2026-06-15T05:30:00.000Z",
+      "lastEditedTime": "2026-06-17T07:11:00.000Z",
       "testCaseBase": 45,
       "executedCases": 45,
       "tcCountSource": "notion_child_databases",
@@ -2660,7 +2455,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:37:19.759389+00:00"
+      "calculatedAt": "2026-06-17T08:46:01.947793+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2857,7 +2652,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:37:18.756786+00:00"
+      "calculatedAt": "2026-06-17T08:46:00.368719+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2900,7 +2695,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:35:18.362997+00:00"
+      "calculatedAt": "2026-06-17T08:43:43.103362+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2928,7 +2723,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:35:02.726805+00:00"
+      "calculatedAt": "2026-06-17T08:43:30.550024+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3006,57 +2801,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T02:34:54.064639+00:00"
-    },
-    {
-      "id": "37273fbd-1951-8024-9855-cf7d377e5744",
-      "category": "정기 업데이트",
-      "name": "동일 실명확인번호 재가입 3회 시도 시 가입 차단 Test Case",
-      "project": "동일 실명확인번호 재가입 3회 시도 시 가입 차단",
-      "key": "동일실명확인번호재가입3회시도시가입차단",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-06-02",
-      "url": "https://app.notion.com/p/3-Test-Case-37273fbd195180249855cf7d377e5744",
-      "lastEditedTime": "2026-06-05T00:50:00.000Z",
-      "testCaseBase": 52,
-      "executedCases": 52,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "37273fbd-1951-80f3-a8d4-e57b84c626cf",
-          "title": "Test Case_1",
-          "rows": 10,
-          "caseCount": 10,
-          "executedCases": 10
-        },
-        {
-          "id": "37273fbd-1951-8096-a222-e4940596b36c",
-          "title": "Test Case_2",
-          "rows": 7,
-          "caseCount": 7,
-          "executedCases": 7
-        },
-        {
-          "id": "37273fbd-1951-8016-90eb-e54eb1e07c92",
-          "title": "Test Case_3",
-          "rows": 35,
-          "caseCount": 35,
-          "executedCases": 35
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 1.0,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 1.0,
-      "score": 100.0,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-06-05T06:08:23.966234+00:00"
+      "calculatedAt": "2026-06-17T08:43:24.670093+00:00"
     }
   ],
   "regularTrend": [
@@ -3073,17 +2818,17 @@
       "project": "5.17.0",
       "score": 97.8,
       "TPR": 1.0,
-      "DQS": 0.9688,
-      "bugCount": 67,
+      "DQS": 0.9685,
+      "bugCount": 68,
       "testCaseBase": 1409,
       "executedCases": 1409
     },
     {
       "project": "5.18.0",
-      "score": 64.6,
+      "score": 52.3,
       "TPR": 1.0,
-      "DQS": 0.5,
-      "bugCount": 57,
+      "DQS": 0.3252,
+      "bugCount": 103,
       "testCaseBase": 9,
       "executedCases": 9
     },
@@ -3125,12 +2870,12 @@
     }
   ],
   "summary": {
-    "projectCount": 16,
+    "projectCount": 15,
     "issueCount": 465,
-    "testCaseCount": 6153,
-    "executedCaseCount": 5970,
-    "averageScore": 89.2,
-    "lowestScore": 63.6,
+    "testCaseCount": 6101,
+    "executedCaseCount": 5918,
+    "averageScore": 89.3,
+    "lowestScore": 52.3,
     "highestScore": 100.0
   }
 }
