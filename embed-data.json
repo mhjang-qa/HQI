@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T04:44:04.528604+00:00",
+  "generatedAt": "2026-06-18T07:54:54.791747+00:00",
   "source": "stored",
   "projects": [
     {
@@ -263,7 +263,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-06-17T23:46:50.376776+00:00"
+      "calculatedAt": "2026-06-18T07:52:52.593583+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -520,7 +520,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-06-17T23:48:22.990168+00:00"
+      "calculatedAt": "2026-06-18T07:54:22.135372+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -781,7 +781,7 @@
           "url": "https://app.notion.com/p/_9PAY-37573fbd19518014ab85fa8bfc04a9b5"
         }
       ],
-      "calculatedAt": "2026-06-17T23:48:50.356105+00:00"
+      "calculatedAt": "2026-06-18T07:54:48.609921+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1022,7 +1022,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-06-17T23:46:23.796489+00:00"
+      "calculatedAt": "2026-06-18T07:52:26.197480+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1283,7 +1283,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-06-17T23:46:40.877834+00:00"
+      "calculatedAt": "2026-06-18T07:52:43.569591+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1327,7 +1327,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:46:45.047210+00:00"
+      "calculatedAt": "2026-06-18T07:52:46.286795+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1569,7 +1569,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-06-17T23:46:19.578964+00:00"
+      "calculatedAt": "2026-06-18T07:52:21.122019+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1605,7 +1605,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:48:54.067670+00:00"
+      "calculatedAt": "2026-06-18T07:54:54.785572+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2289,7 +2289,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-06-17T23:48:20.045260+00:00"
+      "calculatedAt": "2026-06-18T07:54:19.092051+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2419,7 +2419,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-06-17T23:46:14.115547+00:00"
+      "calculatedAt": "2026-06-18T07:52:16.403784+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2455,7 +2455,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:48:42.023350+00:00"
+      "calculatedAt": "2026-06-18T07:54:43.916080+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -2652,7 +2652,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:48:40.253630+00:00"
+      "calculatedAt": "2026-06-18T07:54:43.059891+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -2695,7 +2695,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:46:48.023644+00:00"
+      "calculatedAt": "2026-06-18T07:52:49.470580+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -2723,7 +2723,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:46:33.511844+00:00"
+      "calculatedAt": "2026-06-18T07:52:37.124250+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -2736,16 +2736,16 @@
       "date": "",
       "url": "https://app.notion.com/p/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
       "lastEditedTime": "2026-05-26T05:45:00.000Z",
-      "testCaseBase": 532,
-      "executedCases": 532,
+      "testCaseBase": 534,
+      "executedCases": 534,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
           "id": "31b73fbd-1951-8072-8090-c798e0699676",
           "title": "회원가입 (무기명)",
           "rows": 19,
-          "caseCount": 183,
-          "executedCases": 183
+          "caseCount": 185,
+          "executedCases": 185
         },
         {
           "id": "32073fbd-1951-80c1-b714-ca371e60b758",
@@ -2801,7 +2801,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-06-17T23:46:27.458509+00:00"
+      "calculatedAt": "2026-06-18T07:52:30.933598+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -2922,8 +2922,8 @@
   "summary": {
     "projectCount": 16,
     "issueCount": 465,
-    "testCaseCount": 6153,
-    "executedCaseCount": 5970,
+    "testCaseCount": 6155,
+    "executedCaseCount": 5972,
     "averageScore": 90.0,
     "lowestScore": 52.3,
     "highestScore": 100.0
