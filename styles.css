@@ -77,6 +77,22 @@ main {
   border-radius: 8px;
 }
 
+.tableNote {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f8fafc;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.tableNote strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .embedControls {
   display: flex;
   align-items: center;

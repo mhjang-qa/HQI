@@ -287,6 +287,22 @@
         display: none;
       }
 
+      .tableNote {
+        margin-top: 10px;
+        padding: 10px 12px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #f8fafc;
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.5;
+      }
+
+      .tableNote strong {
+        color: var(--ink);
+        font-weight: 700;
+      }
+
       @media (max-width: 900px) {
         .head {
           align-items: stretch;
@@ -345,6 +361,10 @@
             </thead>
             <tbody id="projectRows"></tbody>
           </table>
+        </div>
+        <div class="tableNote">
+          <strong>약어 설명</strong>
+          HQI는 <strong>Hanpass Quality Index</strong>로 프로젝트 종합 품질 점수입니다. TPR은 <strong>테스트 진행율</strong>, DQS는 <strong>결함 기반 지수</strong>, BOR는 <strong>결함 발생 비율</strong>, BFR은 <strong>결함 수정 비율</strong>, TC는 <strong>테스트 케이스 수</strong>를 뜻합니다.
         </div>
         <div id="pager" class="pager"></div>
       </section>
