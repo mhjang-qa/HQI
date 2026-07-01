@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T01:44:49.073788+00:00",
+  "generatedAt": "2026-07-01T23:53:43.508892+00:00",
   "source": "stored",
   "projects": [
     {
@@ -8,13 +8,13 @@
       "name": "5.23.0 테스트 케이스",
       "project": "5.23.0",
       "key": "5230",
-      "progress": 0.1,
+      "progress": 0.91,
       "status": "진행 중",
       "date": "2026-06-29",
       "url": "https://app.notion.com/p/5-23-0-36c73fbd195180c2aaf2cf31f285e92e",
-      "lastEditedTime": "2026-07-01T01:18:00.000Z",
+      "lastEditedTime": "2026-07-01T06:52:00.000Z",
       "testCaseBase": 2442,
-      "executedCases": 354,
+      "executedCases": 466,
       "tcCountSource": "notion_child_databases",
       "tcDatabases": [
         {
@@ -22,53 +22,72 @@
           "title": "5.23.0 Test Case",
           "rows": 10,
           "caseCount": 2442,
-          "executedCases": 354
+          "executedCases": 466
         }
       ],
-      "bugCount": 22,
-      "fixedCount": 2,
-      "openBugCount": 11,
-      "TPR": 0.1448,
-      "BOR": 0.9379,
-      "BFR": 0.0909,
-      "DQS": 0.5144,
-      "HQI": 0.3046,
-      "score": 30.5,
+      "bugCount": 24,
+      "fixedCount": 5,
+      "openBugCount": 9,
+      "TPR": 0.1907,
+      "BOR": 0.9485,
+      "BFR": 0.2083,
+      "DQS": 0.5784,
+      "HQI": 0.3547,
+      "score": 35.5,
       "severityCounts": {
-        "미지정": 1,
-        "Minor": 14,
-        "Major": 7
+        "Minor": 16,
+        "Major": 8
       },
       "issues": [
+        {
+          "id": "39073fbd-1951-8056-9263-c796899dee08",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-UI-39073fbd195180569263c796899dee08"
+        },
+        {
+          "id": "39073fbd-1951-8011-97d8-ffe1566eed21",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39073fbd1951801197d8ffe1566eed21"
+        },
+        {
+          "id": "39073fbd-1951-807a-8818-fe510fce895c",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "등록 (Registered)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39073fbd1951807a8818fe510fce895c"
+        },
         {
           "id": "39073fbd-1951-809b-960d-cc6609aed196",
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
           "priority": "보통",
-          "url": "https://app.notion.com/p/39073fbd1951809b960dcc6609aed196"
+          "url": "https://app.notion.com/p/AOS-503-39073fbd1951809b960dcc6609aed196"
         },
         {
           "id": "38f73fbd-1951-808d-aed2-dce138e46b35",
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "등록 (Registered)",
+          "status": "개발 완료 (Dev Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/VISALOAN-AOS-38f73fbd1951808daed2dce138e46b35"
-        },
-        {
-          "id": "38f73fbd-1951-80c8-ab13-e6e49d0adf67",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38f73fbd195180c8ab13e6e49d0adf67"
         },
         {
           "id": "38f73fbd-1951-801a-9f1e-ff42bca599a8",
@@ -215,33 +234,13 @@
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "처리중 (In Progress)",
+          "status": "개발 완료 (Dev Done)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/38b73fbd1951800d94b5cb81e5720e08"
-        },
-        {
-          "id": "38b73fbd-1951-8075-a7ec-d3aea7653632",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38b73fbd19518075a7ecd3aea7653632"
-        },
-        {
-          "id": "38173fbd-1951-8069-9424-daaa1d892cf0",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-38173fbd195180699424daaa1d892cf0"
         }
       ],
-      "calculatedAt": "2026-07-01T01:42:21.108318+00:00"
+      "calculatedAt": "2026-07-01T23:50:52.156084+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -504,7 +503,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-07-01T01:43:00.713956+00:00"
+      "calculatedAt": "2026-07-01T23:51:37.870941+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -761,7 +760,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-07-01T01:44:20.173424+00:00"
+      "calculatedAt": "2026-07-01T23:53:16.389938+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -1023,7 +1022,7 @@
           "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
         }
       ],
-      "calculatedAt": "2026-07-01T01:44:42.201549+00:00"
+      "calculatedAt": "2026-07-01T23:53:39.680625+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1264,7 +1263,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-07-01T01:42:36.493700+00:00"
+      "calculatedAt": "2026-07-01T23:51:06.256330+00:00"
     },
     {
       "id": "38a73fbd-1951-80e9-9be1-e04890e072af",
@@ -1394,7 +1393,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-01T01:44:36.502896+00:00"
+      "calculatedAt": "2026-07-01T23:53:34.227714+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1655,7 +1654,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-07-01T01:42:51.745595+00:00"
+      "calculatedAt": "2026-07-01T23:51:25.942890+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1699,7 +1698,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:42:55.379209+00:00"
+      "calculatedAt": "2026-07-01T23:51:29.719027+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1941,7 +1940,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-07-01T01:42:29.710508+00:00"
+      "calculatedAt": "2026-07-01T23:51:01.925882+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1977,7 +1976,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:44:49.064618+00:00"
+      "calculatedAt": "2026-07-01T23:53:43.499967+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2661,7 +2660,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-07-01T01:44:17.305733+00:00"
+      "calculatedAt": "2026-07-01T23:53:13.670134+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2791,7 +2790,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-01T01:42:25.176684+00:00"
+      "calculatedAt": "2026-07-01T23:50:57.306634+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2827,7 +2826,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:44:37.494427+00:00"
+      "calculatedAt": "2026-07-01T23:53:35.460262+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -3024,7 +3023,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:44:35.701834+00:00"
+      "calculatedAt": "2026-07-01T23:53:33.386275+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -3067,7 +3066,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:42:58.246279+00:00"
+      "calculatedAt": "2026-07-01T23:51:35.632822+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -3095,7 +3094,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:42:45.780618+00:00"
+      "calculatedAt": "2026-07-01T23:51:19.482407+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3173,7 +3172,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-01T01:42:39.733597+00:00"
+      "calculatedAt": "2026-07-01T23:51:10.520119+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -3292,21 +3291,21 @@
     },
     {
       "project": "5.23.0",
-      "score": 30.5,
-      "TPR": 0.1448,
-      "DQS": 0.5144,
-      "bugCount": 22,
+      "score": 35.5,
+      "TPR": 0.1907,
+      "DQS": 0.5784,
+      "bugCount": 24,
       "testCaseBase": 2442,
-      "executedCases": 354
+      "executedCases": 466
     }
   ],
   "summary": {
     "projectCount": 18,
-    "issueCount": 501,
+    "issueCount": 503,
     "testCaseCount": 8625,
-    "executedCaseCount": 6354,
-    "averageScore": 86.8,
-    "lowestScore": 30.5,
+    "executedCaseCount": 6466,
+    "averageScore": 87.1,
+    "lowestScore": 35.5,
     "highestScore": 100.0
   }
 }
