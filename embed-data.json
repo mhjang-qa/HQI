@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:49:58.179713+00:00",
+  "generatedAt": "2026-07-03T06:58:08.310151+00:00",
   "source": "stored",
   "projects": [
     {
@@ -25,26 +25,36 @@
           "executedCases": 573
         }
       ],
-      "bugCount": 25,
-      "fixedCount": 2,
-      "openBugCount": 9,
+      "bugCount": 26,
+      "fixedCount": 4,
+      "openBugCount": 6,
       "TPR": 0.2346,
-      "BOR": 0.9564,
-      "BFR": 0.08,
-      "DQS": 0.5182,
-      "HQI": 0.3605,
-      "score": 36.1,
+      "BOR": 0.9546,
+      "BFR": 0.1538,
+      "DQS": 0.5542,
+      "HQI": 0.3737,
+      "score": 37.4,
       "severityCounts": {
-        "Major": 9,
+        "Major": 10,
         "Minor": 16
       },
       "issues": [
+        {
+          "id": "39273fbd-1951-80ba-9235-f5952689e8a7",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "등록 (Registered)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39273fbd195180ba9235f5952689e8a7"
+        },
         {
           "id": "39173fbd-1951-80dd-9dc2-fb4b84253b63",
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "등록 (Registered)",
+          "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Major",
           "priority": "보통",
           "url": "https://app.notion.com/p/39173fbd195180dd9dc2fb4b84253b63"
@@ -64,7 +74,7 @@
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "처리중 (In Progress)",
+          "status": "QA 검증 -회귀 (QA Verification)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/iOS-UI-39073fbd195180569263c796899dee08"
@@ -74,7 +84,7 @@
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "등록 (Registered)",
+          "status": "결함 아님 (Not an issue)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/39073fbd1951801197d8ffe1566eed21"
@@ -84,7 +94,7 @@
           "title": "",
           "target": "5.23.0",
           "key": "5230",
-          "status": "등록 (Registered)",
+          "status": "결함 아님 (Not an issue)",
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/39073fbd1951807a8818fe510fce895c"
@@ -228,19 +238,9 @@
           "severity": "Minor",
           "priority": "보통",
           "url": "https://app.notion.com/p/38e73fbd1951805a9b3ad5432cc9c400"
-        },
-        {
-          "id": "38b73fbd-1951-8046-bc1d-eebe6faa1f0a",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38b73fbd19518046bc1deebe6faa1f0a"
         }
       ],
-      "calculatedAt": "2026-07-02T23:47:25.558130+00:00"
+      "calculatedAt": "2026-07-03T06:55:16.525326+00:00"
     },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
@@ -503,7 +503,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-07-02T23:48:09.012003+00:00"
+      "calculatedAt": "2026-07-03T06:55:59.273922+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -760,7 +760,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-07-02T23:49:30.269663+00:00"
+      "calculatedAt": "2026-07-03T06:57:33.072078+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -1022,7 +1022,7 @@
           "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
         }
       ],
-      "calculatedAt": "2026-07-02T23:49:54.555856+00:00"
+      "calculatedAt": "2026-07-03T06:58:04.563609+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1263,7 +1263,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-07-02T23:47:42.809121+00:00"
+      "calculatedAt": "2026-07-03T06:55:30.392361+00:00"
     },
     {
       "id": "38a73fbd-1951-80e9-9be1-e04890e072af",
@@ -1393,7 +1393,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-02T23:49:47.744941+00:00"
+      "calculatedAt": "2026-07-03T06:57:52.195103+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1654,7 +1654,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-07-02T23:47:59.389181+00:00"
+      "calculatedAt": "2026-07-03T06:55:49.780000+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1698,7 +1698,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:48:02.719110+00:00"
+      "calculatedAt": "2026-07-03T06:55:52.795260+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1940,7 +1940,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-07-02T23:47:38.662722+00:00"
+      "calculatedAt": "2026-07-03T06:55:25.928841+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1976,7 +1976,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:49:58.171542+00:00"
+      "calculatedAt": "2026-07-03T06:58:08.301040+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2660,7 +2660,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-07-02T23:49:27.782669+00:00"
+      "calculatedAt": "2026-07-03T06:57:29.935185+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2790,7 +2790,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-02T23:47:30.767933+00:00"
+      "calculatedAt": "2026-07-03T06:55:20.963751+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2826,7 +2826,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:49:48.619318+00:00"
+      "calculatedAt": "2026-07-03T06:57:53.015998+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -3023,7 +3023,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:49:46.948775+00:00"
+      "calculatedAt": "2026-07-03T06:57:50.555625+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -3066,7 +3066,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:48:06.578044+00:00"
+      "calculatedAt": "2026-07-03T06:55:55.828306+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -3094,7 +3094,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:47:52.629725+00:00"
+      "calculatedAt": "2026-07-03T06:55:40.617737+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3172,7 +3172,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-02T23:47:46.668791+00:00"
+      "calculatedAt": "2026-07-03T06:55:34.607489+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -3291,21 +3291,21 @@
     },
     {
       "project": "5.23.0",
-      "score": 36.1,
+      "score": 37.4,
       "TPR": 0.2346,
-      "DQS": 0.5182,
-      "bugCount": 25,
+      "DQS": 0.5542,
+      "bugCount": 26,
       "testCaseBase": 2442,
       "executedCases": 573
     }
   ],
   "summary": {
     "projectCount": 18,
-    "issueCount": 504,
+    "issueCount": 505,
     "testCaseCount": 8625,
     "executedCaseCount": 6573,
     "averageScore": 87.2,
-    "lowestScore": 36.1,
+    "lowestScore": 37.4,
     "highestScore": 100.0
   }
 }
