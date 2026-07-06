@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:54:20.525898+00:00",
+  "generatedAt": "2026-07-06T23:50:33.292777+00:00",
   "source": "stored",
   "projects": [
     {
@@ -263,7 +263,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-07-03T06:55:59.273922+00:00"
+      "calculatedAt": "2026-07-06T23:48:28.773119+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -520,247 +520,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-07-03T06:57:33.072078+00:00"
-    },
-    {
-      "id": "36c73fbd-1951-80c2-aaf2-cf31f285e92e",
-      "category": "정기 업데이트",
-      "name": "5.23.0 테스트 케이스",
-      "project": "5.23.0",
-      "key": "5230",
-      "progress": 1.0,
-      "status": "완료",
-      "date": "2026-06-29",
-      "url": "https://app.notion.com/p/5-23-0-36c73fbd195180c2aaf2cf31f285e92e",
-      "lastEditedTime": "2026-07-05T23:51:00.000Z",
-      "testCaseBase": 573,
-      "executedCases": 573,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "36c73fbd-1951-806b-9301-e2e2c0f479c3",
-          "title": "5.23.0 Test Case",
-          "rows": 9,
-          "caseCount": 573,
-          "executedCases": 573
-        }
-      ],
-      "bugCount": 26,
-      "fixedCount": 4,
-      "openBugCount": 6,
-      "TPR": 1.0,
-      "BOR": 0.9546,
-      "BFR": 0.1538,
-      "DQS": 0.5542,
-      "HQI": 0.6848,
-      "score": 68.5,
-      "severityCounts": {
-        "Major": 10,
-        "Minor": 16
-      },
-      "issues": [
-        {
-          "id": "39273fbd-1951-80ba-9235-f5952689e8a7",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/39273fbd195180ba9235f5952689e8a7"
-        },
-        {
-          "id": "39173fbd-1951-80dd-9dc2-fb4b84253b63",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/39173fbd195180dd9dc2fb4b84253b63"
-        },
-        {
-          "id": "39173fbd-1951-80f2-aaea-eed566e7bca2",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "등록 (Registered)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/39173fbd195180f2aaeaeed566e7bca2"
-        },
-        {
-          "id": "39073fbd-1951-8056-9263-c796899dee08",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/iOS-UI-39073fbd195180569263c796899dee08"
-        },
-        {
-          "id": "39073fbd-1951-8011-97d8-ffe1566eed21",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/39073fbd1951801197d8ffe1566eed21"
-        },
-        {
-          "id": "39073fbd-1951-807a-8818-fe510fce895c",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/39073fbd1951807a8818fe510fce895c"
-        },
-        {
-          "id": "39073fbd-1951-809b-960d-cc6609aed196",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/AOS-503-39073fbd1951809b960dcc6609aed196"
-        },
-        {
-          "id": "38f73fbd-1951-808d-aed2-dce138e46b35",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-AOS-38f73fbd1951808daed2dce138e46b35"
-        },
-        {
-          "id": "38f73fbd-1951-801a-9f1e-ff42bca599a8",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "결함 아님 (Not an issue)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38f73fbd1951801a9f1eff42bca599a8"
-        },
-        {
-          "id": "38f73fbd-1951-803f-9af7-f93313705c3c",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd1951803f9af7f93313705c3c"
-        },
-        {
-          "id": "38f73fbd-1951-8014-a8da-c42b58f441ed",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd19518014a8dac42b58f441ed"
-        },
-        {
-          "id": "38f73fbd-1951-80e8-9234-d288f5d8bc76",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd195180e89234d288f5d8bc76"
-        },
-        {
-          "id": "38f73fbd-1951-8033-b7cc-d979dbf3e435",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-iOS-VISA-LOAN-CASE-38f73fbd19518033b7ccd979dbf3e435"
-        },
-        {
-          "id": "38f73fbd-1951-803a-bafa-c0cb5c2c9d2d",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-iOS-VISA-LOAN-38f73fbd1951803abafac0cb5c2c9d2d"
-        },
-        {
-          "id": "38f73fbd-1951-80a7-9ec2-cb3cd1fabe2f",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-38f73fbd195180a79ec2cb3cd1fabe2f"
-        },
-        {
-          "id": "38f73fbd-1951-8012-adba-f717f595af08",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Major",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38f73fbd19518012adbaf717f595af08"
-        },
-        {
-          "id": "38f73fbd-1951-805d-bef8-db14201b5f3c",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-iOS-38f73fbd1951805dbef8db14201b5f3c"
-        },
-        {
-          "id": "38e73fbd-1951-80a3-bb89-eaf83c2525b8",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "추후 수정 백로그 이관",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/VISALOAN-38e73fbd195180a3bb89eaf83c2525b8"
-        },
-        {
-          "id": "38e73fbd-1951-80d0-bde5-fcbacc89220d",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38e73fbd195180d0bde5fcbacc89220d"
-        },
-        {
-          "id": "38e73fbd-1951-805a-9b3a-d5432cc9c400",
-          "title": "",
-          "target": "5.23.0",
-          "key": "5230",
-          "status": "QA 검증 -회귀 (QA Verification)",
-          "severity": "Minor",
-          "priority": "보통",
-          "url": "https://app.notion.com/p/38e73fbd1951805a9b3ad5432cc9c400"
-        }
-      ],
-      "calculatedAt": "2026-07-05T23:54:20.519036+00:00"
+      "calculatedAt": "2026-07-06T23:50:07.371860+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -1022,7 +782,247 @@
           "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
         }
       ],
-      "calculatedAt": "2026-07-03T06:58:04.563609+00:00"
+      "calculatedAt": "2026-07-06T23:50:29.548934+00:00"
+    },
+    {
+      "id": "36c73fbd-1951-80c2-aaf2-cf31f285e92e",
+      "category": "정기 업데이트",
+      "name": "5.23.0 테스트 케이스",
+      "project": "5.23.0",
+      "key": "5230",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-06-29",
+      "url": "https://app.notion.com/p/5-23-0-36c73fbd195180c2aaf2cf31f285e92e",
+      "lastEditedTime": "2026-07-05T23:51:00.000Z",
+      "testCaseBase": 573,
+      "executedCases": 573,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "36c73fbd-1951-806b-9301-e2e2c0f479c3",
+          "title": "5.23.0 Test Case",
+          "rows": 9,
+          "caseCount": 573,
+          "executedCases": 573
+        }
+      ],
+      "bugCount": 25,
+      "fixedCount": 7,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 0.9564,
+      "BFR": 0.28,
+      "DQS": 0.6182,
+      "HQI": 0.73,
+      "score": 73.0,
+      "severityCounts": {
+        "Major": 9,
+        "Minor": 16
+      },
+      "issues": [
+        {
+          "id": "39273fbd-1951-80ba-9235-f5952689e8a7",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39273fbd195180ba9235f5952689e8a7"
+        },
+        {
+          "id": "39173fbd-1951-80dd-9dc2-fb4b84253b63",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39173fbd195180dd9dc2fb4b84253b63"
+        },
+        {
+          "id": "39173fbd-1951-80f2-aaea-eed566e7bca2",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39173fbd195180f2aaeaeed566e7bca2"
+        },
+        {
+          "id": "39073fbd-1951-8056-9263-c796899dee08",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/iOS-UI-39073fbd195180569263c796899dee08"
+        },
+        {
+          "id": "39073fbd-1951-8011-97d8-ffe1566eed21",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39073fbd1951801197d8ffe1566eed21"
+        },
+        {
+          "id": "39073fbd-1951-807a-8818-fe510fce895c",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39073fbd1951807a8818fe510fce895c"
+        },
+        {
+          "id": "39073fbd-1951-809b-960d-cc6609aed196",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/AOS-503-39073fbd1951809b960dcc6609aed196"
+        },
+        {
+          "id": "38f73fbd-1951-808d-aed2-dce138e46b35",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-AOS-38f73fbd1951808daed2dce138e46b35"
+        },
+        {
+          "id": "38f73fbd-1951-801a-9f1e-ff42bca599a8",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "결함 아님 (Not an issue)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/38f73fbd1951801a9f1eff42bca599a8"
+        },
+        {
+          "id": "38f73fbd-1951-803f-9af7-f93313705c3c",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd1951803f9af7f93313705c3c"
+        },
+        {
+          "id": "38f73fbd-1951-8014-a8da-c42b58f441ed",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd19518014a8dac42b58f441ed"
+        },
+        {
+          "id": "38f73fbd-1951-80e8-9234-d288f5d8bc76",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-VISA-LOAN-38f73fbd195180e89234d288f5d8bc76"
+        },
+        {
+          "id": "38f73fbd-1951-8033-b7cc-d979dbf3e435",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-iOS-VISA-LOAN-CASE-38f73fbd19518033b7ccd979dbf3e435"
+        },
+        {
+          "id": "38f73fbd-1951-803a-bafa-c0cb5c2c9d2d",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-iOS-VISA-LOAN-38f73fbd1951803abafac0cb5c2c9d2d"
+        },
+        {
+          "id": "38f73fbd-1951-80a7-9ec2-cb3cd1fabe2f",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-38f73fbd195180a79ec2cb3cd1fabe2f"
+        },
+        {
+          "id": "38f73fbd-1951-8012-adba-f717f595af08",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Major",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/38f73fbd19518012adbaf717f595af08"
+        },
+        {
+          "id": "38f73fbd-1951-805d-bef8-db14201b5f3c",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-iOS-38f73fbd1951805dbef8db14201b5f3c"
+        },
+        {
+          "id": "38e73fbd-1951-80a3-bb89-eaf83c2525b8",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/VISALOAN-38e73fbd195180a3bb89eaf83c2525b8"
+        },
+        {
+          "id": "38e73fbd-1951-80d0-bde5-fcbacc89220d",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/38e73fbd195180d0bde5fcbacc89220d"
+        },
+        {
+          "id": "38e73fbd-1951-805a-9b3a-d5432cc9c400",
+          "title": "",
+          "target": "5.23.0",
+          "key": "5230",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/38e73fbd1951805a9b3ad5432cc9c400"
+        }
+      ],
+      "calculatedAt": "2026-07-06T23:47:42.930159+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1263,7 +1263,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-07-03T06:55:30.392361+00:00"
+      "calculatedAt": "2026-07-06T23:47:56.186949+00:00"
     },
     {
       "id": "38a73fbd-1951-80e9-9be1-e04890e072af",
@@ -1393,7 +1393,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-03T06:57:52.195103+00:00"
+      "calculatedAt": "2026-07-06T23:50:24.933045+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1654,7 +1654,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-07-03T06:55:49.780000+00:00"
+      "calculatedAt": "2026-07-06T23:48:19.493708+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1698,7 +1698,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:55:52.795260+00:00"
+      "calculatedAt": "2026-07-06T23:48:22.245735+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1940,7 +1940,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-07-03T06:55:25.928841+00:00"
+      "calculatedAt": "2026-07-06T23:47:52.046051+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1976,7 +1976,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:58:08.301040+00:00"
+      "calculatedAt": "2026-07-06T23:50:33.286228+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2660,7 +2660,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-07-03T06:57:29.935185+00:00"
+      "calculatedAt": "2026-07-06T23:50:04.691700+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2790,7 +2790,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-03T06:55:20.963751+00:00"
+      "calculatedAt": "2026-07-06T23:47:47.329714+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2826,7 +2826,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:57:53.015998+00:00"
+      "calculatedAt": "2026-07-06T23:50:25.784956+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -3023,7 +3023,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:57:50.555625+00:00"
+      "calculatedAt": "2026-07-06T23:50:24.106125+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -3066,7 +3066,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:55:55.828306+00:00"
+      "calculatedAt": "2026-07-06T23:48:25.206600+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -3094,7 +3094,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:55:40.617737+00:00"
+      "calculatedAt": "2026-07-06T23:48:13.328060+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3172,7 +3172,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-03T06:55:34.607489+00:00"
+      "calculatedAt": "2026-07-06T23:48:00.595342+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -3291,20 +3291,20 @@
     },
     {
       "project": "5.23.0",
-      "score": 68.5,
+      "score": 73.0,
       "TPR": 1.0,
-      "DQS": 0.5542,
-      "bugCount": 26,
+      "DQS": 0.6182,
+      "bugCount": 25,
       "testCaseBase": 573,
       "executedCases": 573
     }
   ],
   "summary": {
     "projectCount": 18,
-    "issueCount": 505,
+    "issueCount": 504,
     "testCaseCount": 6756,
     "executedCaseCount": 6573,
-    "averageScore": 89.0,
+    "averageScore": 89.2,
     "lowestScore": 52.3,
     "highestScore": 100.0
   }
