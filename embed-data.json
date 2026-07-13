@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2026-07-07T23:53:23.083145+00:00",
+  "generatedAt": "2026-07-13T00:40:16.043911+00:00",
   "source": "stored",
   "projects": [
+    {
+      "id": "39873fbd-1951-8056-805e-c425629a1b4b",
+      "category": "비정기 업데이트",
+      "name": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제 Test Case",
+      "project": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제",
+      "key": "gohanpassgohanpass무기명회원신분증대기거절상태시무기명서비스이용제한해제",
+      "progress": 0.0,
+      "status": "진행 중",
+      "date": "2026-07-13",
+      "url": "https://app.notion.com/p/GoHanpass-Test-Case-39873fbd19518056805ec425629a1b4b",
+      "lastEditedTime": "2026-07-13T00:12:00.000Z",
+      "testCaseBase": 2658,
+      "executedCases": 0,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "39873fbd-1951-800f-bec3-f40a4e8c324e",
+          "title": "무기명 서비스 이용제한 해제",
+          "rows": 118,
+          "caseCount": 118,
+          "executedCases": 0
+        },
+        {
+          "id": "39873fbd-1951-80ca-8e77-ed52af19e9f7",
+          "title": "회원가입 Flow",
+          "rows": 12,
+          "caseCount": 975,
+          "executedCases": 0
+        },
+        {
+          "id": "39873fbd-1951-80ad-976a-d1cdd303b071",
+          "title": "기명 전환(추가인증) Flow",
+          "rows": 14,
+          "caseCount": 1253,
+          "executedCases": 0
+        },
+        {
+          "id": "39873fbd-1951-8027-b436-f629f910285b",
+          "title": " 회원가입 (무기명) ",
+          "rows": 19,
+          "caseCount": 185,
+          "executedCases": 0
+        },
+        {
+          "id": "39873fbd-1951-8059-a74e-f09bca294d43",
+          "title": "신분증 인증 (기명회원 전환)",
+          "rows": 12,
+          "caseCount": 127,
+          "executedCases": 0
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 0.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 0.2929,
+      "score": 29.3,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-07-13T00:39:52.588293+00:00"
+    },
     {
       "id": "2ee73fbd-1951-80ea-9ad8-cfbd07f8fc01",
       "category": "정기 업데이트",
@@ -263,7 +327,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-07-07T23:51:14.407866+00:00"
+      "calculatedAt": "2026-07-13T00:38:00.784244+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -520,7 +584,7 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-07-07T23:52:42.109942+00:00"
+      "calculatedAt": "2026-07-13T00:39:30.178286+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -782,64 +846,7 @@
           "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
         }
       ],
-      "calculatedAt": "2026-07-07T23:53:19.124770+00:00"
-    },
-    {
-      "id": "39573fbd-1951-8001-951f-d4250cba8b03",
-      "category": "비정기 업데이트",
-      "name": "[Field Test] 교통카드 충전 SDK 변경 TestCase",
-      "project": "[Field Test] 교통카드 충전 SDK 변경",
-      "key": "fieldtest교통카드충전sdk변경",
-      "progress": 0.6,
-      "status": "진행 중",
-      "date": "2026-07-06",
-      "url": "https://app.notion.com/p/Field-Test-SDK-TestCase-39573fbd19518001951fd4250cba8b03",
-      "lastEditedTime": "2026-07-07T08:51:00.000Z",
-      "testCaseBase": 137,
-      "executedCases": 82,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "eb873fbd-1951-8308-8eee-81a4aca40e6a",
-          "title": "[Hanpass][카드] 교통카드 충전 SDK 변경_Hanpass ",
-          "rows": 77,
-          "caseCount": 77,
-          "executedCases": 46
-        },
-        {
-          "id": "39673fbd-1951-8059-ad12-c60d97e51457",
-          "title": "제·개정 이력",
-          "rows": 2,
-          "caseCount": 2,
-          "executedCases": 1
-        },
-        {
-          "id": "39273fbd-1951-80e6-b02b-f4ab4547f132",
-          "title": "[GoHanpass] 교통카드 충전 SDK 변경 체크리스트",
-          "rows": 55,
-          "caseCount": 55,
-          "executedCases": 33
-        },
-        {
-          "id": "39673fbd-1951-806e-bf19-ef971f3646d5",
-          "title": "제/개정 이력",
-          "rows": 3,
-          "caseCount": 3,
-          "executedCases": 2
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.6,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.7172,
-      "score": 71.7,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-07-07T23:53:12.285818+00:00"
+      "calculatedAt": "2026-07-13T00:40:12.419695+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1080,7 +1087,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-07-07T23:50:49.474696+00:00"
+      "calculatedAt": "2026-07-13T00:37:34.677377+00:00"
     },
     {
       "id": "38a73fbd-1951-80e9-9be1-e04890e072af",
@@ -1210,7 +1217,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-07T23:53:13.076748+00:00"
+      "calculatedAt": "2026-07-13T00:40:05.825579+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1471,7 +1478,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-07-07T23:51:06.204346+00:00"
+      "calculatedAt": "2026-07-13T00:37:52.494330+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1515,7 +1522,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:51:09.207930+00:00"
+      "calculatedAt": "2026-07-13T00:37:55.165747+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1757,7 +1764,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-07-07T23:50:44.457628+00:00"
+      "calculatedAt": "2026-07-13T00:37:30.575941+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1793,7 +1800,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:53:23.074439+00:00"
+      "calculatedAt": "2026-07-13T00:40:16.037134+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2477,7 +2484,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-07-07T23:52:39.534230+00:00"
+      "calculatedAt": "2026-07-13T00:39:27.622038+00:00"
     },
     {
       "id": "36c73fbd-1951-80c2-aaf2-cf31f285e92e",
@@ -2717,7 +2724,7 @@
           "url": "https://app.notion.com/p/38b73fbd19518046bc1deebe6faa1f0a"
         }
       ],
-      "calculatedAt": "2026-07-07T23:50:34.488303+00:00"
+      "calculatedAt": "2026-07-13T00:37:18.085525+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2847,7 +2854,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-07T23:50:38.723836+00:00"
+      "calculatedAt": "2026-07-13T00:37:24.245108+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2883,7 +2890,71 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:53:13.872253+00:00"
+      "calculatedAt": "2026-07-13T00:40:06.622777+00:00"
+    },
+    {
+      "id": "39573fbd-1951-8001-951f-d4250cba8b03",
+      "category": "비정기 업데이트",
+      "name": "[Field Test] 교통카드 충전 SDK 변경 Test Case",
+      "project": "[Field Test] 교통카드 충전 SDK 변경",
+      "key": "fieldtest교통카드충전sdk변경",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-07-06",
+      "url": "https://app.notion.com/p/Field-Test-SDK-Test-Case-39573fbd19518001951fd4250cba8b03",
+      "lastEditedTime": "2026-07-10T05:31:00.000Z",
+      "testCaseBase": 137,
+      "executedCases": 137,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "eb873fbd-1951-8308-8eee-81a4aca40e6a",
+          "title": "[Hanpass] 교통카드 충전 SDK 변경_체크리스트 ",
+          "rows": 74,
+          "caseCount": 74,
+          "executedCases": 74
+        },
+        {
+          "id": "39673fbd-1951-8059-ad12-c60d97e51457",
+          "title": "[Hanpass] 제/개정 이력",
+          "rows": 4,
+          "caseCount": 4,
+          "executedCases": 4
+        },
+        {
+          "id": "39273fbd-1951-80e6-b02b-f4ab4547f132",
+          "title": "[Go.Hanpass] 교통카드 충전 SDK 변경_체크리스트",
+          "rows": 53,
+          "caseCount": 53,
+          "executedCases": 53
+        },
+        {
+          "id": "39673fbd-1951-806e-bf19-ef971f3646d5",
+          "title": "[Go.Hanpass] 제/개정 이력",
+          "rows": 4,
+          "caseCount": 4,
+          "executedCases": 4
+        },
+        {
+          "id": "39773fbd-1951-80f2-9429-d582fc95a3f8",
+          "title": "Field Test Result",
+          "rows": 2,
+          "caseCount": 2,
+          "executedCases": 2
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-07-13T00:40:04.947332+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -3080,7 +3151,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:53:01.004111+00:00"
+      "calculatedAt": "2026-07-13T00:39:47.179061+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -3123,7 +3194,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:51:12.177970+00:00"
+      "calculatedAt": "2026-07-13T00:37:58.246702+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -3151,7 +3222,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:50:58.939852+00:00"
+      "calculatedAt": "2026-07-13T00:37:46.829900+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3163,7 +3234,7 @@
       "status": "완료",
       "date": "",
       "url": "https://app.notion.com/p/APP-TestCase-31b73fbd1951804baedfdf64d29c7307",
-      "lastEditedTime": "2026-05-26T05:45:00.000Z",
+      "lastEditedTime": "2026-07-09T04:19:00.000Z",
       "testCaseBase": 534,
       "executedCases": 534,
       "tcCountSource": "notion_child_databases",
@@ -3229,7 +3300,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-07T23:50:52.898025+00:00"
+      "calculatedAt": "2026-07-13T00:37:38.589921+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -3357,12 +3428,12 @@
     }
   ],
   "summary": {
-    "projectCount": 19,
+    "projectCount": 20,
     "issueCount": 503,
-    "testCaseCount": 6893,
-    "executedCaseCount": 6655,
-    "averageScore": 89.6,
-    "lowestScore": 52.3,
+    "testCaseCount": 9551,
+    "executedCaseCount": 6710,
+    "averageScore": 88.0,
+    "lowestScore": 29.3,
     "highestScore": 100.0
   }
 }
