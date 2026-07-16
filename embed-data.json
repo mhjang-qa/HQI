@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T01:18:54.307848+00:00",
+  "generatedAt": "2026-07-16T00:50:54.746475+00:00",
   "source": "stored",
   "projects": [
     {
@@ -263,7 +263,7 @@
           "url": "https://app.notion.com/p/E-10-2fe73fbd195180f2b49cff794fc03054"
         }
       ],
-      "calculatedAt": "2026-07-15T01:16:40.551125+00:00"
+      "calculatedAt": "2026-07-16T00:48:31.427313+00:00"
     },
     {
       "id": "2a973fbd-1951-8058-b6f1-fcfacaf0cad9",
@@ -520,7 +520,96 @@
           "url": "https://app.notion.com/p/AOS-2b673fbd19518045aeb4f2362b027726"
         }
       ],
-      "calculatedAt": "2026-07-15T01:18:08.159999+00:00"
+      "calculatedAt": "2026-07-16T00:50:06.687579+00:00"
+    },
+    {
+      "id": "39e73fbd-1951-80a6-b59b-f4d099734168",
+      "category": "비정기 업데이트",
+      "name": "[카드] 신규 카드 2종 앱/웹 배포 요청 Test Case",
+      "project": "[카드] 신규 카드 2종 앱/웹 배포 요청",
+      "key": "카드신규카드2종앱웹배포요청",
+      "progress": 0.98,
+      "status": "진행 중",
+      "date": "2026-07-15",
+      "url": "https://app.notion.com/p/2-Test-Case-39e73fbd195180a6b59bf4d099734168",
+      "lastEditedTime": "2026-07-16T00:17:00.000Z",
+      "testCaseBase": 92,
+      "executedCases": 90,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "39e73fbd-1951-806e-987f-d2541229ada8",
+          "title": "Test Case ",
+          "rows": 92,
+          "caseCount": 92,
+          "executedCases": 90
+        }
+      ],
+      "bugCount": 5,
+      "fixedCount": 1,
+      "openBugCount": 2,
+      "TPR": 0.98,
+      "BOR": 0.9444,
+      "BFR": 0.2,
+      "DQS": 0.5722,
+      "HQI": 0.6972,
+      "score": 69.7,
+      "severityCounts": {
+        "Minor": 5
+      },
+      "issues": [
+        {
+          "id": "39e73fbd-1951-80ad-be69-d1481bbd6d21",
+          "title": "",
+          "target": "[카드]신규카드-2종",
+          "key": "카드신규카드2종",
+          "status": "추후 수정 백로그 이관",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39e73fbd195180adbe69d1481bbd6d21"
+        },
+        {
+          "id": "39e73fbd-1951-804b-bf3e-f1f5e405dd8d",
+          "title": "",
+          "target": "[카드]신규카드-2종",
+          "key": "카드신규카드2종",
+          "status": "결함 재발생 (Reopen)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39e73fbd1951804bbf3ef1f5e405dd8d"
+        },
+        {
+          "id": "39e73fbd-1951-800b-b533-fdc09b35184d",
+          "title": "",
+          "target": "[카드]신규카드-2종",
+          "key": "카드신규카드2종",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/39e73fbd1951800bb533fdc09b35184d"
+        },
+        {
+          "id": "39e73fbd-1951-80b7-9457-d88b6d5bedd6",
+          "title": "",
+          "target": "[카드]신규카드-2종",
+          "key": "카드신규카드2종",
+          "status": "결함 재발생 (Reopen)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/1-39e73fbd195180b79457d88b6d5bedd6"
+        },
+        {
+          "id": "39e73fbd-1951-806c-bd96-c7fceda5debb",
+          "title": "",
+          "target": "[카드]신규카드-2종",
+          "key": "카드신규카드2종",
+          "status": "QA 검증 -회귀 (QA Verification)",
+          "severity": "Minor",
+          "priority": "보통",
+          "url": "https://app.notion.com/p/2-39e73fbd1951806cbd96c7fceda5debb"
+        }
+      ],
+      "calculatedAt": "2026-07-16T00:50:26.030983+00:00"
     },
     {
       "id": "37273fbd-1951-8011-bce2-cf5ae90c5fdc",
@@ -782,71 +871,7 @@
           "url": "https://app.notion.com/p/_9PAY-BS-KST-37573fbd19518010b56ac41adc6f53e2"
         }
       ],
-      "calculatedAt": "2026-07-15T01:18:50.670826+00:00"
-    },
-    {
-      "id": "39873fbd-1951-8056-805e-c425629a1b4b",
-      "category": "비정기 업데이트",
-      "name": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제 Test Case",
-      "project": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제",
-      "key": "gohanpassgohanpass무기명회원신분증대기거절상태시무기명서비스이용제한해제",
-      "progress": 0.7,
-      "status": "진행 중",
-      "date": "2026-07-13",
-      "url": "https://app.notion.com/p/GoHanpass-Test-Case-39873fbd19518056805ec425629a1b4b",
-      "lastEditedTime": "2026-07-15T01:03:00.000Z",
-      "testCaseBase": 2657,
-      "executedCases": 1860,
-      "tcCountSource": "notion_child_databases",
-      "tcDatabases": [
-        {
-          "id": "39873fbd-1951-800f-bec3-f40a4e8c324e",
-          "title": "무기명 서비스 이용제한 해제",
-          "rows": 118,
-          "caseCount": 118,
-          "executedCases": 83
-        },
-        {
-          "id": "39873fbd-1951-80ca-8e77-ed52af19e9f7",
-          "title": "회원가입 Flow",
-          "rows": 12,
-          "caseCount": 974,
-          "executedCases": 682
-        },
-        {
-          "id": "39873fbd-1951-80ad-976a-d1cdd303b071",
-          "title": "기명 전환(추가인증) Flow",
-          "rows": 14,
-          "caseCount": 1253,
-          "executedCases": 877
-        },
-        {
-          "id": "39873fbd-1951-8059-a74e-f09bca294d43",
-          "title": "신분증 인증 (기명회원 전환)",
-          "rows": 12,
-          "caseCount": 127,
-          "executedCases": 89
-        },
-        {
-          "id": "39873fbd-1951-8027-b436-f629f910285b",
-          "title": " 회원가입 (무기명) ",
-          "rows": 19,
-          "caseCount": 185,
-          "executedCases": 129
-        }
-      ],
-      "bugCount": 0,
-      "fixedCount": 0,
-      "openBugCount": 0,
-      "TPR": 0.7,
-      "BOR": 1.0,
-      "BFR": 1.0,
-      "DQS": 1.0,
-      "HQI": 0.7879,
-      "score": 78.8,
-      "severityCounts": {},
-      "issues": [],
-      "calculatedAt": "2026-07-15T01:18:31.989003+00:00"
+      "calculatedAt": "2026-07-16T00:50:51.008917+00:00"
     },
     {
       "id": "32c73fbd-1951-80a0-bc84-cd803d395f31",
@@ -1087,7 +1112,7 @@
           "url": "https://app.notion.com/p/AOS-Placeholder-iOS-33673fbd195180d8982fc6c3dcf864d6"
         }
       ],
-      "calculatedAt": "2026-07-15T01:16:10.970481+00:00"
+      "calculatedAt": "2026-07-16T00:48:03.298955+00:00"
     },
     {
       "id": "38a73fbd-1951-80e9-9be1-e04890e072af",
@@ -1217,7 +1242,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-15T01:18:46.050308+00:00"
+      "calculatedAt": "2026-07-16T00:50:43.881488+00:00"
     },
     {
       "id": "30373fbd-1951-80e7-8766-c38fb4b0466f",
@@ -1478,7 +1503,7 @@
           "url": "https://app.notion.com/p/iOS-2f773fbd1951804b860fcbe69bd83838"
         }
       ],
-      "calculatedAt": "2026-07-15T01:16:30.064895+00:00"
+      "calculatedAt": "2026-07-16T00:48:19.595793+00:00"
     },
     {
       "id": "2fc73fbd-1951-8007-97fe-c5174b72d1c6",
@@ -1522,7 +1547,7 @@
       "score": 94.3,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:16:34.020407+00:00"
+      "calculatedAt": "2026-07-16T00:48:22.451799+00:00"
     },
     {
       "id": "33673fbd-1951-804e-9ae7-fc659890082c",
@@ -1764,7 +1789,7 @@
           "url": "https://app.notion.com/p/35a73fbd195180ba8952cd8be8c0a3a5"
         }
       ],
-      "calculatedAt": "2026-07-15T01:16:05.172215+00:00"
+      "calculatedAt": "2026-07-16T00:47:57.864098+00:00"
     },
     {
       "id": "34473fbd-1951-8047-b5e6-fa06deb781fd",
@@ -1800,7 +1825,7 @@
       "score": 97.8,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:18:54.298046+00:00"
+      "calculatedAt": "2026-07-16T00:50:54.738864+00:00"
     },
     {
       "id": "2ca73fbd-1951-80d8-bfa7-c6355e8e7f2e",
@@ -2484,7 +2509,7 @@
           "url": "https://app.notion.com/p/2dc73fbd195180279098f793e1f70d65"
         }
       ],
-      "calculatedAt": "2026-07-15T01:18:03.974582+00:00"
+      "calculatedAt": "2026-07-16T00:50:03.097822+00:00"
     },
     {
       "id": "36c73fbd-1951-80c2-aaf2-cf31f285e92e",
@@ -2724,7 +2749,7 @@
           "url": "https://app.notion.com/p/38b73fbd19518046bc1deebe6faa1f0a"
         }
       ],
-      "calculatedAt": "2026-07-15T01:15:55.904755+00:00"
+      "calculatedAt": "2026-07-16T00:47:49.174633+00:00"
     },
     {
       "id": "36473fbd-1951-80f2-b3f7-dd6e3fc88bf2",
@@ -2854,7 +2879,7 @@
           "url": "https://app.notion.com/p/QR-35a73fbd195180c3a76efac7960739b8"
         }
       ],
-      "calculatedAt": "2026-07-15T01:15:59.997729+00:00"
+      "calculatedAt": "2026-07-16T00:47:53.330883+00:00"
     },
     {
       "id": "38073fbd-1951-803e-a1a4-ef7903e18b3c",
@@ -2890,7 +2915,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:18:46.860345+00:00"
+      "calculatedAt": "2026-07-16T00:50:44.850019+00:00"
     },
     {
       "id": "39573fbd-1951-8001-951f-d4250cba8b03",
@@ -2954,7 +2979,71 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:18:45.213390+00:00"
+      "calculatedAt": "2026-07-16T00:50:42.998477+00:00"
+    },
+    {
+      "id": "39873fbd-1951-8056-805e-c425629a1b4b",
+      "category": "비정기 업데이트",
+      "name": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제 Test Case",
+      "project": "[GoHanpass] 무기명 회원 신분증 대기/거절 상태 시 무기명 서비스 이용제한 해제",
+      "key": "gohanpassgohanpass무기명회원신분증대기거절상태시무기명서비스이용제한해제",
+      "progress": 1.0,
+      "status": "완료",
+      "date": "2026-07-13",
+      "url": "https://app.notion.com/p/GoHanpass-Test-Case-39873fbd19518056805ec425629a1b4b",
+      "lastEditedTime": "2026-07-15T04:34:00.000Z",
+      "testCaseBase": 2657,
+      "executedCases": 2657,
+      "tcCountSource": "notion_child_databases",
+      "tcDatabases": [
+        {
+          "id": "39873fbd-1951-800f-bec3-f40a4e8c324e",
+          "title": "무기명 서비스 이용제한 해제",
+          "rows": 118,
+          "caseCount": 118,
+          "executedCases": 118
+        },
+        {
+          "id": "39873fbd-1951-80ca-8e77-ed52af19e9f7",
+          "title": "회원가입 Flow",
+          "rows": 12,
+          "caseCount": 974,
+          "executedCases": 974
+        },
+        {
+          "id": "39873fbd-1951-80ad-976a-d1cdd303b071",
+          "title": "기명 전환(추가인증) Flow",
+          "rows": 14,
+          "caseCount": 1253,
+          "executedCases": 1253
+        },
+        {
+          "id": "39873fbd-1951-8059-a74e-f09bca294d43",
+          "title": "신분증 인증 (기명회원 전환)",
+          "rows": 12,
+          "caseCount": 127,
+          "executedCases": 127
+        },
+        {
+          "id": "39873fbd-1951-8027-b436-f629f910285b",
+          "title": " 회원가입 (무기명) ",
+          "rows": 19,
+          "caseCount": 185,
+          "executedCases": 185
+        }
+      ],
+      "bugCount": 0,
+      "fixedCount": 0,
+      "openBugCount": 0,
+      "TPR": 1.0,
+      "BOR": 1.0,
+      "BFR": 1.0,
+      "DQS": 1.0,
+      "HQI": 1.0,
+      "score": 100.0,
+      "severityCounts": {},
+      "issues": [],
+      "calculatedAt": "2026-07-16T00:50:31.629378+00:00"
     },
     {
       "id": "2a073fbd-1951-807b-9f31-cf70707cf43d",
@@ -3151,7 +3240,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:18:23.944260+00:00"
+      "calculatedAt": "2026-07-16T00:50:24.536048+00:00"
     },
     {
       "id": "2ee73fbd-1951-802a-9b1e-cc35d83dce4d",
@@ -3194,7 +3283,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:16:38.393372+00:00"
+      "calculatedAt": "2026-07-16T00:48:28.160449+00:00"
     },
     {
       "id": "30c73fbd-1951-8029-9cb7-c185c74e98ba",
@@ -3222,7 +3311,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:16:22.063553+00:00"
+      "calculatedAt": "2026-07-16T00:48:12.905956+00:00"
     },
     {
       "id": "31b73fbd-1951-804b-aedf-df64d29c7307",
@@ -3300,7 +3389,7 @@
       "score": 100.0,
       "severityCounts": {},
       "issues": [],
-      "calculatedAt": "2026-07-15T01:16:15.199023+00:00"
+      "calculatedAt": "2026-07-16T00:48:06.837571+00:00"
     },
     {
       "id": "37273fbd-1951-8024-9855-cf7d377e5744",
@@ -3428,10 +3517,10 @@
     }
   ],
   "summary": {
-    "projectCount": 20,
-    "issueCount": 503,
-    "testCaseCount": 9550,
-    "executedCaseCount": 8570,
+    "projectCount": 21,
+    "issueCount": 508,
+    "testCaseCount": 9642,
+    "executedCaseCount": 9457,
     "averageScore": 90.5,
     "lowestScore": 52.3,
     "highestScore": 100.0
